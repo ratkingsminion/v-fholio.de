@@ -1,0 +1,143 @@
+/* fholio.de main css */
+
+:root {
+	--colsignal: #ED254E;
+	--colmark: #F9DC5C;
+	--colneutral: #F4FFFD;
+	--colshadow: #465362;
+	--coldark: 	#021630;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Outfit';
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+	src: url(/assets/fonts/Outfit/Outfit-VariableFont_wght.ttf) local('Outfit');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.w3-content {
+	max-width: 1000px;
+}
+
+.page {
+	max-width: 750px !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* */
+
+body {
+	font-family: "Outfit", sans-serif;
+	background-color: var(--coldark);
+	color: var(--colneutral);
+	padding: 0 16px;
+	font-size: 16px;
+	margin: 0;
+}
+
+.banner {
+	background-image: url('../images/banner7.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 150px;
+	margin: 4px 0 0 0;
+}
+
+.topmenu {
+	margin: 30px 0;
+	text-align: center;
+}
+.topmenu .item {
+	border-radius: 8px;
+	margin: 5px;
+	padding: 10px;
+	display: inline-block;
+	background-color: var(--colsignal);
+	transition: background-color 0.25s ease;
+}
+.topmenu a {
+	color: var(--coldark);
+	font-weight: bold;
+	text-decoration: none;
+}
+.topmenu .item:hover {
+	color: var(--coldark);
+	background-color: var(--colmark);
+	transition: background-color 0.25s ease;
+}
+.topmenu .item.selected {
+	font-weight: bolder;
+	color: var(--coldark);
+	background-color: var(--colneutral);
+}
+
+.upbutton {
+	text-align: center;
+	font-size: 26px;
+	position: fixed;
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	color: var(--colneutral);
+	background-color: var(--colshadow); 
+	right: 0;
+	top: 100%;
+	margin-right: 30px;
+	margin-top: -90px;
+}
+
+.pages {
+	padding: 5px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.pages .page {
+	display: inline-block;
+	padding: 5px;
+}
+.pages .page:hover {
+	color: var(--coldark);
+	background-color: var(--colmark);
+}
+.pages .page.selected {
+	font-weight: bolder;
+	color: var(--coldark);
+	background-color: var(--colneutral);
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-family: "Outfit", sans-serif;
+	font-size: 1.8em;
+}
+
+h2 {
+	font-family: "Outfit", sans-serif;
+	font-size: 1.5em;
+}
+
+.elem {
+	border-radius: 8px;
+}
+
+.title {
+	background-color: var(--colshadow);
+	color: var(--colneutral);
+	margin: 4px 0 0 0;
+}
+
+.footer {
+	background-color: var(--colshadow);
+	color: var(--colneutral);
+	height: 50px;
+	margin: 4px 0 0 0;
+}

@@ -1,0 +1,9 @@
+		<div class="w3-container topmenu elem">
+			@for item in content.topmenu
+				@if item.moniker == moniker
+				<div class="item selected">@{md_nop(item.title)}</div>
+				@else
+				<a href="@{url(item.url)}" target="@{item.target}"><div class="item">@{md_nop(item.title)}</div></a>
+				@end
+			@end
+		</div>

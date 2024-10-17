@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Friedrich Hanisch's Projects</title>
+	<meta property="og:title" content="Friedrich Hanisch's Projects" />
+	@include 'includes/metas.html'
+	<link rel="stylesheet" href="/assets/css/projects.css" />
+</head>
+<body class="w3-content">
+	<div class="page">
+		@include 'includes/banner.html'
+
+		<div class="w3-container title elem">
+			@{md(projects.title)}
+		</div>
+
+		@include 'includes/topmenu.html'
+		
+		<div class="w3-container pages elem">
+			@if projects_cur_page == -1
+				<div class="page selected">All</div>
+			@else
+			<a href="/projects/" target="_self"><div class="page">All</div></a>
+			@end
+			@for p := 0; p < projects_pages; p++
+				@if projects_cur_page == p
+					<div class="page selected">@{p + 1}</div>
+				@else
+					<a href="/projects/@{p + 1}" target="_self"><div class="page">@{p + 1}</div></a>
+				@end
+			@end
+			@if projects_cur_page == -2
+				<div class="page selected">Tags</div>
+			@else
+			<a href="/projects/tags" target="_self"><div class="page">Tags</div></a>
+			@end
+		</div>
+	</div>
+
+	<div class="page projects">
+		@for e := projects_entry_start; e < projects_entry_end; e++
+		<div class="w3-row preview">
+			<div class="w3-col s12 m3 l4">
+				<a href="/projects/@{projects.entries[e].moniker}" target="_self">
+					@if projects.entries[e].important
+					<div class="pic important" style="background-image: url('/@{project_preview_pic(projects.entries[e].moniker)}')"></div>
+					@else
+					<div class="pic" style="background-image: url('/@{project_preview_pic(projects.entries[e].moniker)}')"></div>
+					@end
+				</a>
+			</div>
+			<div class="w3-row text w3-col s12 m9 l8">
+				<div class="w3-col category s3 m12 l12 w3-hide-small">@{md_nop(projects.entries[e].category)}, @{projects.entries[e].year}</div>
+				<div class="w3-col s9 m12 l12">
+					@if projects.entries[e].important
+					<div class="name"><span class="important">@{md_nop(projects.entries[e].title)}</span></div>
+					@else
+					<div class="name">@{md_nop(projects.entries[e].title)}</div>
+					@end
+					<div class="shortdesc">@{md_nop(projects.entries[e].short_desc)}</div>
+				</div>
+				<div class="w3-col categorys s3 m12 l12 w3-hide-medium w3-hide-large">@{md_nop(projects.entries[e].category)}</div>
+			</div>
+		</div>
+		@end
+	</div>
+
+	@include 'includes/footer.html'
+
+	@include 'includes/uparrow.html'
+</body>
+</html>

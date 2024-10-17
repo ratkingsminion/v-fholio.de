@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Friedrich Hanisch</title>
+	<meta property="og:title" content="Friedrich Hanisch" />
+	@include 'includes/metas.html'
+	<link rel="stylesheet" href="/assets/css/linktree.css" />
+</head>
+<body class="w3-content">
+	<div class="page">
+		@include 'includes/banner.html'
+
+		@for linktree in linktrees
+			<div class="w3-container title elem">
+				@{md(linktree.title)}
+			</div>
+
+			<div class="w3-container linktree w3-row">
+				@for shortlink in linktree.shortlinks
+				<a href="@{url(shortlink.url)}" target="@{shortlink.target}" class="w3-col s6 m4 l4">
+					<div class="link shortlink elem">
+						<div class="icon w3-cell"><i class="@{shortlink.icon}"></i></div>
+						<div class="name w3-cell">@{md_nop(shortlink.title)}</div>
+						@if shortlink.target == "_self"
+						<div class="name w3-cell">@{md_nop(link_symbol_self)}</div>
+						@end
+						@if shortlink.fav
+						<div class="name w3-cell">@{md_nop(link_symbol_fav)}</div>
+						@end
+					</div>
+				</a>
+				@end
+			</div>
+
+			<div class="w3-container linktree">
+				@for link in linktree.links
+				<a href="@{url(link.url)}" target="@{link.target}">
+					<div class="link elem">
+						<div class="icon w3-cell"><i class="@{link.icon}"></i></div>
+						<div class="name w3-cell">@{md_nop(link.title)}</div>
+						@if link.target == "_self"
+						<div class="name w3-cell">@{md_nop(link_symbol_self)}</div>
+						@end
+						@if link.fav
+						<div class="name w3-cell">@{md_nop(link_symbol_fav)}</div>
+						@end
+					</div>
+				</a>
+				@end
+			</div>
+		@end
+	</div>
+
+	@include 'includes/footer.html'
+</body>
+</html>

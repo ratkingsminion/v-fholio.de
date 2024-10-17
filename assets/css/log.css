@@ -1,0 +1,50 @@
+/* the dev log is a very simple blogging system */
+
+.banner {
+	background-image: url('../images/banner3.jpg');
+}
+
+.logs {
+	margin-top: 20px;
+}
+
+.logentry {
+	border: var(--colshadow) 1px solid;
+	padding: 5px 15px 10px 15px;
+	margin: 10px 0;
+	overflow-wrap: break-word;
+}
+
+/* h2 == date */
+.logentry h2 {
+	font-size: 18px;
+	color: var(--colsignal);
+}
+.logentry h2 a {
+	color: var(--colsignal);
+	text-decoration: none;
+}
+
+/* h3 == DONE, PLAN, etc */
+.logentry h3 {
+	color: var(--colmark);
+	font-size: 16px;	
+}
+
+.logentry ul {
+	list-style-image: url('../images/triangle.png');
+	margin: 0;
+	padding: 0 0 0 25px;
+}
+
+.logentry li {
+	margin: 10px 20px 10px 0;
+}
+
+.logentry li code {
+	color: var(--colmark);
+}
+
+.logentry li strong {
+	color: var(--colsignal);
+}

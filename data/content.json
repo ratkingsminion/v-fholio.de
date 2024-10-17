@@ -1,0 +1,66 @@
+{
+	"topmenu": [
+		{ "title": "Homepage", "url": "/", "target":"_self", "moniker": "home" },
+		{ "title": "Projects", "url": "/projects/1", "target":"_self", "moniker": "projects" },
+		{ "title": "Dev Log", "url": "/log/{cur_year}", "target":"_self", "moniker": "log" },
+		{ "title": "Mastodon", "url": "https://mstdn.io/@ratking", "moniker": "social" }
+	],
+
+	"linktrees": [
+			{
+			"title": "# **Friedrich Hanisch**, game design & scripting",
+			"shortlinks": [
+				{ "title": "Mastodon", "icon": "fa-brands fa-mastodon", "url": "https://mstdn.io/@ratking", "fav": true},
+				{ "title": "Discord", "icon": "fa-brands fa-discord", "url": "https://discordapp.com/users/250914321691967489" },
+				{ "title": "Github", "icon": "fa-brands fa-github", "url": "https://github.com/ratkingsminion" },
+				{ "title": "YouTube", "icon": "fa-brands fa-youtube", "url": "https://www.youtube.com/@ratrogue" },
+				{ "title": "Instagram", "icon": "fa-brands fa-instagram", "url": "https://www.instagram.com/ratrogue/" },
+				{ "title": "LinkedIn", "icon": "fa-brands fa-linkedin", "url": "https://www.linkedin.com/in/friedrich-hanisch" }
+			],
+			"links": [
+				{ "title": "Games & tools I worked on", "icon": "fa fa-globe", "url": "/projects/1", "target": "_self", "fav": true },
+				{ "title": "My development log", "icon": "fa-solid fa-blog", "url": "/log/{cur_year}", "target": "_self" },
+				{ "title": "Some projecs on itch.io", "icon": "fab fa-itch-io", "url": "https://ratrogue.itch.io/" }
+			]
+		},
+		{
+			"title": "## **Rat King Entertainment**, indie game dev team",
+			"shortlinks": [
+				{ "title": "itch.io", "icon": "fab fa-itch-io", "url": "https://ratking.itch.io/" },
+				{ "title": "YouTube", "icon": "fa-brands fa-youtube", "url": "https://www.youtube.com/@RatKingEntertainment" },
+				{ "title": "Twitch", "icon": "fa-brands fa-twitch", "url": "https://www.twitch.tv/ratkingslair" }
+			],
+			"links": [
+				{ "title": "Rat King's website & blog", "icon": "fa fa-globe", "url": "https://ratking.de/" },
+				{ "title": "Rat King's Discord server", "icon": "fa-brands fa-discord", "url": "https://discord.gg/3PndMV2", "fav": true }
+			]
+		}
+	],
+
+	"log": {
+		"title": "# **Friedrich Hanisch**'s Dev Log",
+		"subtitles": [ "<a href=\"/\" target=\"_self\">Homepage</a>", "[Mastodon](https://mstdn.io/@ratking)" ]
+	},
+
+	"projects": {
+		"title": "# **Friedrich Hanisch**'s Projects",
+		"subtitles": {
+			"main": [ "<a href=\"/\" target=\"_self\">Homepage</a>", "[Mastodon](https://mstdn.io/@ratking)" ],
+			"entry": [ "<a href=\"/projects\" target=\"_self\">All projects</a>", "<a href=\"/\" target=\"_self\">Homepage</a>", "[Mastodon](https://mstdn.io/@ratking)" ]
+		}
+	},
+
+	"imprint": {
+		"title": "# **Friedrich Hanisch**",
+		"texts": [
+			{
+				"title": "Impressum",
+				"text": "### Angaben gemäß § 5 TMG\nFriedrich Hanisch\n\nRobert-Franz-Ring 3\n\n06108 Halle\n## Vertreten durch:\nFriedrich Hanisch\n## Kontakt:\nTelefon: 0345-6141741\n\nE-Mail: fh<i class=\"fa fa-at\" aria-hidden=\"true\"></i>fholio•de\n# Haftungsausschluss:\n## Haftung für Inhalte\nDie Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.\n## Haftung für Links\nUnser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.\n## Urheberrecht\nDie durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.\n### Quelle:\n*Impressum vom [impressum-generator.de](https://www.impressum-generator.de/) der [Kanzlei Hasselbach Rechtsanwälte](https://www.kanzlei-hasselbach.de/standorte/koeln/)*"
+			},
+			{
+				"title": "Imprint",
+				"text": "### Information according to § 5 TMG\nFriedrich Hanisch\n\nRobert-Franz-Ring 3\n\n06108 Halle\n## Represented by:\nFriedrich Hanisch\n## Contact:\nPhone: 0345-6141741\n\nE-Mail: fh<i class=\"fa fa-at\" aria-hidden=\"true\"></i>fholio•de\n# Disclaimer of liability:\n## Liability for content\nThe content of our website has been compiled with the utmost care. However, we cannot accept any liability for the accuracy, completeness and topicality of the content. As a service provider, we are responsible for our own content on these pages in accordance with § 7 para.1 TMG (German Telemedia Act) and general laws. According to §§ 8 to 10 TMG, however, we as a service provider are not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information in accordance with general legislation remain unaffected by this. However, liability in this respect is only possible from the time of knowledge of a specific infringement. As soon as we become aware of such infringements, we will remove this content immediately.\n## Liability for links\nOur website contains links to external third-party websites over whose content we have no influence. Therefore, we cannot accept any liability for this third-party content. The respective provider or operator of the pages is always responsible for the content of the linked pages. The linked pages were checked for possible legal violations at the time of linking. Illegal contents were not recognisable at the time of linking. However, permanent monitoring of the content of the linked pages is not reasonable without concrete evidence of an infringement. If we become aware of any legal infringements, we will remove such links immediately.\n## Copyright\nThe content and works created by the site operators on these pages are subject to German copyright law. Duplication, processing, distribution and any kind of utilisation outside the limits of copyright law require the written consent of the respective author or creator. Downloads and copies of this site are only permitted for private, non-commercial use. Insofar as the content on this site was not created by the operator, the copyrights of third parties are respected. In particular, third-party content is labelled as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. If we become aware of any infringements, we will remove such content immediately.\n### Source:\n*Imprint from [impressum-generator.de](https://www.impressum-generator.de/) of the [law firm Hasselbach Rechtsanwälte](https://www.kanzlei-hasselbach.de/standorte/koeln/)*"
+			}
+		]
+	}
+}

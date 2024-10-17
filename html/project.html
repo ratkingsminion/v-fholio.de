@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Friedrich Hanisch's Projects - @{project.title}</title>
+	<meta property="og:title" content="Friedrich Hanisch's Projects - @{project.title}" />
+	@include 'includes/metas.html'
+	<link rel="stylesheet" href="/assets/css/projects.css" />
+</head>
+<body class="w3-content">
+	<div class="page">
+		@include 'includes/banner.html'
+	
+		<div class="w3-container title elem">
+			@{md(projects.title)}
+		</div>
+
+		@include 'includes/topmenu.html'
+	</div>
+
+	<div class="project">
+	
+		<div class="pictures">
+			<img src="/assets/projects/@{project.moniker}/@{project.pictures[0]}" width="100%" height="auto" />
+		</div>
+		
+		<div class="page">
+			<div class="w3-container projtitle elem">
+				@{md_nop(project.title)}
+			</div>
+			
+			@if project.tag_list.len > 0
+			<div class="w3-display-container tags elem">
+				@for tag in project.tag_list
+				<a href="/projects/tags#@{get_moniker(tag)}" target="_self"><div class="tag">@{tag}</div></a>
+				@end
+			</div>
+			@end
+
+			<div class="w3-container shortdesc">
+				@{md_nop(project.short_desc)}
+			</div>
+
+			<div class="w3-container info">
+				<ul>
+					@if project.occasion != ""
+					<li>@{md_nop(project.occasion)}</li>
+					@end
+
+					@if project.timeframe != ""
+					<li>@{md_nop(project.timeframe)}</li>
+					@end
+
+					@if project.tools != ""
+					<li>@{md_nop(project.tools)}</li>
+					@end
+				</ul>
+			</div>
+
+			@if project.credits.len > 0
+				<div class="w3-container list">
+					Additional Credits:
+					<ul>
+						@for i := 0; i < project.credits.len; i += 3
+						@if project.credits[i + 1] != ""
+						<li><a href="@{project.credits[i + 1]}">@{md_nop(project.credits[i])}</a> (@{md_nop(project.credits[i + 2])})</li>
+						@else
+						<li>@{md_nop(project.credits[i])} (@{md_nop(project.credits[i + 2])})</li>
+						@end
+						@end
+					</ul>
+				</div>
+			@end
+
+			@if project.videos.len > 0
+				<div class="w3-container list">
+					Video(s):
+					<ul>
+						@for i := 0; i < project.videos.len; i += 2
+						<li><a href="@{project.videos[i + 1]}">@{md_nop(project.videos[i])}</a></li>
+						@end
+					</ul>
+				</div>
+			@end
+
+			@if project.links.len > 0
+				<div class="w3-container list">
+					Links:
+					<ul>
+						@for i := 0; i < project.links.len; i += 2
+						<li><a href="@{project.links[i + 1]}">@{md_nop(project.links[i])}</a></li>
+						@end
+					</ul>
+				</div>
+			@end
+
+			@if project.description != ""
+			<div class="w3-container description">
+				@{md(project.description)}
+			</div>
+			@end
+		</div>
+
+		<div class="pictures">
+			@for pic in project.pictures
+				@if pic != project.pictures[0]
+					<img src="/assets/projects/@{project.moniker}/@{pic}" width="100%" height="auto" />
+				@end
+			@end
+		</div>
+	</div>
+
+	@include 'includes/footer.html'
+
+	@include 'includes/uparrow.html'
+</body>
+</html>

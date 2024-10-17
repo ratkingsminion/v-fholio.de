@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Friedrich Hanisch - Imprint</title>
+	<meta property="og:title" content="Friedrich Hanisch - Imprint" />
+	@include 'includes/metas.html'
+	<link rel="stylesheet" href="/assets/css/imprint.css" />
+</head>
+<body class="w3-content">
+	<div class="page">
+		@include 'includes/banner.html'
+	
+		<div class="w3-container title elem">
+			@{md_nop(imprint.title)}
+		</div>
+
+		@include 'includes/topmenu.html'
+
+		@for text in imprint.texts
+		<div class="w3-container imprint elem">
+			<div class="title">
+				@{md_nop(text.title)}
+			</div>
+			<div class="text">
+				@{md(text.text)}
+			</div>
+		</div>
+		@end
+	</div>
+
+	@include 'includes/footer.html'
+
+	@include 'includes/uparrow.html'
+</body>
+</html>

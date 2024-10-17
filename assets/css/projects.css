@@ -1,0 +1,158 @@
+/* the dev log is a very simple blogging system */
+
+.banner {
+	background-image: url('../images/banner1.jpg');
+}
+
+/* overview over all projects */
+
+.projects {
+	margin-bottom: 10px;
+}
+.projects .preview {
+	overflow-wrap: break-word;
+	overflow: hidden;
+}
+
+.projects .preview .pic {
+	aspect-ratio: 16 / 10;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 2px;
+	border: 1px solid var(--coldark);
+	transition: border 0.25s ease;
+}
+.projects .preview .pic.important {
+	border: 3px solid var(--colsignal);
+}
+.projects .preview .pic:hover {
+	border: 6px solid var(--colneutral);
+	transition: border 0.25s ease;
+}
+.projects .preview .text {
+	padding: 10px;
+	vertical-align: middle;
+}
+.projects .preview .text .name {
+	font-size: 20px;
+	font-weight: bold;
+}
+.projects .preview .text .name .important {
+	border-bottom: 3px solid var(--colsignal);
+}
+.projects .preview .text .shortdesc {
+	font-size: 16px;
+}
+.projects .preview .text .category {
+	font-size: 14px;
+}
+.projects .preview .text .categorys {
+	font-size: 18px;
+	text-align: right;
+}
+
+/* tags */
+
+.tags {
+	text-align: center;
+	margin: 20px 0 40px 0;
+}
+.tags .tag {
+	display: inline-block;
+	margin: 2px 0;
+	padding: 5px 10px;
+	color: var(--colshadow);
+	background-color: var(--colmark);
+}
+.tags .tag:hover {
+	background-color: var(--colneutral);
+}
+
+.projlist {
+	margin: 20px 0;
+}
+
+.projlist a {
+	text-decoration: none;
+}
+.projlist .titletag {
+	font-size: 20px;
+	margin: 20px 0 5px 0;
+	font-weight: bold;
+	padding: 5px;
+	background-color: var(--colsignal);
+	color: var(--coldark);
+	text-decoration: none;
+}
+
+.projlist .proj {
+	border: 1px solid var(--colsignal);
+	display: inline-block;
+	margin: 1px -1px;
+	padding: 4px 7px;
+	color: var(--colneutral);
+}
+.projlist .proj:hover {
+	border: 1px solid var(--colmark);
+}
+
+/* entry page */
+
+.projtitle {
+	font-size: 25px;
+	color: var(--coldark);
+	background-color: var(--colneutral);
+	padding: 10px 15px;
+	font-weight: bold;
+	border-radius: 0;
+}
+
+.project .pictures img {
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+.project .title {
+	background-color: var(--colshadow);
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.project .shortdesc {
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.project .info ul {
+	margin: 0;
+	padding: 0 0 10px 25px;
+}
+.project .info li {
+	margin: 2px;
+}
+
+.project .description {
+	padding: 10px 15px;
+	margin: 30px 0 10px 0;
+}
+.project .description h1,h2,h3,h4 {
+	padding-bottom: 20px;
+}
+.project .description p {
+	padding-bottom: 30px;
+}
+.project .description img {
+	width: 100%;
+	height: auto;
+}
+
+.project .list ul {
+	list-style-image: url('../images/triangle.png');
+	margin: 0;
+	padding: 0 0 10px 25px;
+}
+.project .list li {
+	margin: 2px;
+}

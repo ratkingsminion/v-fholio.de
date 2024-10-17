@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Friedrich Hanisch's Dev Log</title>
+	<meta property="og:title" content="Friedrich Hanisch's Dev Log" />
+	@include 'includes/metas.html'
+	<link rel="stylesheet" href="/assets/css/log.css" />
+</head>
+<body class="w3-content">
+	<div class="page">
+		@include 'includes/banner.html'
+
+		<div class="w3-container title elem">
+			@{md(log.title)}
+		</div>
+
+		@include 'includes/topmenu.html'
+		
+		<div class="w3-container pages elem">
+			@if log_cur_year == ""
+				<div class="page selected">All</div>
+			@else
+				<a href="/log/" target="_self"><div class="page">All</div></a>
+			@end
+			@for log_year in log_years
+				@if log_cur_year == log_year
+					<div class="page selected">@{log_year}</div>
+				@else
+					<a href="/log/@{log_year}" target="_self"><div class="page">@{log_year}</div></a>
+				@end
+			@end
+		</div>
+		
+		<div class="lw3-container ogs">
+			@if log_warning != ""
+				<div class="logentry elem">
+					<h2>@{log_warning}</h2>
+				</div>
+			@else
+				@for log_entry in log_content
+				<div class="logentry elem">
+					<h2 id="@{log_entry.date}"><a href="#@{log_entry.date}" target="_self">@{log_entry.date}</a></h2>
+					@{md(log_entry.text)}
+				</div>
+				@end
+			@end
+		</div>
+	</div>
+
+	@include 'includes/footer.html'
+
+	@include 'includes/uparrow.html'
+</body>
+</html>

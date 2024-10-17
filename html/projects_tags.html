@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Friedrich Hanisch's Projects - Tags</title>
+	<meta property="og:title" content="Friedrich Hanisch's Projects - Tags" />
+	@include 'includes/metas.html'
+	<link rel="stylesheet" href="/assets/css/projects.css" />
+</head>
+<body class="w3-content">
+	<div class="page">
+		@include 'includes/banner.html'
+	
+		<div class="w3-container title elem">
+			@{md(projects.title)}
+		</div>
+
+		@include 'includes/topmenu.html'
+		
+		<div class="w3-container pages elem">
+			@if projects_cur_page == -1
+				<div class="page selected">All</div>
+			@else
+			<a href="/projects/" target="_self"><div class="page">All</div></a>
+			@end
+			@for p := 0; p < projects_pages; p++
+				@if projects_cur_page == p
+					<div class="page selected">@{p + 1}</div>
+				@else
+					<a href="/projects/@{p + 1}" target="_self"><div class="page">@{p + 1}</div></a>
+				@end
+			@end
+			@if projects_cur_page == -2
+				<div class="page selected">Tags</div>
+			@else
+			<a href="/projects/tags" target="_self"><div class="page">Tags</div></a>
+			@end
+		</div>
+
+		@if all_tags.len > 0
+		<div class="w3-display-container tags elem">
+			@for tag in all_tags
+			<a href="#@{get_moniker(tag)}" target="_self"><div class="tag">@{tag}</div></a>
+			@end
+		</div>
+		@end	
+		
+		<div class="w3-container projlist elem">
+			@for tag in all_tags
+			<div class="elem">
+				<a href="#@{get_moniker(tag)}" target="_self"><div id="@{get_moniker(tag)}" class="titletag">@{tag}</div></a>
+				@for proj in projects.tags[tag]
+				<a href="/projects/@{proj.moniker}" target="_self"><div class="proj">@{md_nop(proj.title)} (@{proj.year})</div></a>
+				@end
+			</div>
+			@end
+		</div>
+	</div>
+
+	@include 'includes/footer.html'
+
+	@include 'includes/uparrow.html'
+</body>
+</html>

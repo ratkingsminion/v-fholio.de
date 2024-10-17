@@ -1,0 +1,12 @@
+/* the imprints are necessary for German laws */
+
+.imprint {
+	margin: 20px 0;
+}
+
+.imprint .title {
+	font-size: 25px;
+	background-color: var(--colshadow);
+	margin: 10px 0;
+	padding: 10px;
+}
