@@ -20,7 +20,9 @@
 	<div class="project">
 	
 		<div class="pictures">
-			<img src="/assets/projects/@{project.moniker}/@{project.pictures[0]}" width="100%" height="auto" />
+			@for i := 0; i < project.pics_cols; i++
+			<img src="/assets/projects/@{project.moniker}/@{project.pictures[i]}" width="${100 / project.pics_cols}%" height="auto" />
+			@end
 		</div>
 		
 		<div class="page">
@@ -101,9 +103,9 @@
 		</div>
 
 		<div class="pictures">
-			@for pic in project.pictures
-				@if pic != project.pictures[0]
-					<img src="/assets/projects/@{project.moniker}/@{pic}" width="100%" height="auto" />
+			@for p := project.pics_cols; p < project.pictures.len - project.pics_cols + 1; p += project.pics_cols
+				@for i := 0; i < project.pics_cols; i++
+					<img src="/assets/projects/@{project.moniker}/@{project.pictures[p + i]}" width="${100 / project.pics_cols}%" height="auto" />
 				@end
 			@end
 		</div>

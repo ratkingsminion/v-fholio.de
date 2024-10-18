@@ -109,7 +109,8 @@
 
 .project .pictures img {
 	border-radius: 8px;
-	margin-bottom: 20px;
+	margin: 0 -2px 20px -2px;
+	padding: 0 5px;
 }
 
 .project .title {

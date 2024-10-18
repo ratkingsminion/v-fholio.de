@@ -1,7 +1,7 @@
 [{
 		"category": "Game",
 		"important": false,
-		"title": "Helga holf Hilfe",
+		"title": "Helga holt Hilfe",
 		"moniker": "helga",
 		"short_desc": "Educational story game for the elderly",
 		"timeframe": "released in July 2024",
@@ -48,8 +48,8 @@
 		"credits": [],
 		"links": [
 			"Entry page", "https://alakajam.com/19th-alakajam/1493/dizzy-island-liberator/",
-			"Download (Win/Linux)", "https://ratrogue.itch.io/dizzy-island-liberator"],
-			"Source", "https://github.com/ratkingsminion/akj19-floating-islands"
+			"Download (Win/Linux)", "https://ratrogue.itch.io/dizzy-island-liberator",
+			"Source", "https://github.com/ratkingsminion/akj19-floating-islands"],
 		"videos": [
 			"Gameplay", "https://www.youtube.com/watch?v=nNVHhoArnpE"],
 		"tags": "jam entry, 2D, Alakajam, Godot, Aseprite",
@@ -71,7 +71,7 @@
 			"Daniela Müller", "", "sounds"],
 		"links": [
 			"Entry page", "https://itch.io/jam/bpbgamejam-2023/rate/2155410",
-			"Download (Win)", "https://ratking.itch.io/abgefahren"]
+			"Download (Win)", "https://ratking.itch.io/abgefahren"],
 		"videos": [
 			"TikTok", "https://www.tiktok.com/@ratkingentertainment/video/7260790651493600539",
             "TikTok", "https://www.tiktok.com/@ratkingentertainment/video/7261888831627087131"],
@@ -237,7 +237,7 @@
 		"tools": "Unity/C#",
 		"credits": [],
 		"links": [
-			"BUY (itch.io)", "https://ratking.itch.io/bloed"
+			"BUY (itch.io)", "https://ratking.itch.io/bloed",
 			"BUY (Unity Asset Store)", "https://assetstore.unity.com/packages/tools/level-design/bloed-214813"],
 		"videos": [],
 		"tags": "commercial, tool, Unity, 3D",
@@ -548,7 +548,7 @@
 		"credits": [
 			"Jana Reinhardt", "https://jana.ratking.de", "idea, art direction, graphics, game design, sounds",
 			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
-		"links": 
+		"links": [
 			"Project page", "https://solitune.ratking.de/",
 			"BUY (itch.io)", "https://ratking.itch.io/solitude",
 			"BUY (Steam)", "https://store.steampowered.com/app/615670",
@@ -907,7 +907,8 @@
 		"links": ["Download (EXE)", "https://fholio.de/things/jams/FTJ-SuperNoBrainer/SuperNoBrainer.zip", "Entry page", "https://bmo.fuckthisjam.com/submissions/47-super-no-brainer", "PLAY", "https://www.kongregate.com/games/RatKingsLair/super-no-brainer"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=cnjHNuWKoC0"],
 		"tags": "jam entry, 2D, Fuck This Jam, Haxe, Jana Reinhardt, Photoshop",
-		"description": ""
+		"description": "",
+		"pics_cols": 2
 	}, {
 		"category": "Jam game",
 		"important": false,
