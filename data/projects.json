@@ -1,15 +1,41 @@
 [{
 		"category": "Jam game",
 		"important": false,
+		"title": "Dizzy Island Liberator",
+		"moniker": "dizzy-island-liberator",
+		"short_desc": "Top-down rotation shooter",
+		"timeframe": "made within 24 hours in February 2024",
+		"occasion": "Alakajam [#19](https://alakajam.com/19th-alakajam/games)",
+		"tools": "Godot, Aseprite",
+		"credits": [],
+		"links": [
+			"Entry page", "https://alakajam.com/19th-alakajam/1493/dizzy-island-liberator/",
+			"PLAY", "https://ratrogue.itch.io/dizzy-island-liberator"],
+		"videos": [
+			"Gameplay", "https://www.youtube.com/watch?v=nNVHhoArnpE"],
+		"tags": "jam entry, 2D, Alakajam, Godot, Aseprite",
+		"description": "First time I used Godot for a jam entry.\n\nYou're alone on floating islands. Shoot the enemies and reach the highscore. And yes, the background is transparent (even though on some systems it seems to be black)."
+	}, {
+		"category": "Jam game",
+		"important": false,
 		"title": "Abgefahren",
 		"moniker": "abgefahren",
 		"short_desc": "Deutsche Bahn walking simulator",
 		"timeframe": "made within 48 hours in July 2023",
 		"occasion": "bpb:game jam [2023](https://www.bpb.de/veranstaltungen/veranstaltungskalender/518950/bpb-game-jam-2023/)",
 		"tools": "C#/Unity",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "graphics, level design, additional game design", "Björn Grunewald", "https://cargocollective.com/bgrunewald", "additional graphics", "Stephan Max", "", "Additional programming", "Hannes 'Crabman' Flor", "https://mastodon.social/@elCrabman", "music", "Daniela Müller", "", "sounds"],
-		"links": ["Entry page", "https://itch.io/jam/bpbgamejam-2023/rate/2155410", "Download", "https://ratking.itch.io/abgefahren"],
-		"videos": [],
+		"credits": [
+			"Jana Reinhardt", "https://jana.ratking.de", "graphics, level design, additional game design",
+			"Björn Grunewald", "https://cargocollective.com/bgrunewald", "additional graphics",
+			"Stephan Max", "", "Additional programming",
+			"Hannes 'Crabman' Flor", "https://mastodon.social/@elCrabman", "music",
+			"Daniela Müller", "", "sounds"],
+		"links": [
+			"Entry page", "https://itch.io/jam/bpbgamejam-2023/rate/2155410",
+			"Download", "https://ratking.itch.io/abgefahren"],
+		"videos": [
+			"TikTok", "https://www.tiktok.com/@ratkingentertainment/video/7260790651493600539",
+            "TikTok", "https://www.tiktok.com/@ratkingentertainment/video/7261888831627087131"],
 		"tags": "jam entry, 3D, Unity, Blender, Jana Reinhardt, Björn Grunewald, Crabman",
 		"description": "Krieg die Bahn, oder die Bahn kriegt dich!\n\nEin Beitrag zum bpb Game Jam 2023 - unsere Idee war es, das faszinierende Erlebnis \"Bahn-Fahren\" zu visualisieren und hautnah erlebbar zu machen. Wir hoffen, dies ist uns gelungen, trotz des geringen Zeitbudgets.\n\n*The game is in German, but can also be enjoyed by non-German-speaking persons. (It's part of the Deutsche-Bahn-Experience that nobody speaks English.) You control the game via WASD and mouse, left click to interact with NPCs and doors and see your objective with E.*"
 	}, {
