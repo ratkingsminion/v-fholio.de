@@ -46,7 +46,6 @@ mut:
 	videos []string
 	tags string
 	description string
-	obsolete bool
 }
 
 //
