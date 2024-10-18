@@ -1,4 +1,18 @@
 [{
+		"category": "Jam game",
+		"important": false,
+		"title": "Abgefahren",
+		"moniker": "abgefahren",
+		"short_desc": "Deutsche Bahn walking simulator",
+		"timeframe": "made within 48 hours in July 2023",
+		"occasion": "bpb:game jam [2023](https://www.bpb.de/veranstaltungen/veranstaltungskalender/518950/bpb-game-jam-2023/)",
+		"tools": "C#/Unity",
+		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "graphics, level design, additional game design", "Björn Grunewald", "https://cargocollective.com/bgrunewald", "additional graphics", "Stephan Max", "", "Additional programming", "Hannes 'Crabman' Flor", "https://mastodon.social/@elCrabman", "music", "Daniela Müller", "", "sounds"],
+		"links": ["Entry page", "https://itch.io/jam/bpbgamejam-2023/rate/2155410", "Download", "https://ratking.itch.io/abgefahren"],
+		"videos": [],
+		"tags": "jam entry, 3D, Unity, Blender, Jana Reinhardt, Björn Grunewald, Crabman",
+		"description": "Krieg die Bahn, oder die Bahn kriegt dich!\n\nEin Beitrag zum bpb Game Jam 2023 - unsere Idee war es, das faszinierende Erlebnis \"Bahn-Fahren\" zu visualisieren und hautnah erlebbar zu machen. Wir hoffen, dies ist uns gelungen, trotz des geringen Zeitbudgets.\n\n*The game is in German, but can also be enjoyed by non-German-speaking persons. (It's part of the Deutsche-Bahn-Experience that nobody speaks English.) You control the game via WASD and mouse, left click to interact with NPCs and doors and see your objective with E.*"
+	}, {
 		"category": "Tool",
 		"important": true,
 		"title": "connected",
@@ -11,8 +25,7 @@
 		"links": ["DOWNLOAD / Buy", "https://ratking.itch.io/connected"],
 		"videos": [],
 		"tags": "commercial, tool, Unity, 2D",
-		"description": "Originally created as an in-game-only tool for [Behind Stars and Under Hills](https://behindstarsandunderhills.com), connected became a stand-alone dialog editor available on itch.io. It features a node-based workflow with correctness check and a test mode. There's a fully functional lite version, but when purchasing the pro edition, users can create their own node types and also save all localisable texts inside a dedicated JSON file.",
-		"obsolete": false
+		"description": "Originally created as an in-game-only tool for [Behind Stars and Under Hills](https://behindstarsandunderhills.com), connected became a stand-alone dialog editor available on itch.io. It features a node-based workflow with correctness check and a test mode. There's a fully functional lite version, but when purchasing the pro edition, users can create their own node types and also save all localisable texts inside a dedicated JSON file."
 	}, {
 		"category": "Tool",
 		"important": false,
@@ -26,8 +39,7 @@
 		"links": ["PLAY / Download", "https://ratrogue.itch.io/games-for-rats", "API docs", "https://docs.google.com/document/d/1ptnWeV2zl2-5o4oWmVv3Gukq_nAduEDBFCTfV7QRl8w/edit"],
 		"videos": [],
 		"tags": "tool, 2D, Unity, Small Basic, One Hour Game Jam, web",
-		"description": "Games for Rats is a fantasy console and a creative coding tool. Its development started as a sequel to [Terrobot](https://fholio.de/terrobot/) and over time it transformed to something completely different. With this I would be able to create low-fi entries for the One Hour Game Jam. You can code your own game/app/thing with Small Basic, which is one of the simplest programming languages existing. Games for Rats uses its own (still incomplete) API.",
-		"obsolete": false
+		"description": "Games for Rats is a fantasy console and a creative coding tool. Its development started as a sequel to [Terrobot](https://fholio.de/terrobot/) and over time it transformed to something completely different. With this I would be able to create low-fi entries for the One Hour Game Jam. You can code your own game/app/thing with Small Basic, which is one of the simplest programming languages existing. Games for Rats uses its own (still incomplete) API."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -41,8 +53,7 @@
 		"links": ["Entry page", "https://globalgamejam.org/2023/games/root-666-0", "Download", "https://ratking.itch.io/root666", "Video (Gameplay)", "https://www.youtube.com/watch?v=AcviSew1V1Y", "Video (dev talk)", "https://www.youtube.com/watch?v=lF1tCipW-tI"],
 		"videos": [],
 		"tags": "jam entry, 3D, multiplayer, Unity, Blender, bloed, Global Game Jam, Jana Reinhardt, Patrick Eckardt",
-		"description": "A short and simple Doom-inspired first-person action game. As you only throw screaming mandrake roots and hit enemies with an eye on a stick, it doesn't count as a shooter, but the mechanics basically are there. The enemy AI was created with [SBT](https://github.com/ratkingsminion/simple-behaviour-tree), and the level with bloed.",
-		"obsolete": false
+		"description": "A short and simple Doom-inspired first-person action game. As you only throw screaming mandrake roots and hit enemies with an eye on a stick, it doesn't count as a shooter, but the mechanics basically are there. The enemy AI was created with [SBT](https://github.com/ratkingsminion/simple-behaviour-tree), and the level with bloed."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -56,8 +67,7 @@
 		"links": ["Download", "https://ratrogue.itch.io/holocode", "Entry page", "https://alakajam.com/12th-kajam/1302/holocode/"],
 		"videos": [],
 		"tags": "jam entry, 3D, Unity, Blender, bloed, Alakajam, Kajam",
-		"description": "Greetings HOLOPERATOR.\n\nPlease HOLOGRAM each HOLOPUTER by entering its HOLOTRIX. Read the instructions inside, and create the needed HOLOCODE with the provided HOLONODES. Afterwards run the HOLOGRAM via the button on the HOLOPUTER. The door to the next challenge will open if your HOLOCODE solves the problem correctly.\n\nIn May 2022 I hosted the 12th Kajam for the Alakajam website, and I chose \"A Game Within A Game\" as theme. While I was disappointed in the low turn-out, I was pretty happy with the [entries](https://alakajam.com/12th-kajam/games).",
-		"obsolete": false
+		"description": "Greetings HOLOPERATOR.\n\nPlease HOLOGRAM each HOLOPUTER by entering its HOLOTRIX. Read the instructions inside, and create the needed HOLOCODE with the provided HOLONODES. Afterwards run the HOLOGRAM via the button on the HOLOPUTER. The door to the next challenge will open if your HOLOCODE solves the problem correctly.\n\nIn May 2022 I hosted the 12th Kajam for the Alakajam website, and I chose \"A Game Within A Game\" as theme. While I was disappointed in the low turn-out, I was pretty happy with the [entries](https://alakajam.com/12th-kajam/games)."
 	}, {
 		"category": "Game",
 		"important": false,
@@ -71,8 +81,7 @@
 		"links": ["Downloads", "https://ratking.itch.io/haqr-unsichtbar", "Download (Android)", "https://play.google.com/store/apps/details?id=com.RatKingEntertainment.HaQRUnsichtbar"],
 		"videos": [],
 		"tags": "game, 2D, Unity, mobile, Global Game Jam, Rat King, Jana Reinhardt, Small Basic",
-		"description": "Der unsichtbare Raum is an adventure game from the HAQR series: A thriller which is told using QR codes and a smartphone. The game is an escape room for one person. However, someone else is needed to distribute the QR codes (see instructions) in the room. The player then scans and puzzles his/her way through the story.\n\nThe game's core functionality was [created during the Global Game Jam](https://globalgamejam.org/2022/games/haqr-6).\n",
-		"obsolete": false
+		"description": "Der unsichtbare Raum is an adventure game from the HAQR series: A thriller which is told using QR codes and a smartphone. The game is an escape room for one person. However, someone else is needed to distribute the QR codes (see instructions) in the room. The player then scans and puzzles his/her way through the story.\n\nThe game's core functionality was [created during the Global Game Jam](https://globalgamejam.org/2022/games/haqr-6).\n"
 	}, {
 		"category": "Game",
 		"important": false,
@@ -86,8 +95,7 @@
 		"links": ["Downloads", "https://coolfriends.itch.io/666-coins", "Blog post", "https://ratrogue.tumblr.com/post/670674781177249792/666-coins", "Entry page (Tournament)", "https://alakajam.com/feedback-fortnight-2021-2/1227/666-coins/"],
 		"videos": [],
 		"tags": "game, 3D, Unity, Blender, bloed, 7DFPS, Thomas Purnell, COOLFRIENDS",
-		"description": "You are a thief. Satan Himself appeared before you and gave you the most dangerous job: Walk The Nether, steal 666 coins and the Unholy Crown. Use your wits to gain the loot and get back to the entrance - or your soul will be lost forever!\n\nI was responsible for the game logic and the monster design and modelling. After [COOLFRIENDS](https://coolfriends.itch.io/) created the game for the 7dfps, we also made a tournament version for the [7th Alakajam Tournament](https://alakajam.com/7th-akj-tournament).\n",
-		"obsolete": false
+		"description": "You are a thief. Satan Himself appeared before you and gave you the most dangerous job: Walk The Nether, steal 666 coins and the Unholy Crown. Use your wits to gain the loot and get back to the entrance - or your soul will be lost forever!\n\nI was responsible for the game logic and the monster design and modelling. After [COOLFRIENDS](https://coolfriends.itch.io/) created the game for the 7dfps, we also made a tournament version for the [7th Alakajam Tournament](https://alakajam.com/7th-akj-tournament).\n"
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -101,8 +109,7 @@
 		"links": ["PLAY", "https://ratrogue.itch.io/last-dream", "Entry page", "https://alakajam.com/adventure-kajam/1212/the-last-dream/"],
 		"videos": [],
 		"tags": "jam entry, 2D, web, Unity, Small Basic, Alakajam, Kajam",
-		"description": "This game was a challenge I wanted to do for a long time - combining point & click adventures with text adventures. It's pretty short, as it was mostly meant as a demonstration and maybe as basis for other games using the same tech.",
-		"obsolete": false
+		"description": "This game was a challenge I wanted to do for a long time - combining point & click adventures with text adventures. It's pretty short, as it was mostly meant as a demonstration and maybe as basis for other games using the same tech."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -116,8 +123,7 @@
 		"links": ["Entry page", "https://alakajam.com/13th-alakajam/1167/terrobot/", "PLAY", "https://ratrogue.itch.io/terrobot"],
 		"videos": [],
 		"tags": "jam entry, 3D, web, Alakajam, Unity, bloed, Small Basic, Aseprite",
-		"description": "This jam game uses Small Basic, supported by a modified version of [wixette's interpreter](https://github.com/wixette/isb). Unfortunately there is next to no error handling - so I recommend to only write very simple programs... The end result is far smaller in scope than I wanted - it was originally meant as a full programming game, but due to the time constraints it's more of a proof-of-concept for a puzzle/adventure game with a tiny bit of typing.  It *is* possible to do a bit more sophisticated robot programming, but it's not needed.",
-		"obsolete": false
+		"description": "This jam game uses Small Basic, supported by a modified version of [wixette's interpreter](https://github.com/wixette/isb). Unfortunately there is next to no error handling - so I recommend to only write very simple programs... The end result is far smaller in scope than I wanted - it was originally meant as a full programming game, but due to the time constraints it's more of a proof-of-concept for a puzzle/adventure game with a tiny bit of typing.  It *is* possible to do a bit more sophisticated robot programming, but it's not needed."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -131,8 +137,7 @@
 		"links": ["PLAY", "https://ratrogue.itch.io/alternative-artefacts"],
 		"videos": [],
 		"tags": "jam entry, 2D, web, Unity, A MAZE, Museums Game Jam",
-		"description": "Alternative Artefacts is a tool for creative writing. It presents you three artefacts, randomly chosen from a collections provided by several museums from Germany. This (hopefully) gives you material for a short story that you can write here and share with other people with only a few clicks.",
-		"obsolete": false
+		"description": "Alternative Artefacts is a tool for creative writing. It presents you three artefacts, randomly chosen from a collections provided by several museums from Germany. This (hopefully) gives you material for a short story that you can write here and share with other people with only a few clicks."
 	}, {
 		"category": "Tool",
 		"important": true,
@@ -146,8 +151,7 @@
 		"links": ["BUY (itch.io)", "https://ratking.itch.io/bloed", "BUY (Unity Asset Store)", "https://assetstore.unity.com/packages/tools/level-design/bloed-214813"],
 		"videos": [],
 		"tags": "commercial, tool, Unity, 3D",
-		"description": "This is a (more or less) simple block-based level editor for Unity. It allows creating geometry by combining 1x1x1 blocks (or \"bloxels\") of different shapes - a bit like Lego. The tool can be extended with your own block models and textures. While bloed is an editor mainly, the bloxel API is usable at run-time too, for procedurally generated content.\n\nIt is meant as a quick prototyping tool for some of our game projects. You can find some projects under the [bloed tag](/../tags/#bloed).",
-		"obsolete": false
+		"description": "This is a (more or less) simple block-based level editor for Unity. It allows creating geometry by combining 1x1x1 blocks (or \"bloxels\") of different shapes - a bit like Lego. The tool can be extended with your own block models and textures. While bloed is an editor mainly, the bloxel API is usable at run-time too, for procedurally generated content.\n\nIt is meant as a quick prototyping tool for some of our game projects. You can find some projects under the [bloed tag](/../tags/#bloed)."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -161,8 +165,7 @@
 		"links": ["Entry page", "https://alakajam.com/9th-kajam/1045/rc-test/", "Post-mortem", "https://ratking.de/blog/2021/02/02/ray-caster-an-experiment/"],
 		"videos": [],
 		"tags": "jam entry, 3D, Alakajam, Kajam, Haxe",
-		"description": "I never did a ray-caster before and took this jam as an opportunity to try it out. (I followed the lodev.org tutorial for most things.) It became a sandbox instead of a game, but still kind of interesting because of the infinite level. Maybe I will use this \"engine\" for a later project.\n\nMost of the textures are from [textures.com](https://textures.com).",
-		"obsolete": false
+		"description": "I never did a ray-caster before and took this jam as an opportunity to try it out. (I followed the lodev.org tutorial for most things.) It became a sandbox instead of a game, but still kind of interesting because of the infinite level. Maybe I will use this \"engine\" for a later project.\n\nMost of the textures are from [textures.com](https://textures.com)."
 	}, {
 		"category": "Tool",
 		"important": false,
@@ -176,8 +179,7 @@
 		"links": ["Download", "https://ratking.itch.io/texture-processor"],
 		"videos": [],
 		"tags": "tool, Unity",
-		"description": "I needed it for feeding a texture atlas with downscaled source textures within the Unity editor, and maybe changing its colors in the process. I thought sharing the scripts wouldn’t hurt.\n\n<div style=\"text-align:center\"><img src=\"https://img.itch.zone/aW1nLzQ3MzE5NzkuZ2lm/original/02nFh9.gif\" style=\"text-align:center; width:251px\" /></div>",
-		"obsolete": false
+		"description": "I needed it for feeding a texture atlas with downscaled source textures within the Unity editor, and maybe changing its colors in the process. I thought sharing the scripts wouldn’t hurt.\n\n<div style=\"text-align:center\"><img src=\"https://img.itch.zone/aW1nLzQ3MzE5NzkuZ2lm/original/02nFh9.gif\" style=\"text-align:center; width:251px\" /></div>"
 	}, {
 		"category": "Game",
 		"important": true,
@@ -191,8 +193,7 @@
 		"links": ["Official site", "https://www.jura.uni-halle.de/citapp/", "Download (Android)", "https://play.google.com/store/apps/details?id=com.RatKingEntertainment.CitApp", "Press release", "https://pressemitteilungen.pr.uni-halle.de/index.php?modus=pmanzeige&pm_id=5158"],
 		"videos": [],
 		"tags": "game, contract work, 3D, mobile, commercial, Unity, Rat King, Jana Reinhardt",
-		"description": "Willkommen in der Stadt der Citlinge – einer Welt des Wissens.\n\nHier dreht sich alles um Bücher! Hilf den Citlingen dabei, ihre Bibliothek auf Vordermann zu bringen, ihre Stadt auf- und auszubauen und gegen fiese Bücherwürmer und Plagiatoren zu verteidigen! Das einzige, was man dafür benötigt, ist Wissen rund um das juristische Zitieren.\n\nAber keine Sorge: Vorkenntnisse sind hilfreich, aber nicht erforderlich! Schritt für Schritt vermittelt die CitApp die notwendigen Kenntnisse über Fußnoten, Literaturverzeichnisse und das richtige Gliedern von Texten. Damit sollte es ein Leichtes sein, die anstehenden Aufgaben zu bewältigen – nicht nur in der CitApp, sondern auch in juristischen Hausarbeiten und später in Wissenschaft und Rechtspraxis.\n\nDie CitApp wurde aus Mitteln des Hochschulpaktes 2020 des Bundesministeriums für Bildung und Forschung finanziert und im Rahmen eines Projekts an der Martin-Luther-Universität Halle-Wittenberg (angesiedelt am Lehrstuhl von Prof. Dr. Christian Schröder) entwickelt.",
-		"obsolete": false
+		"description": "Willkommen in der Stadt der Citlinge – einer Welt des Wissens.\n\nHier dreht sich alles um Bücher! Hilf den Citlingen dabei, ihre Bibliothek auf Vordermann zu bringen, ihre Stadt auf- und auszubauen und gegen fiese Bücherwürmer und Plagiatoren zu verteidigen! Das einzige, was man dafür benötigt, ist Wissen rund um das juristische Zitieren.\n\nAber keine Sorge: Vorkenntnisse sind hilfreich, aber nicht erforderlich! Schritt für Schritt vermittelt die CitApp die notwendigen Kenntnisse über Fußnoten, Literaturverzeichnisse und das richtige Gliedern von Texten. Damit sollte es ein Leichtes sein, die anstehenden Aufgaben zu bewältigen – nicht nur in der CitApp, sondern auch in juristischen Hausarbeiten und später in Wissenschaft und Rechtspraxis.\n\nDie CitApp wurde aus Mitteln des Hochschulpaktes 2020 des Bundesministeriums für Bildung und Forschung finanziert und im Rahmen eines Projekts an der Martin-Luther-Universität Halle-Wittenberg (angesiedelt am Lehrstuhl von Prof. Dr. Christian Schröder) entwickelt."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -206,8 +207,7 @@
 		"links": ["Download (Win)", "https://ratrogue.itch.io/it-rains"],
 		"videos": [],
 		"tags": "jam entry, 3D, Haxe, Blender, Climate Change Jam",
-		"description": "A small forest is in your hands - create clouds and let it rain, and take care of your trees. A very sandboxy simulation experiment.",
-		"obsolete": false
+		"description": "A small forest is in your hands - create clouds and let it rain, and take care of your trees. A very sandboxy simulation experiment."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -221,8 +221,7 @@
 		"links": ["Entry page", "https://alakajam.com/scorespace-alakajam/926/de-moleculis-motus-in-vacuo/", "PLAY", "https://ratking.itch.io/de-moleculis-motus-in-vacuo"],
 		"videos": [],
 		"tags": "jam entry, 2D, Alakajam, Unity, Rytmyk Studio, web",
-		"description": "An amalgam of physics, geometry and bonsai gardening.\n\nThe molecules are moving around, making connections randomly. The connections give you points over time, the longer the line the faster. But if connections intersect (not: overlap), you lose a life. Cut connections away by using your mouse.",
-		"obsolete": false
+		"description": "An amalgam of physics, geometry and bonsai gardening.\n\nThe molecules are moving around, making connections randomly. The connections give you points over time, the longer the line the faster. But if connections intersect (not: overlap), you lose a life. Cut connections away by using your mouse."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -236,8 +235,7 @@
 		"links": ["Entry page", "https://alakajam.com/8th-alakajam/856/chipcode/", "Download", "https://ratking.itch.io/chipcode"],
 		"videos": [],
 		"tags": "jam entry, 2D, Alakajam, Unity, Aseprite",
-		"description": "In order to fulfill the tasks by &lt;VORGESETZTER&gt;, you have to place and connect chips. It's a mix of Assembler and electronics, which I both don't really know well.",
-		"obsolete": false
+		"description": "In order to fulfill the tasks by &lt;VORGESETZTER&gt;, you have to place and connect chips. It's a mix of Assembler and electronics, which I both don't really know well."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -251,8 +249,7 @@
 		"links": ["Entry page", "https://globalgamejam.org/2020/games/spheroneers-9", "Download", "https://ratking.itch.io/spheroneers", "Video", "https://www.youtube.com/watch?v=rwp2dKzqBBU"],
 		"videos": [],
 		"tags": "jam entry, 3D, multiplayer, Unity, Blender, Global Game Jam, Jana Reinhardt",
-		"description": "A team of engineers (2-4 players) protect an alien creature in a sphere. They have to roll it safely to the goal by destroying robots, repairing floor tiles, destroying floor tiles and repairing robots.",
-		"obsolete": false
+		"description": "A team of engineers (2-4 players) protect an alien creature in a sphere. They have to roll it safely to the goal by destroying robots, repairing floor tiles, destroying floor tiles and repairing robots."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -266,8 +263,7 @@
 		"links": ["Entry page", "https://alakajam.com/7th-alakajam/823/get-high/", "PLAY", "https://ratking.itch.io/get-high"],
 		"videos": [],
 		"tags": "jam entry, 3D, Alakajam, Unity, Blender, web",
-		"description": "A simple, but satisfying puzzle game where you have to become a high tower. (\"Tower\" was the theme of the jam.) The original jam version of Get High had 5 levels; the current release features 10. The music was made with the [Fake Music Generator](https://www.fakemusicgenerator.com/).",
-		"obsolete": false
+		"description": "A simple, but satisfying puzzle game where you have to become a high tower. (\"Tower\" was the theme of the jam.) The original jam version of Get High had 5 levels; the current release features 10. The music was made with the [Fake Music Generator](https://www.fakemusicgenerator.com/)."
 	}, {
 		"category": "Game",
 		"important": false,
@@ -281,8 +277,7 @@
 		"links": ["Official site", "https://www.lzt-thueringen.de/index.php?article_id=54#wahlrennen_-_das_spiel", "PLAY", "https://www.was-willst-du-eigentlich.de/wahlrennen/"],
 		"videos": [],
 		"tags": "game, contract work, 2D, mobile, web, commercial, Haxe, Rat King, Paul Hanisch, Jana Reinhardt",
-		"description": "\"WAHLRENNEN\" is a small **political** endless runner (commissioned by the Centre for Political Education of Thuringia) It is available in German only, but should also be playable without knowing the language. It should work in every browser - desktop **and** mobile!",
-		"obsolete": false
+		"description": "\"WAHLRENNEN\" is a small **political** endless runner (commissioned by the Centre for Political Education of Thuringia) It is available in German only, but should also be playable without knowing the language. It should work in every browser - desktop **and** mobile!"
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -296,8 +291,7 @@
 		"links": ["Entry page", "https://alakajam.com/climate-change-jam/753/forest-poems/", "PLAY", "https://www.ratking.de/projectpages/climatechangejam/forestpoems/jam-version/index.html"],
 		"videos": [],
 		"tags": "jam entry, multiplayer, 2D, web, Unity, Rat King, Alakajam, Jana Reinhardt",
-		"description": "In \"FOREST POEMS\" you write little poems made of trees and add them to a forest created by different people. *The reforestation of the planet is one of the things we can do to reduce the CO2 in the atmosphere and stop the greenhouse effect. This project wants to raise awareness to this fact.*",
-		"obsolete": false
+		"description": "In \"FOREST POEMS\" you write little poems made of trees and add them to a forest created by different people. *The reforestation of the planet is one of the things we can do to reduce the CO2 in the atmosphere and stop the greenhouse effect. This project wants to raise awareness to this fact.*"
 	}, {
 		"category": "Game",
 		"important": false,
@@ -311,8 +305,7 @@
 		"links": [],
 		"videos": [],
 		"tags": "game, multiplayer, 2D, Unity, Rat King, Jana Reinhardt, prototype, electronics",
-		"description": "After having a lot of fun the year before with [High Five Romance Race](../high-five-romance-race), again we wanted to create something for the annual exhibition of the nearby university. Unfortunately, this time we were a bit too ambitious and also for other reasons \"RGB - Richtig Gute Buttons\" (Really Good Buttons) was a fail. Still, I learned a lot of things about how to create a custom controller while working on this. [I wrote an article on our blog about about the project and how it failed.](https://ratking.de/blog/2019/07/15/really-good-buttons-but-not-really-good-presentation/)\n",
-		"obsolete": false
+		"description": "After having a lot of fun the year before with [High Five Romance Race](../high-five-romance-race), again we wanted to create something for the annual exhibition of the nearby university. Unfortunately, this time we were a bit too ambitious and also for other reasons \"RGB - Richtig Gute Buttons\" (Really Good Buttons) was a fail. Still, I learned a lot of things about how to create a custom controller while working on this. [I wrote an article on our blog about about the project and how it failed.](https://ratking.de/blog/2019/07/15/really-good-buttons-but-not-really-good-presentation/)\n"
 	}, {
 		"category": "Game",
 		"important": false,
@@ -326,8 +319,7 @@
 		"links": ["PLAY", "https://ratking.itch.io/mondars-dungeon"],
 		"videos": [],
 		"tags": "game, 7DRL, Haxe, 2D, web, Rat King, Jana Reinhardt, Paul Hanisch",
-		"description": "Originally created for the **7-Day-Roguelike Challenge 2019**, but it became too big. But instead of giving up we finished it a month later.",
-		"obsolete": false
+		"description": "Originally created for the **7-Day-Roguelike Challenge 2019**, but it became too big. But instead of giving up we finished it a month later."
 	}, {
 		"category": "Game",
 		"important": true,
@@ -341,8 +333,7 @@
 		"links": ["Official site", "https://www.bronzener-himmel.de/", "PLAY", "https://www.kika.de/ach-du-heilige-scheibe/spiele/bronzezeit-102.html", "Buy (Android)", "https://play.google.com/store/apps/details?id=com.motionworks.derbronzenehimmel&hl=en", "Buy (iPhone/iPad)", "https://itunes.apple.com/de/app/der-bronzene-himmel/id1450835180?mt=8"],
 		"videos": [],
 		"tags": "game, contract work, 2D, mobile, web, commercial, Unity, Rat King, Jana Reinhardt",
-		"description": "\"The Bronze Sky\" is an **educative app** for smartphones that teaches about the **Nebra Sky Disk**. We were **commissioned** by [MotionWorks GmbH](https://motionworks.eu/) to plan and implement a game that would also be embedded into the app (created by [codemacher](https://codemacher.de/)), and that would let players re-live the time when the sky disk already became an object of worship, **4000 BC**. Playing as either Mimo or Leva, it's up to the player to gather as much **bronze** as possible. This is done by harvesting, hunting and gathering resources and trading them for tools and jewellery. The app was funded by the Mitteldeutsche Medienförderung and the state of Saxony-Anhalt.\n\nIn September 2022, our game was pulled out of the app and is [now available online as an app](https://www.kika.de/ach-du-heilige-scheibe/spiele/bronzezeit-102.html) on the website of the German broadcast KiKA.",
-		"obsolete": false
+		"description": "\"The Bronze Sky\" is an **educative app** for smartphones that teaches about the **Nebra Sky Disk**. We were **commissioned** by [MotionWorks GmbH](https://motionworks.eu/) to plan and implement a game that would also be embedded into the app (created by [codemacher](https://codemacher.de/)), and that would let players re-live the time when the sky disk already became an object of worship, **4000 BC**. Playing as either Mimo or Leva, it's up to the player to gather as much **bronze** as possible. This is done by harvesting, hunting and gathering resources and trading them for tools and jewellery. The app was funded by the Mitteldeutsche Medienförderung and the state of Saxony-Anhalt.\n\nIn September 2022, our game was pulled out of the app and is [now available online as an app](https://www.kika.de/ach-du-heilige-scheibe/spiele/bronzezeit-102.html) on the website of the German broadcast KiKA."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -356,8 +347,7 @@
 		"links": ["Entry page", "https://globalgamejam.org/2019/games/wehheim", "Download", "https://ratking.itch.io/wehheim"],
 		"videos": [],
 		"tags": "jam entry, 2D, mobile, locationbased, Unity, Global Game Jam, Jana Reinhardt",
-		"description": "A game about a hamster searching for their home - and you have to help them with your smartphone!",
-		"obsolete": false
+		"description": "A game about a hamster searching for their home - and you have to help them with your smartphone!"
 	}, {
 		"category": "Game",
 		"important": false,
@@ -371,8 +361,7 @@
 		"links": ["Download", "https://ratking.itch.io/high-5-romance-race"],
 		"videos": [],
 		"tags": "game, multiplayer, 3D, Unity, Rat King, Jana Reinhardt, Paul Hanisch, Makey Makey",
-		"description": "The game was made for the annual exhibition of the [Burg Giebichenstein](//burg-halle.de). Our office is part of this university, and so we were obliged to present ourselves, too. Instead of showcasing our current game project, we created something from scratch, as we knew that the audience wouldn't be into story-rich and complex experiences. So we got a [Makey Makey](https://makeymakey.com/) and made a game that people would be able to play by doing a real high five!",
-		"obsolete": false
+		"description": "The game was made for the annual exhibition of the [Burg Giebichenstein](//burg-halle.de). Our office is part of this university, and so we were obliged to present ourselves, too. Instead of showcasing our current game project, we created something from scratch, as we knew that the audience wouldn't be into story-rich and complex experiences. So we got a [Makey Makey](https://makeymakey.com/) and made a game that people would be able to play by doing a real high five!"
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -386,8 +375,7 @@
 		"links": ["Entry page", "https://game-jam.bpb.de/doku.php/projekte2018:hugsandkisses", "Download (Win)", "https://ratking.itch.io/hugs-and-kisses", "Making of", "https://ratrogue.tumblr.com/post/170550565695/last-week-we-went-to-remscheid-germany-and"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=Umh54rfsnw0"],
 		"tags": "jam entry, prototype, multiplayer, 3D, Unity, Rat King, Jana Reinhardt",
-		"description": "Once again the bpb (the German Federal Agency for Civic Education) invited developer from all over Germany (and Austria) to a political game jam. This time the theme was \"Discimination, ostracism, radicalization\", thus we created a local 2-player co-op game prototype in the vein of Overcooked. Players carry and trade fish and bones, and feed and hug the members of their community - because if you neglect someone for too long, they might destroy the country and make it smaller for everyone...",
-		"obsolete": false
+		"description": "Once again the bpb (the German Federal Agency for Civic Education) invited developer from all over Germany (and Austria) to a political game jam. This time the theme was \"Discimination, ostracism, radicalization\", thus we created a local 2-player co-op game prototype in the vein of Overcooked. Players carry and trade fish and bones, and feed and hug the members of their community - because if you neglect someone for too long, they might destroy the country and make it smaller for everyone..."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -401,8 +389,7 @@
 		"links": ["Download (Win&Mac)", "https://ratking.itch.io/cupsela-ii", "Post mortem", "https://ratrogue.tumblr.com/post/167954137620/i-made-a-small-game-over-the-last-weekend-as-part"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=wdzyImAQeG0"],
 		"tags": "jam entry, 2D, Unity",
-		"description": "A very small game jam entry with (in the end) only one participant...",
-		"obsolete": false
+		"description": "A very small game jam entry with (in the end) only one participant..."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -416,8 +403,7 @@
 		"links": ["Entry page", "https://ldjam.com/events/ludum-dare/38/the-treachery-of-game-dev", "Download (Win&Mac)", "https://ratking.itch.io/the-treachery-of-game-dev", "Making-of", "https://ratrogue.tumblr.com/post/160043867630/over-the-weekend-ludum-dare-happened-the-38th"],
 		"videos": [],
 		"tags": "jam entry, 3D, Unity, Ludum Dare, 3dsmax",
-		"description": "The theme for the online game jam Ludum Dare 38 was 'Smallworld'. It inspired me to make something about the small world of programming, by transfering myself into a game about game development. The result was a mix of first-person adventure, coding puzzler and arcade game.\n\nA [video was made](https://www.youtube.com/watch?v=2NDq98S-1UA) by the [Game Jam Curator](https://gamejamcurator.tumblr.com/).",
-		"obsolete": false
+		"description": "The theme for the online game jam Ludum Dare 38 was 'Smallworld'. It inspired me to make something about the small world of programming, by transfering myself into a game about game development. The result was a mix of first-person adventure, coding puzzler and arcade game.\n\nA [video was made](https://www.youtube.com/watch?v=2NDq98S-1UA) by the [Game Jam Curator](https://gamejamcurator.tumblr.com/)."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -431,8 +417,7 @@
 		"links": ["Download", "https://ratking.itch.io/they-look-strange"],
 		"videos": ["Developer commentary", "https://www.youtube.com/watch?v=wlunhkT04Dw"],
 		"tags": "jam entry, 3D, Unity, 7DRL, Aseprite, Paul Hanisch",
-		"description": "[The video](https://www.youtube.com/watch?v=wlunhkT04Dw) was a first for me - a developer commentary.\n\nOn the [itch.io page](https://ratking.itch.io/they-look-strange)'s comment section you will find a lot of Let's Plays, too.",
-		"obsolete": false
+		"description": "[The video](https://www.youtube.com/watch?v=wlunhkT04Dw) was a first for me - a developer commentary.\n\nOn the [itch.io page](https://ratking.itch.io/they-look-strange)'s comment section you will find a lot of Let's Plays, too."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -446,8 +431,7 @@
 		"links": ["Entry page", "https://globalgamejam.org/2017/games/hands-thief", "Download (Android)", "https://ratking.itch.io/hands-off-thief", "Post mortem", "https://ratking.de/blog/2017/01/30/global-game-jam-2017-post-mortem/"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=bdsLX7SFVxI"],
 		"tags": "jam entry, 3D, Unity, Global Game Jam, VR, Jana Reinhardt, Björn Grunewald, Ludwig Hanisch",
-		"description": "For the Global Game Jam 2017 we created HANDS OFF THIEF within 48 hours. Our goal was to make our first VR game, the result is a very short, but immersive and atmospheric stealth game where the player takes the role of a thief who steals valuables in a haunted mansions. It’s necessary to evade ghosts and find a radio that will tell how to find the exit.\nA post-mortem is available, as is a full gameplay video.",
-		"obsolete": false
+		"description": "For the Global Game Jam 2017 we created HANDS OFF THIEF within 48 hours. Our goal was to make our first VR game, the result is a very short, but immersive and atmospheric stealth game where the player takes the role of a thief who steals valuables in a haunted mansions. It’s necessary to evade ghosts and find a radio that will tell how to find the exit.\nA post-mortem is available, as is a full gameplay video."
 	}, {
 		"category": "Game",
 		"important": true,
@@ -461,8 +445,7 @@
 		"links": ["Project page", "https://solitune.ratking.de/", "BUY (itch.io)", "https://ratking.itch.io/solitude", "BUY (Steam)", "https://store.steampowered.com/app/615670", "Soundtrack", "https://kingludi.bandcamp.com/album/solitune"],
 		"videos": ["Trailer", "https://www.youtube.com/watch?v=kkGLecbXX-w", "Music video", "https://www.youtube.com/watch?v=gC0A4et-JuU"],
 		"tags": "game, 3D, Unity, Jana Reinhardt, Ludwig Hanisch",
-		"description": "SOLITUNE (formerly known as Solitude) is based on Jana's idea and concept and was sponsored by the Art Foundation Sachsen-Anhalt, so it was even presented at an art exhibition in November 2016. It's a short adventure point&click-like game about escapism and sheep. KingLudi composed the music for it.\n\nSome thoughts by Jana about the game are written on [Rat King's blog](https://ratking.de/blog/2016/11/22/solitude/).",
-		"obsolete": false
+		"description": "SOLITUNE (formerly known as Solitude) is based on Jana's idea and concept and was sponsored by the Art Foundation Sachsen-Anhalt, so it was even presented at an art exhibition in November 2016. It's a short adventure point&click-like game about escapism and sheep. KingLudi composed the music for it.\n\nSome thoughts by Jana about the game are written on [Rat King's blog](https://ratking.de/blog/2016/11/22/solitude/)."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -476,8 +459,7 @@
 		"links": ["Entry page", "https://www.igjam.eu/jams/igjam16/185/", "Download (Win)", "https://ratking.itch.io/10000-and-you"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=FI_htRqM8LY"],
 		"tags": "jam entry, 3D, multiplayer, Unity, Blender, Aseprite, IGJAM",
-		"description": "",
-		"obsolete": false
+		"description": ""
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -491,8 +473,7 @@
 		"links": ["Entry page", "https://game-jam.bpb.de/doku.php/projekt:visarunners", "Download (Android)", "https://game-jam.bpb.de/doku.php/projekt:visarunners", "Post mortem", "https://ratking.de/blog/2016/08/30/the-bpbgame-jam-2016/"],
 		"videos": [],
 		"tags": "jam entry, prototype, mobile, 2D, Unity, Rat King, Jana Reinhardt",
-		"description": "During a 2-day game jam in 2016 we created **Die Stimmung kippt** (roughly: The Mood Shifts). It is the prototype for a multiplayer mobile game with real-world interaction. The idea was the following: participating players connect their smartphones with each other and get profiles of refugee-seeking people. Then they have to get visas in countries lying around in the room, by scanning QR codes. It gets chaotic as soon as tabloids spread rumors about refugees...",
-		"obsolete": false
+		"description": "During a 2-day game jam in 2016 we created **Die Stimmung kippt** (roughly: The Mood Shifts). It is the prototype for a multiplayer mobile game with real-world interaction. The idea was the following: participating players connect their smartphones with each other and get profiles of refugee-seeking people. Then they have to get visas in countries lying around in the room, by scanning QR codes. It gets chaotic as soon as tabloids spread rumors about refugees..."
 	}, {
 		"category": "Game",
 		"important": false,
@@ -506,8 +487,7 @@
 		"links": ["BUY", "https://ratking.itch.io/farbenspiel"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=IhuJFpy28Mk"],
 		"tags": "game, commercial, 2D, multiplayer, Unity, Rat King, Jana Reinhardt, Paul Hanisch",
-		"description": "",
-		"obsolete": false
+		"description": ""
 	}, {
 		"category": "Jam game",
 		"important": true,
@@ -521,8 +501,7 @@
 		"links": ["Entry page", "https://ludumdare.com/compo/ludum-dare-35/?action=preview&uid=3663", "Download", "https://ratking.itch.io/wood-for-the-trees", "Post mortem", "https://ratking.de/2016/04/28/ludum-dare-35-wood-for-the-trees-post-mortem/"],
 		"videos": ["Walkthrough", "https://www.youtube.com/watch?v=lAJrGew1Of0"],
 		"tags": "jam entry, 3D, Unity, Ludum Dare, Photoshop, Blender, Paul Hanisch, Ludwig Hanisch",
-		"description": "This is a very personal game, about family relationships. It also features a unique location-wrapping game mechanic, similar to my roguelike \"Me Against The Mutants\".\n\nDon't watch [this video](https://www.youtube.com/watch?v=lAJrGew1Of0) if you don't want to see spoilers.\n\nI generated the trees in the game with [ProcTree](https://github.com/jarikomppa/proctree), a procedural tree generator by Sol_HSA.",
-		"obsolete": false
+		"description": "This is a very personal game, about family relationships. It also features a unique location-wrapping game mechanic, similar to my roguelike \"Me Against The Mutants\".\n\nDon't watch [this video](https://www.youtube.com/watch?v=lAJrGew1Of0) if you don't want to see spoilers.\n\nI generated the trees in the game with [ProcTree](https://github.com/jarikomppa/proctree), a procedural tree generator by Sol_HSA."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -536,8 +515,7 @@
 		"links": ["Entry page", "https://globalgamejam.org/2016/games/potion-panic-0", "Download", "https://ratking.itch.io/potion-panic"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=wmWKLGcAkAw"],
 		"tags": "jam entry, 3D, multiplayer, Unity, Global Game Jam, Jana Reinhardt",
-		"description": "Needs two game pads to play it!",
-		"obsolete": false
+		"description": "Needs two game pads to play it!"
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -551,8 +529,7 @@
 		"links": ["Download", "https://fholio.de/things/OHGJ/038-Coxel/index.html", "PLAY", "https://www.kongregate.com/games/RatKingsLair/coxel"],
 		"videos": [],
 		"tags": "jam entry, 3D, Unity, One Hour Game Jam, web",
-		"description": "Later on I created a similar game as a project for my students; the video is [here](https://twitter.com/ratrogue/status/939575062440574977).",
-		"obsolete": false
+		"description": "Later on I created a similar game as a project for my students; the video is [here](https://twitter.com/ratrogue/status/939575062440574977)."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -566,8 +543,7 @@
 		"links": ["Entry page", "https://ludumdare.com/compo/minild-63/?action=preview&uid=3663", "PLAY", "https://fholio.de/things/jams/miniLD63-Snakoban/"],
 		"videos": [],
 		"tags": "jam entry, 2D, web, Haxe, Ludum Dare, Mini Ludum Dare, Photoshop",
-		"description": "The [Game Jam Curator](https://gamejamcurator.tumblr.com/) made a [video](https://www.youtube.com/watch?v=deVsa6LX-R4) of it.",
-		"obsolete": false
+		"description": "The [Game Jam Curator](https://gamejamcurator.tumblr.com/) made a [video](https://www.youtube.com/watch?v=deVsa6LX-R4) of it."
 	}, {
 		"category": "Prototype",
 		"important": false,
@@ -581,8 +557,7 @@
 		"links": ["Project page", "https://poweroflove.ratking.de/", "BUY", "https://ratking.itch.io/power-of-love", "Soundtrack", "https://kingludi.bandcamp.com/album/power-of-love"],
 		"videos": ["Music video", "https://www.youtube.com/watch?v=_AQvObn6AHk"],
 		"tags": "prototype, commercial, 2D, multiplayer, Unity, Rat King, Jana Reinhardt, Ludwig Hanisch",
-		"description": "This game was planned to be our next bigger game, but we stopped after the prototype phase. It's for two players only.",
-		"obsolete": false
+		"description": "This game was planned to be our next bigger game, but we stopped after the prototype phase. It's for two players only."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -596,8 +571,7 @@
 		"links": ["PLAY & Download", "https://fholio.de/things/jams/7drl2015-Loguerike"],
 		"videos": [],
 		"tags": "jam entry, 2D, web, Haxe, 7DRL, Photoshop",
-		"description": "A roguelike broken down to its bare minimum. With highscore.",
-		"obsolete": false
+		"description": "A roguelike broken down to its bare minimum. With highscore."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -611,8 +585,7 @@
 		"links": ["PLAY", "https://fholio.de/things/jams/NYGJ1415/NYGJ1415.html", "Download (Win)", "https://www.dropbox.com/s/ndyx86i280hk2fg/NYGJ1415.zip?dl=0"],
 		"videos": [],
 		"tags": "jam entry, 2D, Unity, New Year Game Jam, Paul Hanisch, Ludwig Hanisch",
-		"description": "I liked the capsule mechanic so much I made another game with this character controller nearly three years later, called Cupsela II.",
-		"obsolete": false
+		"description": "I liked the capsule mechanic so much I made another game with this character controller nearly three years later, called Cupsela II."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -626,8 +599,7 @@
 		"links": [],
 		"videos": [],
 		"tags": "3D, Unity, 3dsmax, Ludwig Hanisch",
-		"description": "This is a small not-game I created as a Christmas present for my younger brother. As he is a painter, I thought it might be fun for him to create his own little virtual gallery by \"shooting\" his own painting on the walls.",
-		"obsolete": false
+		"description": "This is a small not-game I created as a Christmas present for my younger brother. As he is a painter, I thought it might be fun for him to create his own little virtual gallery by \"shooting\" his own painting on the walls."
 	}, {
 		"category": "Game",
 		"important": true,
@@ -641,8 +613,7 @@
 		"links": ["WEBSITE", "https://www.tri-game.com/", "Demo download", "https://ratking.itch.io/tri", "Buy (Rat King)", "https://www.tri-game.com/buy.html", "Buy (Steam)", "https://store.steampowered.com/app/293660/", "Soundtrack", "https://kingludi.bandcamp.com/album/tri", "Artbook", "https://tri-game.com/downloads/tri_artbook_lite.zip"],
 		"videos": ["Trailer", "https://www.youtube.com/watch?v=G8JyRRcUDVg", "Gameplay", "https://www.youtube.com/watch?v=ZYdLbVcj0MI"],
 		"tags": "game, commercial, 3D, Unity, Rat King, 3dsmax, Jana Reinhardt, Ludwig Hanisch",
-		"description": "This was our biggest game to this date, and our first Steam release. It won several awards, among them the German Computer Game Award 2015 in the category Best Youth Game. It's based on my jam game \"Tri\" from 2011.",
-		"obsolete": false
+		"description": "This was our biggest game to this date, and our first Steam release. It won several awards, among them the German Computer Game Award 2015 in the category Best Youth Game. It's based on my jam game \"Tri\" from 2011."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -656,8 +627,7 @@
 		"links": ["Entry page", "https://ludumdare.com/compo/ludum-dare-30/?action=preview&uid=3663", "PLAY", "https://ratking.itch.io/continue", "Download (Linux)", "https://ratking.itch.io/-continue"],
 		"videos": [],
 		"tags": "jam entry, 2D, multiplayer, Unity, Ludum Dare",
-		"description": "",
-		"obsolete": false
+		"description": ""
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -671,8 +641,7 @@
 		"links": ["Entry page", "https://ludumdare.com/compo/minild-50/?action=preview&uid=3663", "PLAY", "https://www.kongregate.com/games/RatKingsLair/thf"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=_gfbaXhHhC0"],
 		"tags": "jam entry, 3D, Unity, Ludum Dare, Mini Ludum Dare, 3dsmax, Photoshop",
-		"description": "The video shows a [complete playthrough](https://www.youtube.com/watch?v=_gfbaXhHhC0) of Thf, on the hardest level.",
-		"obsolete": false
+		"description": "The video shows a [complete playthrough](https://www.youtube.com/watch?v=_gfbaXhHhC0) of Thf, on the hardest level."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -686,8 +655,7 @@
 		"links": ["Entry post", "https://7drl.org/2014/03/16/success-variablo/", "PLAY & Download", "https://ratking.itch.io/variablo"],
 		"videos": ["Gameplay", "https://youtube.com/watch?v=Z8m6rFACRbE"],
 		"tags": "jam entry, 2D, Unity, 7DRL, Photoshop, Ludwig Hanisch",
-		"description": "This roguelike was inspired by the classic combination game \"Mastermind\". Variablo kinda [won](https://www.roguebasin.com/index.php?title=7DRL_Challenge_2014) the 7DRL Challenge, but mostly because it only got one vote.",
-		"obsolete": false
+		"description": "This roguelike was inspired by the classic combination game \"Mastermind\". Variablo kinda [won](https://www.roguebasin.com/index.php?title=7DRL_Challenge_2014) the 7DRL Challenge, but mostly because it only got one vote."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -701,8 +669,7 @@
 		"links": ["PLAY", "https://fholio.de/things/jams/Kassel2013/BrokenRadio.html", "Download (Win)", "https://www.dropbox.com/s/ufoqrf8bfhxzwen/BrokenRadio.zip?dl=0"],
 		"videos": [],
 		"tags": "jam entry, 2D, Unity, Photoshop, Spielsalon Kassel",
-		"description": "",
-		"obsolete": false
+		"description": ""
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -716,8 +683,7 @@
 		"links": ["Download", "https://ratking.itch.io/dangeon"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=FRtRT1jc0SQ"],
 		"tags": "jam entry, 3D, Unity, 3dsmax, Photoshop, Indie Speed Run, Ludwig Hanisch, Paul Hanisch",
-		"description": "One of my personal favourites.",
-		"obsolete": false
+		"description": "One of my personal favourites."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -731,8 +697,7 @@
 		"links": ["Entry page", "https://www.ludumdare.com/compo/ludum-dare-27/?action=preview&uid=3663", "Project page", "https://blamblam.ratking.de/", "PLAY", "https://www.kongregate.com/games/ratkingslair/blam-blam-planet", "Post mortem", "https://ratking.de/2013/08/28/ludum-dare-27-blam-blam-planet-post-mortem/"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=ENSHQpp61cs"],
 		"tags": "jam entry, 3D, multiplayer, Unity, Ludum Dare, Jana Reinhardt",
-		"description": "Playable for up to four players!",
-		"obsolete": false
+		"description": "Playable for up to four players!"
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -746,8 +711,7 @@
 		"links": ["Entry page (down)", "https://7dfps.com/?action=games&id=162", "PLAY", "https://www.ratking.de/games/svetovid/Web/index.html", "Downloads", "https://www.dropbox.com/sh/es89j1dpttfkxqg/AADDSxDPLGdamxqZIBD0mbZQa?dl=0"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=Xcd9mj0qbRA"],
 		"tags": "jam entry, 3D, Unity, 7DFPS, Photoshop, Ludwig Hanisch",
-		"description": "",
-		"obsolete": false
+		"description": ""
 	}, {
 		"category": "Game",
 		"important": false,
@@ -761,8 +725,7 @@
 		"links": ["PLAY", "https://www.kongregate.com/games/RatKingsLair/rat-race"],
 		"videos": ["Trailer", "https://www.youtube.com/watch?v=vNOcMSJ_ZBI"],
 		"tags": "game, 3D, Unity, Rat King, Jana Reinhardt",
-		"description": "You play as a lonely rat in a cage.",
-		"obsolete": false
+		"description": "You play as a lonely rat in a cage."
 	}, {
 		"category": "Game",
 		"important": true,
@@ -776,8 +739,7 @@
 		"links": ["PLAY", "https://www.zoo-leipzig.de/sabah/"],
 		"videos": ["Trailer", "https://www.youtube.com/watch?v=tiraYmo87MI"],
 		"tags": "game, contract work, 3D, Unity, Rat King, Jana Reinhardt, Ludwig Hanisch",
-		"description": "**Sabah** was a contract work assigned by the [Zoo Leipzig](https://www.zoo-leipzig.de/).",
-		"obsolete": false
+		"description": "**Sabah** was a contract work assigned by the [Zoo Leipzig](https://www.zoo-leipzig.de/)."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -791,8 +753,7 @@
 		"links": ["Infos & Download", "https://www.roguebasin.com/index.php?title=Double_Rogue", "Buy (Android)", "https://play.google.com/store/apps/details?id=com.RatKingEntertainment.DoubleRogue"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=xyQiKHc1Grg"],
 		"tags": "jam entry, commercial, mobile, 3D, Unity, 7DRL, 3dsmax, Photoshop",
-		"description": "",
-		"obsolete": false
+		"description": ""
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -806,8 +767,7 @@
 		"links": ["Entry page", "https://globalgamejam.org/2013/72", "DOWNLOAD", "https://ratking.itch.io/72"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=LGrr-DhBdsM"],
 		"tags": "jam entry, 3D, Unity, Global Game Jam, Jana Reinhardt",
-		"description": "",
-		"obsolete": false
+		"description": ""
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -821,8 +781,7 @@
 		"links": ["Entry page", "https://www.ludumdare.com/compo/ludum-dare-25/?action=preview&uid=3663", "PLAY", "https://www.kongregate.com/games/RatKingsLair/tale-of-scale", "Post mortem", "https://ratking.de/blog/2012/12/24/ludum-dare-25-tale-of-scale-post-mortem/"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=_sJPufr0qmI"],
 		"tags": "jam entry, 3D, Unity, Ludum Dare, 3dsmax, Photoshop",
-		"description": "",
-		"obsolete": false
+		"description": ""
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -836,8 +795,7 @@
 		"links": ["Download (EXE)", "https://fholio.de/things/jams/FTJ-SuperNoBrainer/SuperNoBrainer.zip", "Entry page", "https://bmo.fuckthisjam.com/submissions/47-super-no-brainer", "PLAY", "https://www.kongregate.com/games/RatKingsLair/super-no-brainer"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=cnjHNuWKoC0"],
 		"tags": "jam entry, 2D, Fuck This Jam, Haxe, Jana Reinhardt, Photoshop",
-		"description": "",
-		"obsolete": false
+		"description": ""
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -851,8 +809,7 @@
 		"links": ["PLAY", "https://www.kongregate.com/games/RatKingsLair/hatesnake3d", "Buy (Android)", "https://play.google.com/store/apps/details?id=com.RatKingEntertainment.HATESNAKE3D"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=ci1SI9hK3Fo", "Indie Buskers Trailer", "https://www.youtube.com/watch?v=kjVe9bPRd7w"],
 		"tags": "jam entry, commercial, mobile, 3D, Unity, Indie Buskers, 3dsmax, Photoshop, Ludwig Hanisch",
-		"description": "The many, many colors unfortunately made it really hard to create [a video](https://www.youtube.com/watch?v=ci1SI9hK3Fo) that compresses well...",
-		"obsolete": false
+		"description": "The many, many colors unfortunately made it really hard to create [a video](https://www.youtube.com/watch?v=ci1SI9hK3Fo) that compresses well..."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -866,8 +823,7 @@
 		"links": ["Entry page", "https://www.ludumdare.com/compo/minild-37/?action=preview&uid=3663", "PLAY", "https://www.ratking.de/projectpages/modeleum/WebPlayer/"],
 		"videos": ["Non-Gameplay", "https://youtube.com/watch?v=4sVo-X_xi44"],
 		"tags": "jam entry, 3D, Unity, Ludum Dare, Mini Ludum Dare, 3dsmax, Photoshop, Ludwig Hanisch",
-		"description": "The music was originally made for \"The Sun Is Deadly\".",
-		"obsolete": false
+		"description": "The music was originally made for \"The Sun Is Deadly\"."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -881,8 +837,7 @@
 		"links": ["Entry page", "https://www.ludumdare.com/compo/ludum-dare-24/?action=preview&uid=3663", "PLAY", "https://www.kongregate.com/games/RatKingsLair/kernel-exception"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=vHdtm-5_qao"],
 		"tags": "jam entry, 3D, Unity, Ludum Dare, Jana Reinhardt, Björn Grunewald",
-		"description": "Inspired by System Shock and Dungeon Keeper.",
-		"obsolete": false
+		"description": "Inspired by System Shock and Dungeon Keeper."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -896,8 +851,7 @@
 		"links": ["Entry page", "https://www.ludumdare.com/compo/ludum-dare-23/?action=preview&uid=3663", "Project page", "https://wunderworld.ratking.de/", "PLAY", "https://www.kongregate.com/games/RatKingsLair/wunderworld", "Post mortem", "https://ratking.de/2012/05/02/wunderworld-post-mortem/"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=Ja_w3zoR5Vo"],
 		"tags": "jam entry, 3D, Unity, Ludum Dare",
-		"description": "I'm proud of this 'game', because so many people actually [made levels](https://wunderworld.ratking.de) for it!",
-		"obsolete": false
+		"description": "I'm proud of this 'game', because so many people actually [made levels](https://wunderworld.ratking.de) for it!"
 	}, {
 		"category": "Game",
 		"important": true,
@@ -911,8 +865,7 @@
 		"links": ["Project page", "https://tsid.ratking.de/", "PLAY", "https://ratking.itch.io/the-sun-is-deadly"],
 		"videos": ["Trailer", "https://www.youtube.com/watch?v=y16pERrIWxQ", "Gameplay", "https://www.youtube.com/watch?v=8JVZcbEw-oQ"],
 		"tags": "game, jam entry, commercial, Indie Buskers, 3D, Unity, Rat King, Photoshop, Jana Reinhardt, Ludwig Hanisch",
-		"description": "![The Indie Buskers]({{ \"/assets/img/indiebuskers.jpg\" | absolute_url }})\n\nMade for the first Indie Buskers jam, where we participated with several other indie game developers. Together, we created small games over a weekend and gave them to anybody who paid a small tip.\n\nEgoAnt's idea was *\"It might be cool to have a game where you control objects to block sunlight to create a path of darkness - so that a vampire can get to their intended victim.\"*",
-		"obsolete": false
+		"description": "![The Indie Buskers]({{ \"/assets/img/indiebuskers.jpg\" | absolute_url }})\n\nMade for the first Indie Buskers jam, where we participated with several other indie game developers. Together, we created small games over a weekend and gave them to anybody who paid a small tip.\n\nEgoAnt's idea was *\"It might be cool to have a game where you control objects to block sunlight to create a path of darkness - so that a vampire can get to their intended victim.\"*"
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -926,8 +879,7 @@
 		"links": ["PLAY", "https://www.kongregate.com/games/RatKingsLair/me-against-the-mutants", "Download (Win)", "https://www.dropbox.com/s/u2fl5sml43g121z/MeAgainstTheMutants.exe?dl=0", "Post mortem", "https://ratking.de/2012/04/01/me-against-the-mutants-post-mortem/"],
 		"videos": ["Walkthrough", "https://www.youtube.com/watch?v=PQ_ceMHAHcc"],
 		"tags": "jam entry, 2D, Flash, 7DRL, Jana Reinhardt",
-		"description": "The game features an interesting mechanic where the player is able to define \"infinity zones\", in which the area is wrapped infinitely. A lot of people had problems getting the gameplay...",
-		"obsolete": false
+		"description": "The game features an interesting mechanic where the player is able to define \"infinity zones\", in which the area is wrapped infinitely. A lot of people had problems getting the gameplay..."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -941,8 +893,7 @@
 		"links": ["Entry page", "https://globalgamejam.org/2012/inclosssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss", "PLAY", "https://www.kongregate.com/games/RatKingsLair/inclosssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssure", "Download (Win)", "https://bit.ly/inclosssure"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=JEF90o-YZkU"],
 		"tags": "jam entry, 3D, Unity, Global Game Jam, Jana Reinhardt, Björn Grunewald",
-		"description": "The inspiration was to make a Snake clone that is more of an RPG.",
-		"obsolete": false
+		"description": "The inspiration was to make a Snake clone that is more of an RPG."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -956,8 +907,7 @@
 		"links": ["Entry page", "https://www.ludumdare.com/compo/ludum-dare-22/?action=preview&uid=3663", "PLAY", "https://www.kongregate.com/games/RatKingsLair/soliloquy", "Post mortem", "https://ratking.de/2011/12/20/ld-22-soliloquy-post-mortem/"],
 		"videos": ["Walkthrough", "https://www.youtube.com/watch?v=0oVRQvblADk"],
 		"tags": "jam entry, 3D, Unity, Ludum Dare",
-		"description": "",
-		"obsolete": false
+		"description": ""
 	}, {
 		"category": "Game",
 		"important": true,
@@ -971,8 +921,7 @@
 		"links": ["Project page", "https://tumblox.ratking.de/", "Online-Demo", "https://www.kongregate.com/games/RatKingsLair/tumblox-pc-demo", "Buy (Android)", "https://play.google.com/store/apps/details?id=com.RatKingEntertainment.Tumblox"],
 		"videos": ["Trailer", "https://www.youtube.com/watch?v=uEKyTAej2IQ"],
 		"tags": "game, commercial, mobile, 3D, Unity, Rat King, Photoshop, Jana Reinhardt, Ludwig Hanisch",
-		"description": "",
-		"obsolete": false
+		"description": ""
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -986,8 +935,7 @@
 		"links": ["PLAY", "https://www.kongregate.com/games/RatKingsLair/treasure-chest-island", "Download (Win)", "https://www.dropbox.com/s/rky9rsp3pnugkyk/WinBuild.zip?dl=0"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=t-y4DkY-LcY"],
 		"tags": "jam entry, Devmania, 3D, Unity, Björn Grunewald, Ludwig Hanisch, Paul Hanisch",
-		"description": "",
-		"obsolete": false
+		"description": ""
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -1001,8 +949,7 @@
 		"links": ["Entry page", "https://www.ludumdare.com/compo/ludum-dare-21/?action=preview&uid=3663", "PLAY", "https://www.kongregate.com/games/RatKingsLair/bunnies-back-into-your-cage", "Post mortem", "https://www.ludumdare.com/compo/2011/08/23/bunnies-back-into-your-cage-post-mortem/"],
 		"videos": ["Walkthrough", "https://www.youtube.com/watch?v=fZH8u7t6hI0"],
 		"tags": "jam entry, 2D, Flash, Photoshop, Ludum Dare",
-		"description": "",
-		"obsolete": false
+		"description": ""
 	}, {
 		"category": "Game",
 		"important": true,
@@ -1016,8 +963,7 @@
 		"links": ["Project page", "https://pitman.ratking.de/", "Online-Demo", "https://www.kongregate.com/games/RatKingsLair/pitman-demo", "BUY", "https://ratking.itch.io/pitman"],
 		"videos": ["Trailer (iOS)", "https://www.youtube.com/watch?v=O1FhWZ3eh1E", "Trailer (PC)", "https://www.youtube.com/watch?v=N3iD_F-TgI8"],
 		"tags": "game, commercial, mobile, 3D, Unity, Rat King, Jana Reinhardt",
-		"description": "After we finished \"Pitman Krumb\" (our first 7-Day-Roguelike-Challenge entry from 2011) we were very happy how it turned out. And after I spent an extra week to make a fixed version, [The Rat King](https://www.ratking.de/) decided to make a commercial game out of it as soon as possible. Because we tried to get into the iPhone/iPad market back then, the new Pitman should become an app for iOS. And so it became.\n\nAfter ca. five weeks of porting, extending, balancing and testing, the newly named \"Pitman\" was finished and ready to submit to the AppStore. On May 2nd it was officially released to the digital world, and some days later \"Pitman Free\" was approved by Apple, too. This way, people can test the game's first half dungeon without paying anything in advance.\n\nOf course, the biggest part of the changes are related to the interface. Not only would the screen be cluttered with buttons and information regarding skills if we had adopted the PC version's screen layout, but there also would be no intuitive method to control the camera. Thus the inventory and the skill overview got extra screens which can be accessed by tapping the player character. Besides, the original Pitman has no main menu or the like, so this had to be added, too.\n\nIn order to allow precise and extensive camera control the game got ingame buttons for translating rotating and resetting the camera. This was tweaked a lot and we think the game is very usable; in fact, we never got negative feedback regarding the controls, be it iPad or iPhone:\n\nAnother change for the iOS version is the addition of real save slots. This changes the gameplay, as the average roguelike has permadeath, but we knew it would get us some very bad reviews if the players couldn't save and load their games.\n\nThere is more, like help screens and additional content, but I think it's suffice to say that we didn't do a half-hearted job when porting it; especially if you compare the development times of the original game \"Pitman Krumb\" and \"Pitman\" ... It's like the saying goes, 80% of the time is spent on 20% of the project.\n\nOver half a year later, Pitman was ported back to PC. The reason for this mainly was that it was easy enough to do, and we wanted to try out several selling platforms, like Desura and IndieGameStand; and compare them to the only market we knew until then - the AppStore from Apple.",
-		"obsolete": false
+		"description": "After we finished \"Pitman Krumb\" (our first 7-Day-Roguelike-Challenge entry from 2011) we were very happy how it turned out. And after I spent an extra week to make a fixed version, [The Rat King](https://www.ratking.de/) decided to make a commercial game out of it as soon as possible. Because we tried to get into the iPhone/iPad market back then, the new Pitman should become an app for iOS. And so it became.\n\nAfter ca. five weeks of porting, extending, balancing and testing, the newly named \"Pitman\" was finished and ready to submit to the AppStore. On May 2nd it was officially released to the digital world, and some days later \"Pitman Free\" was approved by Apple, too. This way, people can test the game's first half dungeon without paying anything in advance.\n\nOf course, the biggest part of the changes are related to the interface. Not only would the screen be cluttered with buttons and information regarding skills if we had adopted the PC version's screen layout, but there also would be no intuitive method to control the camera. Thus the inventory and the skill overview got extra screens which can be accessed by tapping the player character. Besides, the original Pitman has no main menu or the like, so this had to be added, too.\n\nIn order to allow precise and extensive camera control the game got ingame buttons for translating rotating and resetting the camera. This was tweaked a lot and we think the game is very usable; in fact, we never got negative feedback regarding the controls, be it iPad or iPhone:\n\nAnother change for the iOS version is the addition of real save slots. This changes the gameplay, as the average roguelike has permadeath, but we knew it would get us some very bad reviews if the players couldn't save and load their games.\n\nThere is more, like help screens and additional content, but I think it's suffice to say that we didn't do a half-hearted job when porting it; especially if you compare the development times of the original game \"Pitman Krumb\" and \"Pitman\" ... It's like the saying goes, 80% of the time is spent on 20% of the project.\n\nOver half a year later, Pitman was ported back to PC. The reason for this mainly was that it was easy enough to do, and we wanted to try out several selling platforms, like Desura and IndieGameStand; and compare them to the only market we knew until then - the AppStore from Apple."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -1031,8 +977,7 @@
 		"links": ["Entry page", "https://www.ludumdare.com/compo/ludum-dare-20/?action=preview&uid=3663", "PLAY", "https://www.kongregate.com/games/RatKingsLair/tri", "Post mortem", "https://ludumdare.com/compo/2011/05/02/from-compo-to-jam/", "Making of", "https://docs.google.com/document/d/16Xq6NqFltmoH1_LoQ26IExFJdtBc83pq_7O6FsECpFE/edit?usp=sharing"],
 		"videos": ["Walkthrough", "https://www.youtube.com/watch?v=ut8rHBK_Jyk"],
 		"tags": "jam entry, 3D, Unity, Ludum Dare",
-		"description": "\"Tri\" is another Unity game I made for a contest.\n\nAt the end of April 2011, the [Ludum Dare](https://www.ludumdare.com/compo) 20 began - and I was ready to make a game from scratch in (less than) 48 hours. The theme that got the most votes from the community was \"It's Dangerous to go Alone. Take this!\", a [famous quote from the original \"Legend of Zelda\"](https://knowyourmeme.com/memes/its-dangerous-to-go-alone-take-this).\n\nTo be honest, I had the idea for my game the night before the contest started (and the theme was revealed), which was 4 o'clock in the morning in my timezone. So I was kind of lucky my idea more or less fit the theme when I woke up, as I don't think I would have finished the game if I first had to come up with a core gameplay.\n\nNow, \"Tri\" is a puzzle game inspired by \"Portal\", where you have to think your way through the environment (instead of just shooting bullets into enemies). \"Tri\" uses ego perspective and the normal shooter control layout, but gives you only one weapon - the \"Tri Force Field Generator Gun\" (the name is an oh so clever reference to the \"Zelda\" games). With this gun, you can shoot three force field generators which will stick to the grey surfaces. If you place the generators correctly, a force field with the shape of a triangle will appear. As you can walk on this force field, it is a device to create platforms to reach places too high or far away.\n\nThere also are laser rays which you can reflect with your force fields, so you can redirect them and therefore activate or destroy certain obstacles. There are no limitations of how much triangles you can create, therefore the game is a little bit easy - on the other side it's great fun to build as much force fields as you can, so why restricting the player here?\n\nAfter the event I chose to put the game from the normal \"Compo\" into the \"Jam\" (which is the same contest, but with relaxed rules and no chance to get voted for), as I used some code from the [Unify Wiki](https://www.unifycommunity.com/wiki/index.php?title=Main_Page) for the first person controller. (The inbuilt controller had a gameplay-breaking bug.) I wrote the majority of the gamelogic by myself, nonetheless. Complying with the rules, I did everything else, too - graphics, sound effects (with [bfxr](https://www.bfxr.net/) and music. The music was made by clicking randomly in [inudge](https://inudge.net/) an hour or so before deadline.\n\n\"Tri\" was mentioned with a screenshot right in the [official result announcement](https://www.ludumdare.com/compo/2011/05/23/ludum-dare-20-results/)!",
-		"obsolete": false
+		"description": "\"Tri\" is another Unity game I made for a contest.\n\nAt the end of April 2011, the [Ludum Dare](https://www.ludumdare.com/compo) 20 began - and I was ready to make a game from scratch in (less than) 48 hours. The theme that got the most votes from the community was \"It's Dangerous to go Alone. Take this!\", a [famous quote from the original \"Legend of Zelda\"](https://knowyourmeme.com/memes/its-dangerous-to-go-alone-take-this).\n\nTo be honest, I had the idea for my game the night before the contest started (and the theme was revealed), which was 4 o'clock in the morning in my timezone. So I was kind of lucky my idea more or less fit the theme when I woke up, as I don't think I would have finished the game if I first had to come up with a core gameplay.\n\nNow, \"Tri\" is a puzzle game inspired by \"Portal\", where you have to think your way through the environment (instead of just shooting bullets into enemies). \"Tri\" uses ego perspective and the normal shooter control layout, but gives you only one weapon - the \"Tri Force Field Generator Gun\" (the name is an oh so clever reference to the \"Zelda\" games). With this gun, you can shoot three force field generators which will stick to the grey surfaces. If you place the generators correctly, a force field with the shape of a triangle will appear. As you can walk on this force field, it is a device to create platforms to reach places too high or far away.\n\nThere also are laser rays which you can reflect with your force fields, so you can redirect them and therefore activate or destroy certain obstacles. There are no limitations of how much triangles you can create, therefore the game is a little bit easy - on the other side it's great fun to build as much force fields as you can, so why restricting the player here?\n\nAfter the event I chose to put the game from the normal \"Compo\" into the \"Jam\" (which is the same contest, but with relaxed rules and no chance to get voted for), as I used some code from the [Unify Wiki](https://www.unifycommunity.com/wiki/index.php?title=Main_Page) for the first person controller. (The inbuilt controller had a gameplay-breaking bug.) I wrote the majority of the gamelogic by myself, nonetheless. Complying with the rules, I did everything else, too - graphics, sound effects (with [bfxr](https://www.bfxr.net/) and music. The music was made by clicking randomly in [inudge](https://inudge.net/) an hour or so before deadline.\n\n\"Tri\" was mentioned with a screenshot right in the [official result announcement](https://www.ludumdare.com/compo/2011/05/23/ludum-dare-20-results/)!"
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -1046,8 +991,7 @@
 		"links": ["PLAY", "https://www.ratking.de/games/pitman/index.html", "Download (Win)", "https://www.ratking.de/games/pitman/Pitman-Win.7z", "Download (Mac)", "https://www.ratking.de/games/pitman/Pitman-Mac.7z", "Post mortem", "https://docs.google.com/document/d/1sUx7D50sly-jGMRfkxxRH80hJL4fOsdWI9qR7UZA6Vk/edit?usp=sharing"],
 		"videos": ["Trailer", "https://www.youtube.com/watch?v=1iKSeCcRpGM"],
 		"tags": "jam entry, 3D, Unity, 7DRL, Jana Reinhardt",
-		"description": "In March 2011, the seventh [Seven Day Roguelike Challenge](https://roguebasin.roguelikedevelopment.org/index.php/7DRL_Contest_2011) took place. The 7DRLC is a contest without prices where the participants create a game within a week only; of course, the game has to be a roguelike.\n\nIf you don't know what a roguelike is, don't worry - I didn't know much about it before I entered the Challenge, either. You probably can read a definition on [Wikipedia](https://en.wikipedia.org/wiki/Roguelike), but as I was told the main elements are:\n\n* randomness, regarding world generation and gameplay\n* permadeath, which means no savegames and quickload\n* turnbased gameplay, so you have time to think\n\nAs usual, [Jana Reinhardt](https://jana.ratking.de/) and I teamed up and together we made \"Pitman Krumb\". The premise is simple: you play the dwarven protagonist Krumb on a not-so-epic quest for mighty artifacts, collecting a lot of items and fighting against vile monsters. Jana did the graphics (character models, environment textures, decorations, GUI elements) while I used Unity3D for the interactive part. Again, [Kevin MacLeod](https://incompetech.com/) provided us with the music we needed.\n\nMost roguelikes have procedurally generated dungeons and rooms as levels. I was sure I wouldn't compete in this field and tried something different instead: Now in \"Pitman Krumb\" the player has a couple of so-called \"cards\", which is our name for several pre-designed world sections with x*x tiles to walk on (with x in the range of 4 to 8 ). The player can distribute these cards on his journey and create his own dungeon this way. Everytime a new card is placed, new monsters and items also are created. Thus, \"Pitman Krumb\" should remind the player of a board game, which is complemented by the lack of animations and the style of the items (flat tokens on the ground).\n\nThe game generally is a role playing game, so the player can use different weapons, armours, potions and other magic stuff. After slaying enough monsters he can train several skills which make Krumb faster, stronger or more intelligent. At the end of each level a ladder appears which leads the brave Pitman to the next challenge ...\n\nAll Seven Day Roguelike Challengers are winners as soon as they submit a finished game in the given timeframe. But as it is tradition, a Commitee consisting of several members of the roguelike development community [evaluate all entries](https://www.roguetemple.com/7drl/2011/) and give points on categories like \"Completeness\", \"Fun\" and \"Roguelikeness\". Out of 98 participants (46 of them completed their games) we made the seventh place (2.44 points average, with 1 being the worst and 3 the best). This is not too bad for our first roguelike!\n\nWhile Jana posted daily updates of our progress on our [blog on ratking.de](https://www.ratking.de/blog), I used the more or less official website [7drl.org](htto://www.7drl.org) and wrote small articles every day. Here is a list of them, as there isn't anything like this on the site unfortunately:\n\n* [Our first roguelike!](https://7drl.org/2011/02/28/67/)\n* [First day survived](https://7drl.org/2011/03/07/first-day-survived/)\n* [Pitman – second day over](https://7drl.org/2011/03/08/pitman-second-day-over/)\n* [Pitman – third day, still alive](https://7drl.org/2011/03/09/pitman-third-day-still-alive/)\n* [Pitman – after the fourth day](https://7drl.org/2011/03/10/pitman-after-the-fourth-day/)\n* [Pitman – only two days left](https://7drl.org/2011/03/11/pitman-only-two-days-left/)\n* [Pitman – the last day approaches](https://7drl.org/2011/03/12/pitman-the-last-day-approaches/)\n* [Pitman – last day, and finished!](https://7drl.org/2011/03/13/pitman-last-day-and-finished/)\n* [Pitman – After-Challenge Update](https://7drl.org/2011/03/21/pitman-after-challenge-update/)",
-		"obsolete": false
+		"description": "In March 2011, the seventh [Seven Day Roguelike Challenge](https://roguebasin.roguelikedevelopment.org/index.php/7DRL_Contest_2011) took place. The 7DRLC is a contest without prices where the participants create a game within a week only; of course, the game has to be a roguelike.\n\nIf you don't know what a roguelike is, don't worry - I didn't know much about it before I entered the Challenge, either. You probably can read a definition on [Wikipedia](https://en.wikipedia.org/wiki/Roguelike), but as I was told the main elements are:\n\n* randomness, regarding world generation and gameplay\n* permadeath, which means no savegames and quickload\n* turnbased gameplay, so you have time to think\n\nAs usual, [Jana Reinhardt](https://jana.ratking.de/) and I teamed up and together we made \"Pitman Krumb\". The premise is simple: you play the dwarven protagonist Krumb on a not-so-epic quest for mighty artifacts, collecting a lot of items and fighting against vile monsters. Jana did the graphics (character models, environment textures, decorations, GUI elements) while I used Unity3D for the interactive part. Again, [Kevin MacLeod](https://incompetech.com/) provided us with the music we needed.\n\nMost roguelikes have procedurally generated dungeons and rooms as levels. I was sure I wouldn't compete in this field and tried something different instead: Now in \"Pitman Krumb\" the player has a couple of so-called \"cards\", which is our name for several pre-designed world sections with x*x tiles to walk on (with x in the range of 4 to 8 ). The player can distribute these cards on his journey and create his own dungeon this way. Everytime a new card is placed, new monsters and items also are created. Thus, \"Pitman Krumb\" should remind the player of a board game, which is complemented by the lack of animations and the style of the items (flat tokens on the ground).\n\nThe game generally is a role playing game, so the player can use different weapons, armours, potions and other magic stuff. After slaying enough monsters he can train several skills which make Krumb faster, stronger or more intelligent. At the end of each level a ladder appears which leads the brave Pitman to the next challenge ...\n\nAll Seven Day Roguelike Challengers are winners as soon as they submit a finished game in the given timeframe. But as it is tradition, a Commitee consisting of several members of the roguelike development community [evaluate all entries](https://www.roguetemple.com/7drl/2011/) and give points on categories like \"Completeness\", \"Fun\" and \"Roguelikeness\". Out of 98 participants (46 of them completed their games) we made the seventh place (2.44 points average, with 1 being the worst and 3 the best). This is not too bad for our first roguelike!\n\nWhile Jana posted daily updates of our progress on our [blog on ratking.de](https://www.ratking.de/blog), I used the more or less official website [7drl.org](htto://www.7drl.org) and wrote small articles every day. Here is a list of them, as there isn't anything like this on the site unfortunately:\n\n* [Our first roguelike!](https://7drl.org/2011/02/28/67/)\n* [First day survived](https://7drl.org/2011/03/07/first-day-survived/)\n* [Pitman – second day over](https://7drl.org/2011/03/08/pitman-second-day-over/)\n* [Pitman – third day, still alive](https://7drl.org/2011/03/09/pitman-third-day-still-alive/)\n* [Pitman – after the fourth day](https://7drl.org/2011/03/10/pitman-after-the-fourth-day/)\n* [Pitman – only two days left](https://7drl.org/2011/03/11/pitman-only-two-days-left/)\n* [Pitman – the last day approaches](https://7drl.org/2011/03/12/pitman-the-last-day-approaches/)\n* [Pitman – last day, and finished!](https://7drl.org/2011/03/13/pitman-last-day-and-finished/)\n* [Pitman – After-Challenge Update](https://7drl.org/2011/03/21/pitman-after-challenge-update/)"
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -1061,8 +1005,7 @@
 		"links": ["Entry page", "https://www.ludumdare.com/compo/minild-23/?action=preview&uid=3663", "PLAY (deprecated)", "https://fholio.de/things/jams/miniLD23/1930final.html"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=6zwJsdj1rTU"],
 		"tags": "jam entry, 3D, Unity, Ludum Dare, Mini Ludum Dare",
-		"description": "\"1930\" was made with Unity for the [Mini Ludum Dare #23](https://ludumdare.com/compo/minild-23/) on Sunday, January 23rd 2011. The theme was \"The name of the game must be a year\", with subtheme \"Spring physics\". I mostly ignored the subtheme, but I think I was pretty good at that year-thing.\n\nI created the concept, wrote the code (in C#) and modelled the level. [Jana Reinhardt](https://jana.ratking.de/) created the 3D model for the gorilla. The music was downloaded from [Kevin MacLeod's site](https://incompetech.com/m/c/royalty-free/licenses/). The piece is called \"Spazzmatica Polka\" and perfectly fits the colors I've chosen.\n\nIt's a singleplayer game, where you have to memorize a path from one blue building to another. The path is presented at the start of each level, and can contain gaps which you have overcome with a long jump.\n\n\"1930\" has only 8 levels, as development time was pretty short (ca. 12 hours) and I really lost motivation at the end of the day. You can play the game [here](https://fholio.de/things/jams/miniLD23/1930final.html). If you rather want to watch than play, [Vimeo](https://www.vimeo.com/19330961) has a video walkthrough.\n",
-		"obsolete": false
+		"description": "\"1930\" was made with Unity for the [Mini Ludum Dare #23](https://ludumdare.com/compo/minild-23/) on Sunday, January 23rd 2011. The theme was \"The name of the game must be a year\", with subtheme \"Spring physics\". I mostly ignored the subtheme, but I think I was pretty good at that year-thing.\n\nI created the concept, wrote the code (in C#) and modelled the level. [Jana Reinhardt](https://jana.ratking.de/) created the 3D model for the gorilla. The music was downloaded from [Kevin MacLeod's site](https://incompetech.com/m/c/royalty-free/licenses/). The piece is called \"Spazzmatica Polka\" and perfectly fits the colors I've chosen.\n\nIt's a singleplayer game, where you have to memorize a path from one blue building to another. The path is presented at the start of each level, and can contain gaps which you have overcome with a long jump.\n\n\"1930\" has only 8 levels, as development time was pretty short (ca. 12 hours) and I really lost motivation at the end of the day. You can play the game [here](https://fholio.de/things/jams/miniLD23/1930final.html). If you rather want to watch than play, [Vimeo](https://www.vimeo.com/19330961) has a video walkthrough.\n"
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -1076,8 +1019,7 @@
 		"links": ["Indie DB", "https://www.indiedb.com/games/karoshi"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=nbSGIa21dVY"],
 		"tags": "jam entry, 3D, multiplayer, Unity, ZFX Action, Jana Reinhardt",
-		"description": "*(Karoshi = death from overwork)*\n\nThe German board for (hobby) programmers and game developers [ZFX](https://www.zfx.info/) hosted the ZFX Action III. The ZFX Actions are gamedev contests with loose terms; for the third instance, the goal was create a (mini) puzzle and/or strategy game within 2 months (September and October 2010).\n\n[Jana Reinhardt](https://www.schwarzisteinefarbe.de/) and I decided in the midst of September to do an entry. We went for the two themes \"chocolate\" and \"bureaucracy\" (there were four for choosing - the other two were \"storm\" and \"oil\"), and immediately began the work on \"Karoshi!\", a multiplayer-only strategy game in the style of \"Dungeon Keeper\" (great game BTW).\n\nThe core gameplay is simple: Build an office, recruit employees, and destroy the desk of the adversary company boss. To do so, train your employees (which are interns at the beginning) to be mobbers and vandals. Mobbers hurt other people while vandals attack furniture.\n\nIn order to generate money you have to place desks and chairs (thus creating office space) and give your employees tasks. To reduce the time an employee needs to complete these tasks you can train him to be a geek.\n\nTraining is done at copiers. Another type of furniture you can buy is the plant. You use it to delegate your minions and let them patrol from location to location.\n\nEmployees which were attacked by interns or mobbers have to heal themselves on vending machines with chocolate bars. Initially we wanted to implement coffee machines, but this way we could serve the theme \"chocolate\".\n\nWe wrote the concept by creating one single text document which was edited by each of us several times while the contest lasted. We chose Unity as the game engine, as Jana created her diploma project [Ketonauts](https://www.schwarzisteinefarbe.de/diplom/) with it. It soon became apparent that is a reliable tool for prototyping and easy to use. And it has a free version!\n\nI programmed the game logic in C#, while Jana made the 3D models and textures of nearly everything you see in the game. Only the floor of the level is my contribution to the look, as it is generated on run-time and uses a simple texture atlas.\n\nA big portion of the time was spent on the GUI. It was very extensive this time although Unity's GUI system isn't the best; but now it automatically rescales to look good with every resolution. The second biggest hassle was the multiplayer functionality. Although I had experiences with RakNet from former projects (e.g. \"Omertà\") this is something I never mastered. As this was a hobby project I decided to give every client the control of its own logic (movement of minions and such), which is very prone to hacks/cheats and should never be done at home, kids!\n\nAll in all \"Karoshi!\" is the most complete game Jana and I ever did together, and it was part of the motivation to actually found [Rat King Entertainment](https://www.ratking.de/), our own gamedev studio. By the way, the music of Karoshi! was made by [Kevin MacLeod](https://www.incompetech.com/).\n\nYou can find more pictures of the development progress in this [Dropbox gallery](https://www.dropbox.com/gallery/10650964/1/10_10_karoshi?h=7d3430). And watch a gameplay video on [YouTube](https://www.youtube.com/watch?v=nbSGIa21dVY) or [Vimeo](https://www.vimeo.com/20196290), if you don't have somebody to play with.\n",
-		"obsolete": false
+		"description": "*(Karoshi = death from overwork)*\n\nThe German board for (hobby) programmers and game developers [ZFX](https://www.zfx.info/) hosted the ZFX Action III. The ZFX Actions are gamedev contests with loose terms; for the third instance, the goal was create a (mini) puzzle and/or strategy game within 2 months (September and October 2010).\n\n[Jana Reinhardt](https://www.schwarzisteinefarbe.de/) and I decided in the midst of September to do an entry. We went for the two themes \"chocolate\" and \"bureaucracy\" (there were four for choosing - the other two were \"storm\" and \"oil\"), and immediately began the work on \"Karoshi!\", a multiplayer-only strategy game in the style of \"Dungeon Keeper\" (great game BTW).\n\nThe core gameplay is simple: Build an office, recruit employees, and destroy the desk of the adversary company boss. To do so, train your employees (which are interns at the beginning) to be mobbers and vandals. Mobbers hurt other people while vandals attack furniture.\n\nIn order to generate money you have to place desks and chairs (thus creating office space) and give your employees tasks. To reduce the time an employee needs to complete these tasks you can train him to be a geek.\n\nTraining is done at copiers. Another type of furniture you can buy is the plant. You use it to delegate your minions and let them patrol from location to location.\n\nEmployees which were attacked by interns or mobbers have to heal themselves on vending machines with chocolate bars. Initially we wanted to implement coffee machines, but this way we could serve the theme \"chocolate\".\n\nWe wrote the concept by creating one single text document which was edited by each of us several times while the contest lasted. We chose Unity as the game engine, as Jana created her diploma project [Ketonauts](https://www.schwarzisteinefarbe.de/diplom/) with it. It soon became apparent that is a reliable tool for prototyping and easy to use. And it has a free version!\n\nI programmed the game logic in C#, while Jana made the 3D models and textures of nearly everything you see in the game. Only the floor of the level is my contribution to the look, as it is generated on run-time and uses a simple texture atlas.\n\nA big portion of the time was spent on the GUI. It was very extensive this time although Unity's GUI system isn't the best; but now it automatically rescales to look good with every resolution. The second biggest hassle was the multiplayer functionality. Although I had experiences with RakNet from former projects (e.g. \"Omertà\") this is something I never mastered. As this was a hobby project I decided to give every client the control of its own logic (movement of minions and such), which is very prone to hacks/cheats and should never be done at home, kids!\n\nAll in all \"Karoshi!\" is the most complete game Jana and I ever did together, and it was part of the motivation to actually found [Rat King Entertainment](https://www.ratking.de/), our own gamedev studio. By the way, the music of Karoshi! was made by [Kevin MacLeod](https://www.incompetech.com/).\n\nYou can find more pictures of the development progress in this [Dropbox gallery](https://www.dropbox.com/gallery/10650964/1/10_10_karoshi?h=7d3430). And watch a gameplay video on [YouTube](https://www.youtube.com/watch?v=nbSGIa21dVY) or [Vimeo](https://www.vimeo.com/20196290), if you don't have somebody to play with.\n"
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -1091,8 +1033,7 @@
 		"links": ["PLAY", "https://fholio.de/things/jams/Devmania2010/WebPlayer/index.html", "Download (Win)", "https://fholio.de/things/jams/Devmania2010/MoonLaserDuo.rar"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=T9tGHippezs"],
 		"tags": "jam entry, Devmania, multiplayer, 3D, Unity, Björn Grunewald",
-		"description": "For some years I regularly visited the [Devmania](https://twitter.com/devmanianet) (formerly known as Dusmania), an annual meeting of enthusiastic hobby game developers. One of the highlights of this event was the overnight contest, where people create small games over the night (as the meeting takes place over two days). 2010 was the first year I also participated in this contest.\n\nThe theme this time was \"Mondschein\" (moonshine).\n\nThe whole night, from October 2nd to October 3rd, I worked on \"Moon Laser Duo\", together with [Björn Grunewald](https://cargocollective.com/bgrunewald), a former co-student.\n\nAfter I thought of a concept I started Unity - and was unable to do anything for some hours. It was pretty late when the idea which was formulated at the beginning (it consisted of a human and vampire walking on a planet, trying to catch each other) got better and stimulated me to actually write the game logic. While I hacked some code into Visual C# Express Edition, Björn created the graphics in 3dsmax.\n\nAll in all it was worth it - we made first place!\n\n\"Moon Laser Duo\" now is a simple coop multiplayer game for two people at the same computer with splitscreen.\n\nYou and your partner control two little astronauts on a moon who have a laser between them. The laser destroys the aliens which constantly spawn and try to kill you. If you and your friend are too far from each other the laser will diminish and eventually vanish. So you have to stick together to eliminate as many aliens as possible and therefore get a high score.\n\nThe music was downloaded at [RKO](https://remix.kwed.org/). It's \"Moon Patrol (v3 Edit)\" by [Doron Deutsch](https://www.myspace.com/dorondeutsch).\n\nWatch the video above, or even better, download the game [from Dropbox](https://fholio.de/things/jams/Devmania2010/MoonLaserDuo.rar) (RAR format, 7.03 MiB). Be aware that this is the contest version, so bugs may exist, and the gameplay is unbalanced.",
-		"obsolete": false
+		"description": "For some years I regularly visited the [Devmania](https://twitter.com/devmanianet) (formerly known as Dusmania), an annual meeting of enthusiastic hobby game developers. One of the highlights of this event was the overnight contest, where people create small games over the night (as the meeting takes place over two days). 2010 was the first year I also participated in this contest.\n\nThe theme this time was \"Mondschein\" (moonshine).\n\nThe whole night, from October 2nd to October 3rd, I worked on \"Moon Laser Duo\", together with [Björn Grunewald](https://cargocollective.com/bgrunewald), a former co-student.\n\nAfter I thought of a concept I started Unity - and was unable to do anything for some hours. It was pretty late when the idea which was formulated at the beginning (it consisted of a human and vampire walking on a planet, trying to catch each other) got better and stimulated me to actually write the game logic. While I hacked some code into Visual C# Express Edition, Björn created the graphics in 3dsmax.\n\nAll in all it was worth it - we made first place!\n\n\"Moon Laser Duo\" now is a simple coop multiplayer game for two people at the same computer with splitscreen.\n\nYou and your partner control two little astronauts on a moon who have a laser between them. The laser destroys the aliens which constantly spawn and try to kill you. If you and your friend are too far from each other the laser will diminish and eventually vanish. So you have to stick together to eliminate as many aliens as possible and therefore get a high score.\n\nThe music was downloaded at [RKO](https://remix.kwed.org/). It's \"Moon Patrol (v3 Edit)\" by [Doron Deutsch](https://www.myspace.com/dorondeutsch).\n\nWatch the video above, or even better, download the game [from Dropbox](https://fholio.de/things/jams/Devmania2010/MoonLaserDuo.rar) (RAR format, 7.03 MiB). Be aware that this is the contest version, so bugs may exist, and the gameplay is unbalanced."
 	}, {
 		"category": "University project",
 		"important": true,
@@ -1106,8 +1047,7 @@
 		"links": [],
 		"videos": ["Presentation slides", "https://www.youtube.com/watch?v=WSBeHVOyeuY", "Editor", "https://www.youtube.com/watch?v=By7zkPphVRc", "Intro + Menu", "https://www.youtube.com/watch?v=2DasTo_Y0WY", "Gameplay", "https://www.youtube.com/watch?v=VI-h_POV5eY"],
 		"tags": "prototype, 3D, OGRE3D, Flash, C++, university, 3dsmax, Photoshop, Ludwig Hanisch, Paul Hanisch",
-		"description": "## Hals über Kopf\n\nFrom July 2009 to July 2010 I worked on my diploma project. I wrote my thesis from October to January - within it, I explained how to design computer games (especially gameplay, interface, story, sound, leveldesign and physics), but also created a design document (with gameplay and story elements) for the game which then would be the practical part of my diploma.\n\nThe rest of the time, until the beginning of June 2010, was solely reserved for programming, scripting, creating the art assets (characters, level geometry, plants, enemies, etc.), animating and texturing, and writing some kind of documentation of this whole process. In June, I also had to prepare the final presentation.\n\nThe supervising tutors for this diploma were Professor Bernd Hanisch and Designer Daniel Ackermann.\n\nWhile creating the game, which I called \"Dynamikon\" in the beginning, I learned that I had to make a scene editor for it. So I programmed \"Overhead\", my own little 3D level editor. It mainly does what other editors do: let you build scenes out of pre-modelled 3D meshes. You can move, scale and rotate every mesh, but also give them mass, friction, a collision shape, etc. \"Overhead\" was built with a physics engine's needs in mind.\n\nBut I specifically programmed my own editor because of the special gameplay elements of my game. You can create dummy objects, called \"points\" in the editor, which serve as spawning points, waypoints and holders of lights, sounds and particle effects. Moreover, I implemented so called \"Black Holes\", which manipulate the individual gravity of objects and the player. The leveldesigner can build areas with spherical or even cylindrical gravity. The \"holes\" also may have trigger functionalities, so scripts can be called as soon as the player enters or leaves them.\n\nIn the end, I named the game \"Hals über Kopf\", which literally means \"Neck over Head\". A better translation would be \"Head over Heels\" or \"In a Mad Rush\". It became more of a platformer than I originally intended.\n\nThe background story of the game revolves around a planet which exploded centuries ago. The main reason for this catastrophe are strange plants which change the law of physics wherever they grow. Thus the world now consists of floating rocks and other stuff. But most people survived. They still live on the large chunks of earth and stone and most of them got used to the new situation. For example, in the course of the Industrial Age, some even equipped flying rocks with steam engines and propellers, so the boulders can be used as flying islands.\n\nThe player takes the role of a nobleman who lost all his wealth. In order to make a living he had to sign on a flying ship and do some smaller jobs, like cleaning the toilets. But of course, there are greater adventures ahead.\n\nThe gameplay consists of three main power-ups:\n\n* With the fruit of the Timestop Plant, you can stop the time and use frozen objects as platforms.\n* As soon as you eat from the Dimension Change Plant, you can switch between two parallel worlds.\n* When you throw the seed of the Gravitation Portal Plant, a portal gets created. If you enter it, your personal gravitation direction will change.\n\nFor the prototype I realised one level which included all three power-ups, so it was for presentation purposes only.\n\nThe game was created with OGRE, OIS, Bullet, FMOD Ex, Hikari, MOC, Lua, luabind. Programs used: Visual C++ 2008 Express, 3ds Max 2010, Photoshop, Flash, FlashDevelop, Audacity. I sincerely want to thank all people who created these libraries and applications.\n\nI am also very grateful that my brothers Ludwig and Johannes-Paul composed and arranged the music and made some of the sound effects.\n\nFor some time I regularly updated a [development blog](https://www.fholio.de/archive/sids/). It's written in German, but also contains a lot of pictures - just click on \"Screenshots\" or \"Skizzen\".",
-		"obsolete": false
+		"description": "## Hals über Kopf\n\nFrom July 2009 to July 2010 I worked on my diploma project. I wrote my thesis from October to January - within it, I explained how to design computer games (especially gameplay, interface, story, sound, leveldesign and physics), but also created a design document (with gameplay and story elements) for the game which then would be the practical part of my diploma.\n\nThe rest of the time, until the beginning of June 2010, was solely reserved for programming, scripting, creating the art assets (characters, level geometry, plants, enemies, etc.), animating and texturing, and writing some kind of documentation of this whole process. In June, I also had to prepare the final presentation.\n\nThe supervising tutors for this diploma were Professor Bernd Hanisch and Designer Daniel Ackermann.\n\nWhile creating the game, which I called \"Dynamikon\" in the beginning, I learned that I had to make a scene editor for it. So I programmed \"Overhead\", my own little 3D level editor. It mainly does what other editors do: let you build scenes out of pre-modelled 3D meshes. You can move, scale and rotate every mesh, but also give them mass, friction, a collision shape, etc. \"Overhead\" was built with a physics engine's needs in mind.\n\nBut I specifically programmed my own editor because of the special gameplay elements of my game. You can create dummy objects, called \"points\" in the editor, which serve as spawning points, waypoints and holders of lights, sounds and particle effects. Moreover, I implemented so called \"Black Holes\", which manipulate the individual gravity of objects and the player. The leveldesigner can build areas with spherical or even cylindrical gravity. The \"holes\" also may have trigger functionalities, so scripts can be called as soon as the player enters or leaves them.\n\nIn the end, I named the game \"Hals über Kopf\", which literally means \"Neck over Head\". A better translation would be \"Head over Heels\" or \"In a Mad Rush\". It became more of a platformer than I originally intended.\n\nThe background story of the game revolves around a planet which exploded centuries ago. The main reason for this catastrophe are strange plants which change the law of physics wherever they grow. Thus the world now consists of floating rocks and other stuff. But most people survived. They still live on the large chunks of earth and stone and most of them got used to the new situation. For example, in the course of the Industrial Age, some even equipped flying rocks with steam engines and propellers, so the boulders can be used as flying islands.\n\nThe player takes the role of a nobleman who lost all his wealth. In order to make a living he had to sign on a flying ship and do some smaller jobs, like cleaning the toilets. But of course, there are greater adventures ahead.\n\nThe gameplay consists of three main power-ups:\n\n* With the fruit of the Timestop Plant, you can stop the time and use frozen objects as platforms.\n* As soon as you eat from the Dimension Change Plant, you can switch between two parallel worlds.\n* When you throw the seed of the Gravitation Portal Plant, a portal gets created. If you enter it, your personal gravitation direction will change.\n\nFor the prototype I realised one level which included all three power-ups, so it was for presentation purposes only.\n\nThe game was created with OGRE, OIS, Bullet, FMOD Ex, Hikari, MOC, Lua, luabind. Programs used: Visual C++ 2008 Express, 3ds Max 2010, Photoshop, Flash, FlashDevelop, Audacity. I sincerely want to thank all people who created these libraries and applications.\n\nI am also very grateful that my brothers Ludwig and Johannes-Paul composed and arranged the music and made some of the sound effects.\n\nFor some time I regularly updated a [development blog](https://www.fholio.de/archive/sids/). It's written in German, but also contains a lot of pictures - just click on \"Screenshots\" or \"Skizzen\"."
 	}, {
 		"category": "University project",
 		"important": false,
@@ -1121,8 +1061,7 @@
 		"links": [],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=lPrC1i-suBc"],
 		"tags": "prototype, 3D, multiplayer, OGRE3D, C++, university, 3dsmax, Photoshop, Jana Reinhardt, Ludwig Hanisch, Paul Hanisch",
-		"description": "## Über Leben und Sterben\n\nLike \"Omertà\", \"About Life And Death\" was a semester project for my university which didn't follow any projects offered by the professors. Luckily, Professor Bernd Hanisch allowed us (i.e. \"SONEN HALS\", which still only consisted of [Jana](https://jana.ratking.de) and me) to make another computergame prototype in 2008.\n\nBut because this time we wanted to make a game, not just a prototype, we reduced our requirements: one small indoor level, two characters at the same time, more realistic graphics, less gameplay. At the beginning, we thought of a beat'em'up, but after testing some rather old games on the PSX (and failing at the controls) we decided to change that concept to what now is a two-player-deathmatch-multiplayer-game.\n\nAgain, Jana mainly did the graphical stuff. Although I made the level mesh, its true beauty comes from Janas textures, lightmaps and botanical prefabs. She also created two characters, the Huntress and the Prey, from concept to model. I did the same with the second, \"strong\" form of the Prey (see below). I also programmed the prototype by using OGRE as 3D-engine, Bullet for physics/collision and FMOD Ex for music. Of course, RakNet was used for the networking things. This time, I used Visual C++ 2008 Express Edition as IDE, which produced some problems of its own ...\n\nOther programs we utilised: 3D Studio Max 8 and 9, Photoshop, Audacity, Z-Brush, UVLayout.\n\nThe gameplay is easy: try to get rid of your opponent. \"About Life and Death\" uses the classic controls like any ego-shooter, so not much to say here. It gets interesting when you play the part of the Prey, as you will have to be more defensive: instead of shooting on sight, you'll have to create traps to confuse the Huntress and use your morphing abilities to make yourself stronger.",
-		"obsolete": false
+		"description": "## Über Leben und Sterben\n\nLike \"Omertà\", \"About Life And Death\" was a semester project for my university which didn't follow any projects offered by the professors. Luckily, Professor Bernd Hanisch allowed us (i.e. \"SONEN HALS\", which still only consisted of [Jana](https://jana.ratking.de) and me) to make another computergame prototype in 2008.\n\nBut because this time we wanted to make a game, not just a prototype, we reduced our requirements: one small indoor level, two characters at the same time, more realistic graphics, less gameplay. At the beginning, we thought of a beat'em'up, but after testing some rather old games on the PSX (and failing at the controls) we decided to change that concept to what now is a two-player-deathmatch-multiplayer-game.\n\nAgain, Jana mainly did the graphical stuff. Although I made the level mesh, its true beauty comes from Janas textures, lightmaps and botanical prefabs. She also created two characters, the Huntress and the Prey, from concept to model. I did the same with the second, \"strong\" form of the Prey (see below). I also programmed the prototype by using OGRE as 3D-engine, Bullet for physics/collision and FMOD Ex for music. Of course, RakNet was used for the networking things. This time, I used Visual C++ 2008 Express Edition as IDE, which produced some problems of its own ...\n\nOther programs we utilised: 3D Studio Max 8 and 9, Photoshop, Audacity, Z-Brush, UVLayout.\n\nThe gameplay is easy: try to get rid of your opponent. \"About Life and Death\" uses the classic controls like any ego-shooter, so not much to say here. It gets interesting when you play the part of the Prey, as you will have to be more defensive: instead of shooting on sight, you'll have to create traps to confuse the Huntress and use your morphing abilities to make yourself stronger."
 	}, {
 		"category": "University project",
 		"important": false,
@@ -1136,8 +1075,7 @@
 		"links": [],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=Zyb9Xu28osw", "Level", "https://www.youtube.com/watch?v=IenBipOsz6M", "Followers", "https://www.youtube.com/watch?v=Piw9_fRGfcw"],
 		"tags": "prototype, 3D, multiplayer, Irrlicht, C++, university, 3dsmax, Photoshop, Jana Reinhardt, Paul Hanisch, Ludwig Hanisch",
-		"description": "## Omertà - Schweigen ist Gold\n\nRight before the Games Convention 2007, Jana Reinhardt and I decided to do our own university semester project, because the ones offered by the professors weren't to our liking. Again, after \"Faszination des Bösen\" and \"Mummenschanz\", we chose to make a computergame, this time together.\n\nThus, we created a virtual developer label: \"SONEN HALS\". We called our game \"Omertà\", because we love movies about the mafia.\n\nOne of the many good things of this project was that we could split the tasks easily. Jana made all the prefabs (models, textures), while I coded the prototype and designed the map. We both created three characters (models, textures, rig, animations) and, of course, the concept. The whole thing is worth around five months of work.\n\nOur tools of choice were, among others, Photoshop, 3D Studio Max 8, Code::Blocks, Irrlicht, RakNet and Lua.\n\nThe gameplay of \"Omertà\" mainly consists of recruiting neutral NPCs so they steal, fight and spy for you. Your enemy doesn't know which NPCs on the map are yours and you don't know anything about him, either. As soon as your army is big enough, you should seek the boss of your opponent and attack him. Of course, he plans the same. \"Omertà\" is a genre mix, with RTS and RPG elements.",
-		"obsolete": false
+		"description": "## Omertà - Schweigen ist Gold\n\nRight before the Games Convention 2007, Jana Reinhardt and I decided to do our own university semester project, because the ones offered by the professors weren't to our liking. Again, after \"Faszination des Bösen\" and \"Mummenschanz\", we chose to make a computergame, this time together.\n\nThus, we created a virtual developer label: \"SONEN HALS\". We called our game \"Omertà\", because we love movies about the mafia.\n\nOne of the many good things of this project was that we could split the tasks easily. Jana made all the prefabs (models, textures), while I coded the prototype and designed the map. We both created three characters (models, textures, rig, animations) and, of course, the concept. The whole thing is worth around five months of work.\n\nOur tools of choice were, among others, Photoshop, 3D Studio Max 8, Code::Blocks, Irrlicht, RakNet and Lua.\n\nThe gameplay of \"Omertà\" mainly consists of recruiting neutral NPCs so they steal, fight and spy for you. Your enemy doesn't know which NPCs on the map are yours and you don't know anything about him, either. As soon as your army is big enough, you should seek the boss of your opponent and attack him. Of course, he plans the same. \"Omertà\" is a genre mix, with RTS and RPG elements."
 	}, {
 		"category": "University project",
 		"important": false,
@@ -1151,6 +1089,5 @@
 		"links": [],
 		"videos": ["Exploration", "https://www.youtube.com/watch?v=s3txjOa7kys", "Interaction", "https://www.youtube.com/watch?v=MX2zyq4aKRY", "Upgrading", "https://www.youtube.com/watch?v=KnIiz0Z6dnQ"],
 		"tags": "prototype, 3D, Virtools, university, 3dsmax, Photoshop, Paul Hanisch, Ludwig Hanisch",
-		"description": "## Faszination des Bösen\n\nMade for the summer semester 2007, \"Fascinated By Evil\" tells the story of two very different characters. One of them is Kwai, a mute mercenary, who has to be controlled by the player. His follower is Golem, a cyborg made out of trash with a highly depressive personality. Together they have to solve a crime about murdered goblins.\n\nAs there were only three months for concept and development, the status of the game is 'unfinished - forever'. Having a level for walking through and two or three characters were the goal, so all you can do at this point in my little prototype is asking some little goblins for help and solving one little quest. I used Photoshop, 3D Studio Max and Virtools in order to bring the thing on screen.\n\nBig thanks to my **brothers** for providing me and the prototype with music and speech.",
-		"obsolete": false
+		"description": "## Faszination des Bösen\n\nMade for the summer semester 2007, \"Fascinated By Evil\" tells the story of two very different characters. One of them is Kwai, a mute mercenary, who has to be controlled by the player. His follower is Golem, a cyborg made out of trash with a highly depressive personality. Together they have to solve a crime about murdered goblins.\n\nAs there were only three months for concept and development, the status of the game is 'unfinished - forever'. Having a level for walking through and two or three characters were the goal, so all you can do at this point in my little prototype is asking some little goblins for help and solving one little quest. I used Photoshop, 3D Studio Max and Virtools in order to bring the thing on screen.\n\nBig thanks to my **brothers** for providing me and the prototype with music and speech."
 	}]
