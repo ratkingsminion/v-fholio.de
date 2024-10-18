@@ -60,6 +60,7 @@ struct Linktree {
 		url string
 		target string = "_blank"
 		fav bool
+		rel string
 	}
 	links []struct {
 		title string
@@ -67,6 +68,7 @@ struct Linktree {
 		url string
 		target string = "_blank"
 		fav bool
+		rel string
 	}
 }
 
@@ -261,7 +263,7 @@ fn deploy_all(mut app App) {
 	path := os.abs_path("./publish")
 	if os.exists(path) { os.rmdir_all(path) or { } }
 	os.mkdir(path) or { panic(err) }
-	os.cp_all(assets, path + "/assets", true) or { panic(err) }
+	os.cp_all(assets, "${path}/assets", true) or { panic(err) }
 
 	// create the html file(s)
 
@@ -269,62 +271,78 @@ fn deploy_all(mut app App) {
 	linktrees := app.content.linktrees
 	mut moniker := "home"
 	index_html := $tmpl("html/index.html")
-	os.write_file(path + "/index.html", index_html) or { println(err) }
+	os.write_file("${path}/index.html", index_html) or { println(err) }
 
 	// imprint
 	imprint := app.content.imprint
 	moniker = "imprint"
-	os.mkdir(path + "/imprint") or { panic(err) }
+	os.mkdir("${path}/imprint") or { panic(err) }
 	imprint_html := $tmpl("html/imprint.html")
-	os.write_file(path + "/imprint/index.html", imprint_html) or { println(err) }
+	os.write_file("${path}/imprint/index.html", imprint_html) or { println(err) }
 
 	// log
 	moniker = "log"
 	log := app.content.log
-	os.mkdir(path + "/log") or { panic(err) }
+	os.mkdir("${path}/log") or { panic(err) }
 	mut log_content := get_log_content(mut app, "")
 	mut log_years := app.log_years.keys()
-	log_years.sort(|a, b| a < b)
+	log_years.sort(a > b) // sort high to low
 	mut log_cur_year := ""
 	mut log_warning := if log_content.len == 0 { no_log_entries_warning } else { "" }
 	
 	mut log_html := $tmpl("html/log.html")
-	os.write_file(path + "/log/index.html", log_html) or { println(err) }
+	os.write_file("${path}/log/index.html", log_html) or { println(err) }
 	
 	// log entries by year
 	max_year := time.now().year
-	for year in strconv.atoi(log_years[0]) or { 2018 }..max_year + 1 {
-		log_content = get_log_content(mut app, log_cur_year)
+	for year in strconv.atoi(log_years[log_years.len - 1]) or { 2018 }..max_year + 1 {
+		log_content = get_log_content(mut app, year.str())
 		log_cur_year = year.str()
-		os.mkdir(path + "/log/${log_cur_year}") or { panic(err) }
+		os.mkdir("${path}/log/${log_cur_year}") or { panic(err) }
 
 		log_warning = if log_content.len == 0 { no_log_entries_warning } else { "" }
 
 		log_html = $tmpl("html/log.html")
-		os.write_file(path + "/log/${log_cur_year}/index.html", log_html) or { println(err) }
+		os.write_file("${path}/log/${log_cur_year}/index.html", log_html) or { println(err) }
 	}
 
-	// projects
+	// projects list
 	moniker = "projects"
 	projects := app.content.projects
-	os.mkdir(path + "/projects") or { panic(err) }
+	os.mkdir("${path}/projects") or { panic(err) }
 	projects_pages := (projects.entries.len / projects_entries_per_page) + 1
 	mut projects_cur_page := -1
 	mut projects_entry_start := 0
 	mut projects_entry_end := projects.entries.len
 	mut projects_html := $tmpl("html/projects.html")
-	os.write_file(path + "/projects/index.html", projects_html) or { println(err) }
+	os.write_file("${path}/projects/index.html", projects_html) or { println(err) }
 
-	// project entries by page
+	// projects list by tags
+	all_tags := app.content.projects.tags.keys()
+	all_tags.sort_with_compare(alphanum_compare)
+	projects_cur_page = -2
+	os.mkdir("${path}/projects/tags") or { panic(err) }
+	projects_html = $tmpl("html/projects_tags.html")
+	os.write_file("${path}/projects/tags/index.html", projects_html) or { println(err) }
+
+	// projects list by page
 	moniker = "project"
 	for i := 0; i < projects_pages; i++ {
 		projects_cur_page = i
 		projects_entry_start = projects_entries_per_page * i
 		projects_entry_end = math.min(projects.entries.len, projects_entries_per_page * (i + 1))
-		os.mkdir(path + "/projects/${i + 1}") or { panic(err) }
+		os.mkdir("${path}/projects/${i + 1}") or { panic(err) }
 
 		projects_html = $tmpl("html/projects.html")
-		os.write_file(path + "/projects/${i + 1}/index.html", projects_html) or { println(err) }
+		os.write_file("${path}/projects/${i + 1}/index.html", projects_html) or { println(err) }
+	}
+
+	// all project entries
+	moniker = "project"
+	for project in projects.entries {
+		os.mkdir("${path}/projects/${project.moniker}") or { panic(err) }
+		project_html := $tmpl("html/project.html")
+		os.write_file("${path}/projects/${project.moniker}/index.html", project_html) or { println(err) }
 	}
 }
 
@@ -406,16 +424,9 @@ fn get_log_content(mut app App, year string) []LogEntry {
 		fnl := e.index("\n") or { 0 }
 		log_content << LogEntry{
 			date: e.substr(3, fnl).trim_space()
-			text: e.substr(fnl, max_int).trim_space()
+			text: e.substr(fnl, max_int).trim_space().replace("<", "&lt;").replace(">", "&gt;")
 		}
 	}
-
-	//// put entries in correct year
-	//mut entries_by_year := map[string][]string{}
-	//for e in entries {
-	//	year := e.substr(3, 7)
-	//	entries_by_year[year] << e
-	//}
 
 	return log_content
 }

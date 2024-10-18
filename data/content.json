@@ -10,7 +10,7 @@
 			{
 			"title": "# **Friedrich Hanisch**, game design & scripting",
 			"shortlinks": [
-				{ "title": "Mastodon", "icon": "fa-brands fa-mastodon", "url": "https://mstdn.io/@ratking", "fav": true},
+				{ "title": "Mastodon", "icon": "fa-brands fa-mastodon", "url": "https://mstdn.io/@ratking", "fav": true, "rel": "me"},
 				{ "title": "Discord", "icon": "fa-brands fa-discord", "url": "https://discordapp.com/users/250914321691967489" },
 				{ "title": "Github", "icon": "fa-brands fa-github", "url": "https://github.com/ratkingsminion" },
 				{ "title": "YouTube", "icon": "fa-brands fa-youtube", "url": "https://www.youtube.com/@ratrogue" },
