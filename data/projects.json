@@ -1,6 +1,23 @@
 [{
 		"category": "Jam game",
 		"important": false,
+		"title": "Sokobanban",
+		"moniker": "sokobanban",
+		"short_desc": "Multiplayer PVP Sokoban",
+		"timeframe": "made in a week in May/June 2024",
+		"occasion": "Kajam [#15](https://alakajam.com/15th-kajam/games)",
+		"tools": "C#/Unity",
+		"credits": [],
+		"links": [
+			"PLAY / Download", "https://ratrogue.itch.io/sokobanban",
+			"Entry page", "https://alakajam.com/15th-kajam/1510/sokobanban/"],
+		"videos": [
+			"Gameplay", "https://www.youtube.com/watch?v=bYHFu899c1c"],
+		"tags": "jam entry, 3D, web, Unity, Alakajam, Kajam",
+		"description": "*Move crates quicker than your opponent - or sabotage their effort.*\n\nThe jam had certain limitations as a theme. I only followed the one that restricted graphics to lines only (like those old vector graphics consoles), so I used [ALINE](https://assetstore.unity.com/packages/tools/gui/aline-162772) to draw some TRON-like environments."
+	}, {
+		"category": "Jam game",
+		"important": false,
 		"title": "Dizzy Island Liberator",
 		"moniker": "dizzy-island-liberator",
 		"short_desc": "Top-down rotation shooter",
@@ -10,11 +27,12 @@
 		"credits": [],
 		"links": [
 			"Entry page", "https://alakajam.com/19th-alakajam/1493/dizzy-island-liberator/",
-			"PLAY", "https://ratrogue.itch.io/dizzy-island-liberator"],
+			"Download (Win/Linux)", "https://ratrogue.itch.io/dizzy-island-liberator"],
+			"Source", "https://github.com/ratkingsminion/akj19-floating-islands"
 		"videos": [
 			"Gameplay", "https://www.youtube.com/watch?v=nNVHhoArnpE"],
 		"tags": "jam entry, 2D, Alakajam, Godot, Aseprite",
-		"description": "First time I used Godot for a jam entry.\n\nYou're alone on floating islands. Shoot the enemies and reach the highscore. And yes, the background is transparent (even though on some systems it seems to be black)."
+		"description": "First time I used Godot for a jam entry. I also made almost everything from scratch.\n\nYou're alone on floating islands. Shoot the enemies and reach the highscore. And yes, the background is transparent (even though on some systems it seems to be black)."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -32,7 +50,7 @@
 			"Daniela Müller", "", "sounds"],
 		"links": [
 			"Entry page", "https://itch.io/jam/bpbgamejam-2023/rate/2155410",
-			"Download", "https://ratking.itch.io/abgefahren"],
+			"Download (Win)", "https://ratking.itch.io/abgefahren"]
 		"videos": [
 			"TikTok", "https://www.tiktok.com/@ratkingentertainment/video/7260790651493600539",
             "TikTok", "https://www.tiktok.com/@ratkingentertainment/video/7261888831627087131"],
@@ -48,7 +66,8 @@
 		"occasion": "",
 		"tools": "Unity/C#",
 		"credits": [],
-		"links": ["DOWNLOAD / Buy", "https://ratking.itch.io/connected"],
+		"links": [
+			"DOWNLOAD (WIN) / Buy", "https://ratking.itch.io/connected"],
 		"videos": [],
 		"tags": "commercial, tool, Unity, 2D",
 		"description": "Originally created as an in-game-only tool for [Behind Stars and Under Hills](https://behindstarsandunderhills.com), connected became a stand-alone dialog editor available on itch.io. It features a node-based workflow with correctness check and a test mode. There's a fully functional lite version, but when purchasing the pro edition, users can create their own node types and also save all localisable texts inside a dedicated JSON file."
@@ -62,7 +81,9 @@
 		"occasion": "",
 		"tools": "C#/Unity, Small Basic",
 		"credits": [],
-		"links": ["PLAY / Download", "https://ratrogue.itch.io/games-for-rats", "API docs", "https://docs.google.com/document/d/1ptnWeV2zl2-5o4oWmVv3Gukq_nAduEDBFCTfV7QRl8w/edit"],
+		"links": [
+			"PLAY / Download (Win)", "https://ratrogue.itch.io/games-for-rats",
+			"API docs", "https://docs.google.com/document/d/1ptnWeV2zl2-5o4oWmVv3Gukq_nAduEDBFCTfV7QRl8w/edit"],
 		"videos": [],
 		"tags": "tool, 2D, Unity, Small Basic, One Hour Game Jam, web",
 		"description": "Games for Rats is a fantasy console and a creative coding tool. Its development started as a sequel to [Terrobot](https://fholio.de/terrobot/) and over time it transformed to something completely different. With this I would be able to create low-fi entries for the One Hour Game Jam. You can code your own game/app/thing with Small Basic, which is one of the simplest programming languages existing. Games for Rats uses its own (still incomplete) API."
@@ -75,9 +96,15 @@
 		"timeframe": "made within 48 hours in January and February 2023",
 		"occasion": "Global Game Jam [2023](https://globalgamejam.org/games/2023)",
 		"tools": "C#/Unity, bloed",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "graphics, level design, sounds, additional game design", "Patrick Eckardt", "https://norrimo.itch.io", "music, additional sound effects, additional graphics"],
-		"links": ["Entry page", "https://globalgamejam.org/2023/games/root-666-0", "Download", "https://ratking.itch.io/root666", "Video (Gameplay)", "https://www.youtube.com/watch?v=AcviSew1V1Y", "Video (dev talk)", "https://www.youtube.com/watch?v=lF1tCipW-tI"],
-		"videos": [],
+		"credits": [
+			"Jana Reinhardt", "https://jana.ratking.de", "graphics, level design, sounds, additional game design",
+			"Patrick Eckardt", "https://norrimo.itch.io", "music, additional sound effects, additional graphics"],
+		"links": [
+			"Entry page", "https://globalgamejam.org/2023/games/root-666-0",
+			"Download", "https://ratking.itch.io/root666"],
+		"videos": [
+			"Gameplay", "https://www.youtube.com/watch?v=AcviSew1V1Y",
+			"Dev talk", "https://www.youtube.com/watch?v=lF1tCipW-tI"],
 		"tags": "jam entry, 3D, multiplayer, Unity, Blender, bloed, Global Game Jam, Jana Reinhardt, Patrick Eckardt",
 		"description": "A short and simple Doom-inspired first-person action game. As you only throw screaming mandrake roots and hit enemies with an eye on a stick, it doesn't count as a shooter, but the mechanics basically are there. The enemy AI was created with [SBT](https://github.com/ratkingsminion/simple-behaviour-tree), and the level with bloed."
 	}, {
@@ -90,7 +117,9 @@
 		"occasion": "Kajam [#12](https://alakajam.com/12th-kajam)",
 		"tools": "C#/Unity, bloed, Blender",
 		"credits": [],
-		"links": ["Download", "https://ratrogue.itch.io/holocode", "Entry page", "https://alakajam.com/12th-kajam/1302/holocode/"],
+		"links": [
+			"Download", "https://ratrogue.itch.io/holocode",
+			"Entry page", "https://alakajam.com/12th-kajam/1302/holocode/"],
 		"videos": [],
 		"tags": "jam entry, 3D, Unity, Blender, bloed, Alakajam, Kajam",
 		"description": "Greetings HOLOPERATOR.\n\nPlease HOLOGRAM each HOLOPUTER by entering its HOLOTRIX. Read the instructions inside, and create the needed HOLOCODE with the provided HOLONODES. Afterwards run the HOLOGRAM via the button on the HOLOPUTER. The door to the next challenge will open if your HOLOCODE solves the problem correctly.\n\nIn May 2022 I hosted the 12th Kajam for the Alakajam website, and I chose \"A Game Within A Game\" as theme. While I was disappointed in the low turn-out, I was pretty happy with the [entries](https://alakajam.com/12th-kajam/games)."
@@ -103,8 +132,11 @@
 		"timeframe": "made in March 2022",
 		"occasion": "",
 		"tools": "C#/Unity, Small Basic",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "graphics, additional story writing, additional game design"],
-		"links": ["Downloads", "https://ratking.itch.io/haqr-unsichtbar", "Download (Android)", "https://play.google.com/store/apps/details?id=com.RatKingEntertainment.HaQRUnsichtbar"],
+		"credits": [
+			"Jana Reinhardt", "https://jana.ratking.de", "graphics, additional story writing, additional game design"],
+		"links": [
+			"Downloads", "https://ratking.itch.io/haqr-unsichtbar",
+			"Download (Android)", "https://play.google.com/store/apps/details?id=com.RatKingEntertainment.HaQRUnsichtbar"],
 		"videos": [],
 		"tags": "game, 2D, Unity, mobile, Global Game Jam, Rat King, Jana Reinhardt, Small Basic",
 		"description": "Der unsichtbare Raum is an adventure game from the HAQR series: A thriller which is told using QR codes and a smartphone. The game is an escape room for one person. However, someone else is needed to distribute the QR codes (see instructions) in the room. The player then scans and puzzles his/her way through the story.\n\nThe game's core functionality was [created during the Global Game Jam](https://globalgamejam.org/2022/games/haqr-6).\n"
@@ -117,8 +149,12 @@
 		"timeframe": "made in November 2021 and beyond",
 		"occasion": "for COOLFRIENDS for the 7dfps [2021](https://itch.io/jam/7dfps-2021)",
 		"tools": "C#/Unity, Blender, bloed",
-		"credits": ["Thomas 'voxel' Purnell", "https://pixelsyntax.com", "Level design, textures, additional programming, additional game design"],
-		"links": ["Downloads", "https://coolfriends.itch.io/666-coins", "Blog post", "https://ratrogue.tumblr.com/post/670674781177249792/666-coins", "Entry page (Tournament)", "https://alakajam.com/feedback-fortnight-2021-2/1227/666-coins/"],
+		"credits": [
+			"Thomas 'voxel' Purnell", "https://pixelsyntax.com", "Level design, textures, additional programming, additional game design"],
+		"links": [
+			"Downloads", "https://coolfriends.itch.io/666-coins",
+			"Blog post", "https://ratrogue.tumblr.com/post/670674781177249792/666-coins",
+			"Entry page (Tournament)", "https://alakajam.com/feedback-fortnight-2021-2/1227/666-coins/"],
 		"videos": [],
 		"tags": "game, 3D, Unity, Blender, bloed, 7DFPS, Thomas Purnell, COOLFRIENDS",
 		"description": "You are a thief. Satan Himself appeared before you and gave you the most dangerous job: Walk The Nether, steal 666 coins and the Unholy Crown. Use your wits to gain the loot and get back to the entrance - or your soul will be lost forever!\n\nI was responsible for the game logic and the monster design and modelling. After [COOLFRIENDS](https://coolfriends.itch.io/) created the game for the 7dfps, we also made a tournament version for the [7th Alakajam Tournament](https://alakajam.com/7th-akj-tournament).\n"
@@ -132,7 +168,9 @@
 		"occasion": "Kajam [#11](https://alakajam.com/adventure-kajam) (Adventure Kajam 2021)",
 		"tools": "C#/Unity, Small Basic",
 		"credits": [],
-		"links": ["PLAY", "https://ratrogue.itch.io/last-dream", "Entry page", "https://alakajam.com/adventure-kajam/1212/the-last-dream/"],
+		"links": [
+			"PLAY", "https://ratrogue.itch.io/last-dream",
+			"Entry page", "https://alakajam.com/adventure-kajam/1212/the-last-dream/"],
 		"videos": [],
 		"tags": "jam entry, 2D, web, Unity, Small Basic, Alakajam, Kajam",
 		"description": "This game was a challenge I wanted to do for a long time - combining point & click adventures with text adventures. It's pretty short, as it was mostly meant as a demonstration and maybe as basis for other games using the same tech."
@@ -146,7 +184,9 @@
 		"occasion": "Alakajam [#13](https://alakajam.com/13th-alakajam/games)",
 		"tools": "C#/Unity, bloed, Small Basic, Aseprite",
 		"credits": [],
-		"links": ["Entry page", "https://alakajam.com/13th-alakajam/1167/terrobot/", "PLAY", "https://ratrogue.itch.io/terrobot"],
+		"links": [
+			"Entry page", "https://alakajam.com/13th-alakajam/1167/terrobot/",
+			"PLAY", "https://ratrogue.itch.io/terrobot"],
 		"videos": [],
 		"tags": "jam entry, 3D, web, Alakajam, Unity, bloed, Small Basic, Aseprite",
 		"description": "This jam game uses Small Basic, supported by a modified version of [wixette's interpreter](https://github.com/wixette/isb). Unfortunately there is next to no error handling - so I recommend to only write very simple programs... The end result is far smaller in scope than I wanted - it was originally meant as a full programming game, but due to the time constraints it's more of a proof-of-concept for a puzzle/adventure game with a tiny bit of typing.  It *is* possible to do a bit more sophisticated robot programming, but it's not needed."
@@ -160,7 +200,8 @@
 		"occasion": "Museums Game Jam @ A MAZE [2021](https://2021.amaze-berlin.de/)",
 		"tools": "C#/Unity",
 		"credits": [],
-		"links": ["PLAY", "https://ratrogue.itch.io/alternative-artefacts"],
+		"links": [
+			"PLAY", "https://ratrogue.itch.io/alternative-artefacts"],
 		"videos": [],
 		"tags": "jam entry, 2D, web, Unity, A MAZE, Museums Game Jam",
 		"description": "Alternative Artefacts is a tool for creative writing. It presents you three artefacts, randomly chosen from a collections provided by several museums from Germany. This (hopefully) gives you material for a short story that you can write here and share with other people with only a few clicks."
@@ -174,7 +215,9 @@
 		"occasion": "",
 		"tools": "Unity/C#",
 		"credits": [],
-		"links": ["BUY (itch.io)", "https://ratking.itch.io/bloed", "BUY (Unity Asset Store)", "https://assetstore.unity.com/packages/tools/level-design/bloed-214813"],
+		"links": [
+			"BUY (itch.io)", "https://ratking.itch.io/bloed"
+			"BUY (Unity Asset Store)", "https://assetstore.unity.com/packages/tools/level-design/bloed-214813"],
 		"videos": [],
 		"tags": "commercial, tool, Unity, 3D",
 		"description": "This is a (more or less) simple block-based level editor for Unity. It allows creating geometry by combining 1x1x1 blocks (or \"bloxels\") of different shapes - a bit like Lego. The tool can be extended with your own block models and textures. While bloed is an editor mainly, the bloxel API is usable at run-time too, for procedurally generated content.\n\nIt is meant as a quick prototyping tool for some of our game projects. You can find some projects under the [bloed tag](/../tags/#bloed)."
@@ -188,7 +231,9 @@
 		"occasion": "Kajam [#9](https://alakajam.com/9th-kajam/games)",
 		"tools": "Haxe/Kha, zui",
 		"credits": [],
-		"links": ["Entry page", "https://alakajam.com/9th-kajam/1045/rc-test/", "Post-mortem", "https://ratking.de/blog/2021/02/02/ray-caster-an-experiment/"],
+		"links": [
+			"Entry page", "https://alakajam.com/9th-kajam/1045/rc-test/",
+			"Post-mortem", "https://ratking.de/blog/2021/02/02/ray-caster-an-experiment/"],
 		"videos": [],
 		"tags": "jam entry, 3D, Alakajam, Kajam, Haxe",
 		"description": "I never did a ray-caster before and took this jam as an opportunity to try it out. (I followed the lodev.org tutorial for most things.) It became a sandbox instead of a game, but still kind of interesting because of the infinite level. Maybe I will use this \"engine\" for a later project.\n\nMost of the textures are from [textures.com](https://textures.com)."
@@ -202,7 +247,9 @@
 		"occasion": "",
 		"tools": "Unity/C#",
 		"credits": [],
-		"links": ["Download", "https://ratking.itch.io/texture-processor"],
+		"links": [
+			"Download", "https://ratking.itch.io/texture-processor",
+			"Source", "https://github.com/ratkingsminion/texture-processor"],
 		"videos": [],
 		"tags": "tool, Unity",
 		"description": "I needed it for feeding a texture atlas with downscaled source textures within the Unity editor, and maybe changing its colors in the process. I thought sharing the scripts wouldn’t hurt.\n\n<div style=\"text-align:center\"><img src=\"https://img.itch.zone/aW1nLzQ3MzE5NzkuZ2lm/original/02nFh9.gif\" style=\"text-align:center; width:251px\" /></div>"
@@ -230,7 +277,9 @@
 		"occasion": "[Climate Change: Trial & Error](https://itch.io/jam/climate-change-trial-and-error)",
 		"tools": "Haxe/Heaps, Blender",
 		"credits": ["Broken Vector", "https://brokenvector.itch.io/", "tree graphics"],
-		"links": ["Download (Win)", "https://ratrogue.itch.io/it-rains"],
+		"links": [
+			"Download (Win)", "https://ratrogue.itch.io/it-rains",
+			"Source", "https://github.com/ratkingsminion/it-rains"],
 		"videos": [],
 		"tags": "jam entry, 3D, Haxe, Blender, Climate Change Jam",
 		"description": "A small forest is in your hands - create clouds and let it rain, and take care of your trees. A very sandboxy simulation experiment."
@@ -453,9 +502,17 @@
 		"timeframe": "made within 48 hours in January 2017",
 		"occasion": "Global Game Jam [2017](https://globalgamejam.org/games/2017)",
 		"tools": "C#/Unity",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "art direction, 3d models, additional game design", "Björn Grunewald", "https://cargocollective.com/bgrunewald", "additional graphics", "Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
-		"links": ["Entry page", "https://globalgamejam.org/2017/games/hands-thief", "Download (Android)", "https://ratking.itch.io/hands-off-thief", "Post mortem", "https://ratking.de/blog/2017/01/30/global-game-jam-2017-post-mortem/"],
-		"videos": ["Gameplay", "https://www.youtube.com/watch?v=bdsLX7SFVxI"],
+		"credits": [
+			"Jana Reinhardt", "https://jana.ratking.de", "art direction, 3d models, additional game design",
+			"Björn Grunewald", "https://cargocollective.com/bgrunewald", "additional graphics",
+			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
+		"links": [
+			"Entry page", "https://globalgamejam.org/2017/games/hands-thief",
+			"Download (Android)", "https://ratking.itch.io/hands-off-thief",
+			"Post mortem", "https://ratking.de/blog/2017/01/30/global-game-jam-2017-post-mortem/",
+			"Source", "https://github.com/ratkingsminion/ggj17-vrsneaking"],
+		"videos": [
+			"Gameplay", "https://www.youtube.com/watch?v=bdsLX7SFVxI"],
 		"tags": "jam entry, 3D, Unity, Global Game Jam, VR, Jana Reinhardt, Björn Grunewald, Ludwig Hanisch",
 		"description": "For the Global Game Jam 2017 we created HANDS OFF THIEF within 48 hours. Our goal was to make our first VR game, the result is a very short, but immersive and atmospheric stealth game where the player takes the role of a thief who steals valuables in a haunted mansions. It’s necessary to evade ghosts and find a radio that will tell how to find the exit.\nA post-mortem is available, as is a full gameplay video."
 	}, {
@@ -467,9 +524,17 @@
 		"timeframe": "December 2015 - November 2016",
 		"occasion": "for [Jana Reinhardt](https://jana.ratking.de)",
 		"tools": "C#/Unity",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "idea, art direction, graphics, game design, sounds", "Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
-		"links": ["Project page", "https://solitune.ratking.de/", "BUY (itch.io)", "https://ratking.itch.io/solitude", "BUY (Steam)", "https://store.steampowered.com/app/615670", "Soundtrack", "https://kingludi.bandcamp.com/album/solitune"],
-		"videos": ["Trailer", "https://www.youtube.com/watch?v=kkGLecbXX-w", "Music video", "https://www.youtube.com/watch?v=gC0A4et-JuU"],
+		"credits": [
+			"Jana Reinhardt", "https://jana.ratking.de", "idea, art direction, graphics, game design, sounds",
+			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
+		"links": 
+			"Project page", "https://solitune.ratking.de/",
+			"BUY (itch.io)", "https://ratking.itch.io/solitude",
+			"BUY (Steam)", "https://store.steampowered.com/app/615670",
+			"Soundtrack", "https://kingludi.bandcamp.com/album/solitune"],
+		"videos": [
+			"Trailer", "https://www.youtube.com/watch?v=kkGLecbXX-w",
+			"Music video", "https://www.youtube.com/watch?v=gC0A4et-JuU"],
 		"tags": "game, 3D, Unity, Jana Reinhardt, Ludwig Hanisch",
 		"description": "SOLITUNE (formerly known as Solitude) is based on Jana's idea and concept and was sponsored by the Art Foundation Sachsen-Anhalt, so it was even presented at an art exhibition in November 2016. It's a short adventure point&click-like game about escapism and sheep. KingLudi composed the music for it.\n\nSome thoughts by Jana about the game are written on [Rat King's blog](https://ratking.de/blog/2016/11/22/solitude/)."
 	}, {
