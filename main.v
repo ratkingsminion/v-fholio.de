@@ -11,7 +11,7 @@ import regex
 
 const special_chars = [ ` `, `_`, `-`, `?`, `!`, `*`, `.`, `:`, `;`, `,`, `^` ]
 
-const link_symbol_self = "◎"
+const link_symbol_self = "▶"
 const link_symbol_fav = "★"
 const projects_entries_per_page = 15
 const no_log_entries_warning = "No log entries (yet)!"
@@ -326,7 +326,6 @@ fn deploy_all(mut app App) {
 	os.write_file("${path}/projects/tags/index.html", projects_html) or { println(err) }
 
 	// projects list by page
-	moniker = "project"
 	for i := 0; i < projects_pages; i++ {
 		projects_cur_page = i
 		projects_entry_start = projects_entries_per_page * i
@@ -424,7 +423,7 @@ fn get_log_content(mut app App, year string) []LogEntry {
 		fnl := e.index("\n") or { 0 }
 		log_content << LogEntry{
 			date: e.substr(3, fnl).trim_space()
-			text: e.substr(fnl, max_int).trim_space().replace("<", "&lt;").replace(">", "&gt;")
+			text: e.substr(fnl, max_int).trim_space() //.replace("<", "&lt;").replace(">", "&gt;")
 		}
 	}
 

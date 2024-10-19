@@ -9,15 +9,15 @@
 		"tools": "C#/Unity",
 		"credits": [
 			"Jana Reinhardt", "https://jana.ratking.de", "additional sounds",
-			"Elisabeth Schunck", "visual design, narrative design, texts",
-			"Emma Brix", "illustration, narrative design, texts",
-			"Michael Gawlik", "narrative design"
+			"Elisabeth Schunck", "https://elisabethschunck.de/", "visual design, narrative design, texts",
+			"Emma Brix", "https://emmabrix.de/", "illustration, narrative design, texts",
+			"Michael Gawlik", "", "narrative design"
 			],
 		"links": [
 			"PLAY", "https://www.smarte-hilfe-vor-ort.de/interaktive-geschichte/"],
 		"videos": [],
 		"tags": "game, contract work, 2D, Unity, mobile, web, Rat King, Jana Reinhardt",
-		"description": "Die Gesundheits- und Pflegeversorgung kann oft verwirrend und überfordernd sein, besonders wenn akut Hilfe benötigt wird. „Helga holt Hilfe” sensibilisiert frühzeitig und auf spielerische Weise für Themen der Gesundheitsversorgung im Alter.\n\nHelga lebt alleine in einem kleinen Haus auf dem Dorf.\n\nIhr Alltag ist geprägt von lieb gewonnenen Routinen, doch zunehmend machen ihr Schmerzen in der Hüfte zu schaffen.\n\nWichtige Fragen stehen nun an: Ist es Zeit für ein Pflegehilfsmittel? Und wie erhält man ein solches überhaupt?\n\n„Helga holt Hilfe” ist für alle, die sich frühzeitig informieren wollen! Es vermittelt nicht nur Wissen, sondern gibt auch wertvolle lokale Ansprechpersonen an die Hand.\n\n*Helga holf Hilfe is a short educative narrative game for mobile platforms and targets elderly people, teaching them about the usage of smart phones and also about how to acquire an electric mobility scooter through healthcare insurance.*",
+		"description": "Die Gesundheits- und Pflegeversorgung kann oft verwirrend und überfordernd sein, besonders wenn akut Hilfe benötigt wird. „Helga holt Hilfe” sensibilisiert frühzeitig und auf spielerische Weise für Themen der Gesundheitsversorgung im Alter.\n\nHelga lebt alleine in einem kleinen Haus auf dem Dorf. Ihr Alltag ist geprägt von lieb gewonnenen Routinen, doch zunehmend machen ihr Schmerzen in der Hüfte zu schaffen. Wichtige Fragen stehen nun an: Ist es Zeit für ein Pflegehilfsmittel? Und wie erhält man ein solches überhaupt? „Helga holt Hilfe” ist für alle, die sich frühzeitig informieren wollen! Es vermittelt nicht nur Wissen, sondern gibt auch wertvolle lokale Ansprechpersonen an die Hand.\n\n*'Helga holt Hilfe' is a short educative narrative game for mobile platforms and targets elderly people, teaching them about the usage of smart phones and also about how to acquire an electric mobility scooter through healthcare insurance.*",
 		"pics_cols": 2
 	}, {
 		"category": "Jam game",
