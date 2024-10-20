@@ -51,7 +51,7 @@
 			</div>
 			<div class="w3-row text w3-col s12 m9 l8">
 				<div class="w3-col category s3 m12 l12 w3-hide-small">@{md_nop(projects.entries[e].category)}, @{projects.entries[e].year}</div>
-				<div class="w3-col s9 m12 l12">
+				<div class="w3-col s8 m12 l12">
 					@if projects.entries[e].important
 					<div class="name"><span class="important">@{md_nop(projects.entries[e].title)}</span></div>
 					@else
@@ -59,7 +59,8 @@
 					@end
 					<div class="shortdesc">@{md_nop(projects.entries[e].short_desc)}</div>
 				</div>
-				<div class="w3-col categorys s3 m12 l12 w3-hide-medium w3-hide-large">@{md_nop(projects.entries[e].category)}, @{projects.entries[e].year}</div>
+				<div class="w3-col categorys s4 m12 l12 w3-hide-medium w3-hide-large">
+					<div>@{md_nop(projects.entries[e].category)}</div><div>@{projects.entries[e].year}</div></div>
 			</div>
 		</div>
 		@end

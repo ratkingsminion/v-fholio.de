@@ -87,6 +87,7 @@ struct LogEntry {
 @[heap]
 struct Projects {
 	title string
+	title_entry string
 	subtitles struct {
 		main []string
 		entry []string
@@ -220,6 +221,7 @@ pub fn (mut app App) projects_subpage(mut ctx Context, subpage string) veb.Resul
 			ctx.res.set_status(.not_found) // status 404
 			return ctx.html('<h1>Page not found!</h1>')
 		}
+		title_entry := projects.title_entry.replace("{ENTRY}", project.category.title())
 		return $veb.html("html/project.html")
 	}
 	else if cur_subpage == "tags" {
@@ -270,14 +272,14 @@ fn deploy_all(mut app App) {
 	// linktree
 	linktrees := app.content.linktrees
 	mut moniker := "home"
-	index_html := $tmpl("html/index.html")
+	index_html := $tmpl("html/index.html").replace("\r", "")
 	os.write_file("${path}/index.html", index_html) or { println(err) }
 
 	// imprint
 	imprint := app.content.imprint
 	moniker = "imprint"
 	os.mkdir("${path}/imprint") or { panic(err) }
-	imprint_html := $tmpl("html/imprint.html")
+	imprint_html := $tmpl("html/imprint.html").replace("\r", "")
 	os.write_file("${path}/imprint/index.html", imprint_html) or { println(err) }
 
 	// log
@@ -290,7 +292,7 @@ fn deploy_all(mut app App) {
 	mut log_cur_year := ""
 	mut log_warning := if log_content.len == 0 { no_log_entries_warning } else { "" }
 	
-	mut log_html := $tmpl("html/log.html")
+	mut log_html := $tmpl("html/log.html").replace("\r", "")
 	os.write_file("${path}/log/index.html", log_html) or { println(err) }
 	
 	// log entries by year
@@ -302,7 +304,7 @@ fn deploy_all(mut app App) {
 
 		log_warning = if log_content.len == 0 { no_log_entries_warning } else { "" }
 
-		log_html = $tmpl("html/log.html")
+		log_html = $tmpl("html/log.html").replace("\r", "")
 		os.write_file("${path}/log/${log_cur_year}/index.html", log_html) or { println(err) }
 	}
 
@@ -314,7 +316,7 @@ fn deploy_all(mut app App) {
 	mut projects_cur_page := -1
 	mut projects_entry_start := 0
 	mut projects_entry_end := projects.entries.len
-	mut projects_html := $tmpl("html/projects.html")
+	mut projects_html := $tmpl("html/projects.html").replace("\r", "")
 	os.write_file("${path}/projects/index.html", projects_html) or { println(err) }
 
 	// projects list by tags
@@ -322,7 +324,7 @@ fn deploy_all(mut app App) {
 	all_tags.sort_with_compare(alphanum_compare)
 	projects_cur_page = -2
 	os.mkdir("${path}/projects/tags") or { panic(err) }
-	projects_html = $tmpl("html/projects_tags.html")
+	projects_html = $tmpl("html/projects_tags.html").replace("\r", "")
 	os.write_file("${path}/projects/tags/index.html", projects_html) or { println(err) }
 
 	// projects list by page
@@ -332,15 +334,16 @@ fn deploy_all(mut app App) {
 		projects_entry_end = math.min(projects.entries.len, projects_entries_per_page * (i + 1))
 		os.mkdir("${path}/projects/${i + 1}") or { panic(err) }
 
-		projects_html = $tmpl("html/projects.html")
+		projects_html = $tmpl("html/projects.html").replace("\r", "")
 		os.write_file("${path}/projects/${i + 1}/index.html", projects_html) or { println(err) }
 	}
 
 	// all project entries
 	moniker = "project"
 	for project in projects.entries {
+		title_entry := projects.title_entry.replace("{ENTRY}", project.category.title())
 		os.mkdir("${path}/projects/${project.moniker}") or { panic(err) }
-		project_html := $tmpl("html/project.html")
+		project_html := $tmpl("html/project.html").replace("\r", "")
 		os.write_file("${path}/projects/${project.moniker}/index.html", project_html) or { println(err) }
 	}
 }
@@ -423,7 +426,7 @@ fn get_log_content(mut app App, year string) []LogEntry {
 		fnl := e.index("\n") or { 0 }
 		log_content << LogEntry{
 			date: e.substr(3, fnl).trim_space()
-			text: e.substr(fnl, max_int).trim_space() //.replace("<", "&lt;").replace(">", "&gt;")
+			text: e.substr(fnl, max_int).trim_space()
 		}
 	}
 
@@ -449,7 +452,6 @@ fn url(txt string) string {
 	return txt.replace("{cur_year}", cur_year)
 }
 
-// TODO change?
 fn project_preview_pic(moniker string) string {
 	path := "assets/projects/${moniker}"
 	if !os.is_dir(path) { return "" }

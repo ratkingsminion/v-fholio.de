@@ -53,7 +53,7 @@ body {
 }
 .topmenu .item {
 	border-radius: 8px;
-	margin: 5px;
+	margin: 2px;
 	padding: 10px;
 	display: inline-block;
 	background-color: var(--colsignal);
@@ -90,6 +90,7 @@ body {
 	margin-right: 30px;
 	margin-top: -90px;
 	text-decoration: none;
+	box-shadow: 0 3px 10px 2px rgb(0 0 0 / .8);
 }
 
 .pages {
