@@ -1,6 +1,5 @@
 #!/bin/bash
 
-TARGETFOLDER="/public_html/friedrich/"
 SOURCEFOLDER="./publish/"
 
 clear

@@ -17,6 +17,7 @@
 .projects .preview .pic {
 	aspect-ratio: 16 / 10;
 	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 	margin: 2px;
 	border: 1px solid var(--coldark);
