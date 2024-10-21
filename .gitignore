@@ -1,3 +1,5 @@
 /publish/
 upload.sh
 v-fholio.exe
+upload.log
+upload_win.bat

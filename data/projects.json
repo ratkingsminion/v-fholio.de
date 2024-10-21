@@ -1166,7 +1166,7 @@
 		"important": false,
 		"title": "About Life And Death",
 		"moniker": "about-life-and-death",
-		"short_desc": "prototype for a multiplayer deathmatch game",
+		"short_desc": "Prototype for a multiplayer deathmatch game",
 		"timeframe": "summer semester 2008",
 		"occasion": "[university](https://burg-halle.de) project",
 		"tools": "C++/OGRE3D/RakNet/Bullet/FMODEx, 3dsmax, Z-Brush, Photoshop",
