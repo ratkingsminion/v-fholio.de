@@ -75,7 +75,6 @@ struct Linktree {
 @[heap]
 struct Log {
 	title string
-	subtitles []string
 }
 
 @[heap]
@@ -88,10 +87,6 @@ struct LogEntry {
 struct Projects {
 	title string
 	title_entry string
-	subtitles struct {
-		main []string
-		entry []string
-	}
 mut:
 	entries []Project // taken from different json
 	tags map[string][]Project

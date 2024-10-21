@@ -37,17 +37,12 @@
 	],
 
 	"log": {
-		"title": "# **Friedrich Hanisch**'s Dev Log",
-		"subtitles": [ "<a href=\"/\" target=\"_self\">Homepage</a>", "[Mastodon](https://mstdn.io/@ratking)" ]
+		"title": "# **Friedrich Hanisch**'s Dev Log"
 	},
 
 	"projects": {
 		"title": "# **Friedrich Hanisch**'s Projects",
-		"title_entry": "# **Friedrich Hanisch**'s {ENTRY}",
-		"subtitles": {
-			"main": [ "<a href=\"/\" target=\"_self\">Homepage</a>", "[Mastodon](https://mstdn.io/@ratking)" ],
-			"entry": [ "<a href=\"/projects\" target=\"_self\">All projects</a>", "<a href=\"/\" target=\"_self\">Homepage</a>", "[Mastodon](https://mstdn.io/@ratking)" ]
-		}
+		"title_entry": "# **Friedrich Hanisch**'s {ENTRY}"
 	},
 
 	"imprint": {
