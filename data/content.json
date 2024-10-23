@@ -17,8 +17,8 @@
 				{ "title": "LinkedIn", "icon": "fa-brands fa-linkedin", "url": "https://www.linkedin.com/in/friedrich-hanisch" }
 			],
 			"links": [
-				{ "title": "My PROJECTS", "icon": "fa fa-globe", "url": "/projects/1", "target": "_self", "fav": true },
-				{ "title": "My DEV LOG", "icon": "fa-solid fa-blog", "url": "/log/{cur_year}", "target": "_self" },
+				{ "title": "MY PROJECTS", "icon": "fa fa-globe", "url": "/projects/1", "target": "_self", "fav": true },
+				{ "title": "My dev log", "icon": "fa-solid fa-blog", "url": "/log/{cur_year}", "target": "_self" },
 				{ "title": "My games on itch.io", "icon": "fab fa-itch-io", "url": "https://ratrogue.itch.io/" }
 			]
 		},
@@ -31,7 +31,7 @@
 			],
 			"links": [
 				{ "title": "Rat King's website & blog", "icon": "fa fa-globe", "url": "https://ratking.de/" },
-				{ "title": "Rat King's Discord", "icon": "fa-brands fa-discord", "url": "https://discord.gg/3PndMV2", "fav": true }
+				{ "title": "Rat King's Discord server", "icon": "fa-brands fa-discord", "url": "https://discord.gg/3PndMV2", "fav": true }
 			]
 		}
 	],
