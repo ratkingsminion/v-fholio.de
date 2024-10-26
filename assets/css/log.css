@@ -12,7 +12,11 @@
 	border: var(--colshadow) 1px solid;
 	padding: 5px 15px 10px 15px;
 	margin: 10px 0;
-	overflow-wrap: break-word;
+}
+
+.logentry pre code {
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 /* h2 == date */
