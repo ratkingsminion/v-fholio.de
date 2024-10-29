@@ -961,10 +961,10 @@
 		"occasion": "Ludum Dare [23](https://www.ludumdare.com/compo/ludum-dare-23/)",
 		"tools": "C#/Unity, 3dsmax, Photoshop, bfxr",
 		"credits": [],
-		"links": ["Entry page", "https://www.ludumdare.com/compo/ludum-dare-23/?action=preview&uid=3663", "Project page", "https://wunderworld.ratking.de/", "PLAY", "https://www.kongregate.com/games/RatKingsLair/wunderworld", "Post mortem", "https://ratking.de/2012/05/02/wunderworld-post-mortem/"],
+		"links": ["Entry page", "https://www.ludumdare.com/compo/ludum-dare-23/?action=preview&uid=3663", "Project page", "https://wunderworld.ratking.de/", "PLAY", "https://ratrogue.itch.io/wunderworld", "Post mortem", "https://ratking.de/2012/05/02/wunderworld-post-mortem/"],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=Ja_w3zoR5Vo"],
 		"tags": "jam entry, 3D, Unity, Ludum Dare",
-		"description": "I'm proud of this 'game', because so many people actually [made levels](https://wunderworld.ratking.de) for it!"
+		"description": "I'm proud of this 'game', because so many people actually [made levels](https://wunderworld.ratking.de) for it! Sadly, the entry page is 404 now because Ludum Dare decided to get rid of all the older jams. A pity."
 	}, {
 		"category": "Game",
 		"important": true,
