@@ -961,8 +961,14 @@
 		"occasion": "Ludum Dare [23](https://www.ludumdare.com/compo/ludum-dare-23/)",
 		"tools": "C#/Unity, 3dsmax, Photoshop, bfxr",
 		"credits": [],
-		"links": ["Entry page", "https://www.ludumdare.com/compo/ludum-dare-23/?action=preview&uid=3663", "Project page", "https://wunderworld.ratking.de/", "PLAY", "https://ratrogue.itch.io/wunderworld", "Post mortem", "https://ratking.de/2012/05/02/wunderworld-post-mortem/"],
-		"videos": ["Gameplay", "https://www.youtube.com/watch?v=Ja_w3zoR5Vo"],
+		"links": [
+			"Entry page", "https://www.ludumdare.com/compo/ludum-dare-23/?action=preview&uid=3663",
+			"Project page", "https://wunderworld.ratking.de/",
+			"Download (Win)", "https://ratrogue.itch.io/wunderworld",
+			"Post mortem", "https://ratking.de/2012/05/02/wunderworld-post-mortem/"],
+		"videos": [
+			"Gameplay", "https://www.youtube.com/watch?v=Ja_w3zoR5Vo"
+		],
 		"tags": "jam entry, 3D, Unity, Ludum Dare",
 		"description": "I'm proud of this 'game', because so many people actually [made levels](https://wunderworld.ratking.de) for it! Sadly, the entry page is 404 now because Ludum Dare decided to get rid of all the older jams. A pity."
 	}, {
@@ -1002,10 +1008,21 @@
 		"timeframe": "made within 48 hours in January 2012",
 		"occasion": "Global Game Jam [2012](https://globalgamejam.org/news/2012/01/27/and-ggj-2012-theme)",
 		"tools": "C#/Unity",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "art direction, graphics, additional game design", "Björn Grunewald", "https://cargocollective.com/bgrunewald", "enemy graphics", "CC Sound Factory", "https://BeatPick.com", "music"],
-		"links": ["Entry page", "https://globalgamejam.org/2012/inclosssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss", "PLAY", "https://www.kongregate.com/games/RatKingsLair/inclosssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssure", "Download (Win)", "https://bit.ly/inclosssure"],
-		"videos": ["Gameplay", "https://www.youtube.com/watch?v=JEF90o-YZkU"],
-		"tags": "jam entry, 3D, Unity, Global Game Jam, Jana Reinhardt, Björn Grunewald",
+		"credits": [
+			"Jana Reinhardt", "https://jana.ratking.de", "art direction, graphics, additional game design",
+			"Björn Grunewald", "https://cargocollective.com/bgrunewald", "enemy graphics",
+			"CC Sound Factory", "https://BeatPick.com", "music (for the original jam version)",
+			"Paul Hanisch", "https://paul-hanisch.de", "music",
+			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
+		"links": [
+			"Entry page", "https://globalgamejam.org/2012/inclosssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+			"PLAY", "https://www.kongregate.com/games/RatKingsLair/inclosssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssure",
+			"Download (Win)", "https://ratking.itch.io/inclosssure"
+		],
+		"videos": [
+			"Gameplay", "https://www.youtube.com/watch?v=JEF90o-YZkU"
+		],
+		"tags": "jam entry, 3D, Unity, Global Game Jam, Jana Reinhardt, Björn Grunewald, Ludwign Hanisch, Paul Hanisch",
 		"description": "The inspiration was to make a Snake clone that is more of an RPG."
 	}, {
 		"category": "Jam game",
