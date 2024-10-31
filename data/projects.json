@@ -952,7 +952,7 @@
 		"tags": "jam entry, 3D, Unity, Ludum Dare, Jana Reinhardt, Björn Grunewald",
 		"description": "Inspired by System Shock and Dungeon Keeper."
 	}, {
-		"category": "Jam game",
+		"category": "Jam tool",
 		"important": false,
 		"title": "Wunderworld",
 		"moniker": "wunderworld",
@@ -1011,31 +1011,36 @@
 		"credits": [
 			"Jana Reinhardt", "https://jana.ratking.de", "art direction, graphics, additional game design",
 			"Björn Grunewald", "https://cargocollective.com/bgrunewald", "enemy graphics",
-			"CC Sound Factory", "https://BeatPick.com", "music (for the original jam version)",
+			"CC Sound Factory", "https://BeatPick.com", "music for the original jam version",
 			"Paul Hanisch", "https://paul-hanisch.de", "music",
 			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
 		"links": [
 			"Entry page", "https://globalgamejam.org/2012/inclosssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
-			"PLAY", "https://www.kongregate.com/games/RatKingsLair/inclosssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssure",
 			"Download (Win)", "https://ratking.itch.io/inclosssure"
 		],
 		"videos": [
 			"Gameplay", "https://www.youtube.com/watch?v=JEF90o-YZkU"
 		],
-		"tags": "jam entry, 3D, Unity, Global Game Jam, Jana Reinhardt, Björn Grunewald, Ludwign Hanisch, Paul Hanisch",
+		"tags": "jam entry, 3D, Unity, Global Game Jam, Jana Reinhardt, Björn Grunewald, Ludwig Hanisch, Paul Hanisch",
 		"description": "The inspiration was to make a Snake clone that is more of an RPG."
 	}, {
 		"category": "Jam game",
 		"important": false,
 		"title": "Soliloquy",
 		"moniker": "soliloquy",
-		"short_desc": "First-person 3D puzzle platformer",
+		"short_desc": "First-person co-op puzzle platformer",
 		"timeframe": "made within 48 hours in December 2011",
 		"occasion": "Ludum Dare [22](https://www.ludumdare.com/compo/ludum-dare-22/)",
 		"tools": "C#/Unity, 3dsmax, Photoshop, bfxr",
 		"credits": [],
-		"links": ["Entry page", "https://www.ludumdare.com/compo/ludum-dare-22/?action=preview&uid=3663", "PLAY", "https://www.kongregate.com/games/RatKingsLair/soliloquy", "Post mortem", "https://ratking.de/2011/12/20/ld-22-soliloquy-post-mortem/"],
-		"videos": ["Walkthrough", "https://www.youtube.com/watch?v=0oVRQvblADk"],
+		"links": [
+			"Entry page", "https://www.ludumdare.com/compo/ludum-dare-22/?action=preview&uid=3663",
+			"Download (Win)", "https://ratrogue.itch.io/soliloquy",
+			"Post mortem", "https://ratking.de/2011/12/20/ld-22-soliloquy-post-mortem/"
+		],
+		"videos": [
+			"Walkthrough", "https://www.youtube.com/watch?v=0oVRQvblADk"
+		],
 		"tags": "jam entry, 3D, Unity, Ludum Dare",
 		"description": ""
 	}, {
