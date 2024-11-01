@@ -994,9 +994,17 @@
 		"timeframe": "March 2012",
 		"occasion": "Seven-Day-Roguelike-Challenge [2012](https://www.roguebasin.com/index.php?title=7DRL_Challenge_2012)",
 		"tools": "AS3/FlashPunk, bfxr",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "art direction, pixel art, additional game design", "Andrew Matecha", "https://soundcloud.com/matecha", "music"],
-		"links": ["PLAY", "https://www.kongregate.com/games/RatKingsLair/me-against-the-mutants", "Download (Win)", "https://www.dropbox.com/s/u2fl5sml43g121z/MeAgainstTheMutants.exe?dl=0", "Post mortem", "https://ratking.de/2012/04/01/me-against-the-mutants-post-mortem/"],
-		"videos": ["Walkthrough", "https://www.youtube.com/watch?v=PQ_ceMHAHcc"],
+		"credits": [
+			"Jana Reinhardt", "https://jana.ratking.de", "art direction, pixel art, additional game design",
+			"Andrew Matecha", "https://soundcloud.com/matecha", "music"
+		],
+		"links": [
+			"Download (Win)", "https://ratking.itch.io/me-against-the-mutants",
+			"Post mortem", "https://ratking.de/2012/04/01/me-against-the-mutants-post-mortem/"
+		],
+		"videos": [
+			"Walkthrough", "https://www.youtube.com/watch?v=PQ_ceMHAHcc"
+		],
 		"tags": "jam entry, 2D, Flash, 7DRL, Jana Reinhardt",
 		"description": "The game features an interesting mechanic where the player is able to define \"infinity zones\", in which the area is wrapped infinitely. A lot of people had problems getting the gameplay..."
 	}, {
