@@ -1,6 +1,6 @@
 /publish/
-upload.sh
 v-fholio
 v-fholio.exe
 upload.log
 upload_config.bat
+upload_config.sh
