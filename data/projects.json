@@ -918,9 +918,16 @@
 		"timeframe": "made within 48 hours in November 2012",
 		"occasion": "Indie Buskers [II](https://www.indiebuskers.net/)",
 		"tools": "C#/Unity, 3dsmax, Photoshop, bfxr",
-		"credits": ["Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
-		"links": ["PLAY", "https://www.kongregate.com/games/RatKingsLair/hatesnake3d", "Buy (Android)", "https://play.google.com/store/apps/details?id=com.RatKingEntertainment.HATESNAKE3D"],
-		"videos": ["Gameplay", "https://www.youtube.com/watch?v=ci1SI9hK3Fo", "Indie Buskers Trailer", "https://www.youtube.com/watch?v=kjVe9bPRd7w"],
+		"credits": [
+			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"
+		],
+		"links": [
+			"Download (Win, Android)", "https://ratrogue.itch.io/hatesnake3d"
+		],
+		"videos": [
+			"Gameplay", "https://www.youtube.com/watch?v=ci1SI9hK3Fo",
+			"Indie Buskers Trailer", "https://www.youtube.com/watch?v=kjVe9bPRd7w"
+		],
 		"tags": "jam entry, commercial, mobile, 3D, Unity, Indie Buskers, 3dsmax, Photoshop, Ludwig Hanisch",
 		"description": "The many, many colors unfortunately made it really hard to create [a video](https://www.youtube.com/watch?v=ci1SI9hK3Fo) that compresses well..."
 	}, {
