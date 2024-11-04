@@ -939,9 +939,16 @@
 		"timeframe": "made within 3 days in September 2012",
 		"occasion": "Mini Ludum Dare [37](https://ludumdare.com/compo/minild-37/)",
 		"tools": "C#/Unity, 3dsmax, Photoshop",
-		"credits": ["Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
-		"links": ["Entry page", "https://www.ludumdare.com/compo/minild-37/?action=preview&uid=3663", "PLAY", "https://www.ratking.de/projectpages/modeleum/WebPlayer/"],
-		"videos": ["Non-Gameplay", "https://youtube.com/watch?v=4sVo-X_xi44"],
+		"credits": [
+			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"
+		],
+		"links": [
+			"Entry page", "https://www.ludumdare.com/compo/minild-37/?action=preview&uid=3663",
+			"PLAY", "https://www.ratking.de/projectpages/modeleum/WebPlayer/"
+		],
+		"videos": [
+			"Non-Gameplay", "https://youtube.com/watch?v=4sVo-X_xi44"
+		],
 		"tags": "jam entry, 3D, Unity, Ludum Dare, Mini Ludum Dare, 3dsmax, Photoshop, Ludwig Hanisch",
 		"description": "The music was originally made for \"The Sun Is Deadly\"."
 	}, {
@@ -953,9 +960,18 @@
 		"timeframe": "made within 3 days in August 2012",
 		"occasion": "Ludum Dare [24](https://www.ludumdare.com/compo/ludum-dare-24/)",
 		"tools": "C#/Unity",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "art direction, 3d models", "Björn Grunewald", "https://cargocollective.com/bgrunewald", "additional 3d models, level parts", "Roald Strauss", "https://www.indiegamemusic.com/viewartist.php?id=1", "music"],
-		"links": ["Entry page", "https://www.ludumdare.com/compo/ludum-dare-24/?action=preview&uid=3663", "PLAY", "https://www.kongregate.com/games/RatKingsLair/kernel-exception"],
-		"videos": ["Gameplay", "https://www.youtube.com/watch?v=vHdtm-5_qao"],
+		"credits": [
+			"Jana Reinhardt", "https://jana.ratking.de", "art direction, 3d models",
+			"Björn Grunewald", "https://cargocollective.com/bgrunewald", "additional 3d models, level parts",
+			"Roald Strauss", "https://www.indiegamemusic.com/viewartist.php?id=1", "music"
+		],
+		"links": [
+			"Entry page", "https://www.ludumdare.com/compo/ludum-dare-24/?action=preview&uid=3663",
+			"Download (Win)", "https://ratking.itch.io/kernel-exception"
+		],
+		"videos": [
+			"Gameplay", "https://www.youtube.com/watch?v=vHdtm-5_qao"
+		],
 		"tags": "jam entry, 3D, Unity, Ludum Dare, Jana Reinhardt, Björn Grunewald",
 		"description": "Inspired by System Shock and Dungeon Keeper."
 	}, {
@@ -1096,8 +1112,14 @@
 		"occasion": "Ludum Dare [21](https://www.ludumdare.com/compo/ludum-dare-21/)",
 		"tools": "AS3/FlashPunk, Photoshop, bfxr, inudge",
 		"credits": [],
-		"links": ["Entry page", "https://www.ludumdare.com/compo/ludum-dare-21/?action=preview&uid=3663", "PLAY", "https://www.kongregate.com/games/RatKingsLair/bunnies-back-into-your-cage", "Post mortem", "https://www.ludumdare.com/compo/2011/08/23/bunnies-back-into-your-cage-post-mortem/"],
-		"videos": ["Walkthrough", "https://www.youtube.com/watch?v=fZH8u7t6hI0"],
+		"links": [
+			"Entry page", "https://www.ludumdare.com/compo/ludum-dare-21/?action=preview&uid=3663",
+			"Download (Win)", "https://ratrogue.itch.io/bunnies-back-into-your-cage",
+			"Post mortem", "https://web.archive.org/web/20150210080106/http://ludumdare.com/compo/2011/08/23/bunnies-back-into-your-cage-post-mortem/"
+		],
+		"videos": [
+			"Walkthrough", "https://www.youtube.com/watch?v=fZH8u7t6hI0"
+		],
 		"tags": "jam entry, 2D, Flash, Photoshop, Ludum Dare",
 		"description": ""
 	}, {
