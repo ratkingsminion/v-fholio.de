@@ -833,9 +833,15 @@
 		"timeframe": "made within a week in July 2013",
 		"occasion": "for the [Rat King](https://ratking.de), as an entry for the Notgames Fest [2013](https://notgames.colognegamelab.com/)",
 		"tools": "C#/Unity",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "idea, graphics, sounds"],
-		"links": ["PLAY", "https://www.kongregate.com/games/RatKingsLair/rat-race"],
-		"videos": ["Trailer", "https://www.youtube.com/watch?v=vNOcMSJ_ZBI"],
+		"credits": [
+			"Jana Reinhardt", "https://jana.ratking.de", "idea, graphics, sounds"
+		],
+		"links": [
+			"Download", "https://ratking.itch.io/rat-race"
+		],
+		"videos": [
+			"Trailer", "https://www.youtube.com/watch?v=vNOcMSJ_ZBI"
+		],
 		"tags": "game, 3D, Unity, Rat King, Jana Reinhardt",
 		"description": "You play as a lonely rat in a cage."
 	}, {
@@ -847,10 +853,18 @@
 		"timeframe": "made within ~4 months, released March 2013",
 		"occasion": "for the [Rat King](https://ratking.de)",
 		"tools": "C#/Unity",
-		"credits": ["Ungestalt", "https://www.ungestalt.de/", "project lead", "Jana Reinhardt", "https://jana.ratking.de", "art direction, 3d models, additional game design", "Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
-		"links": ["PLAY", "https://www.zoo-leipzig.de/sabah/"],
-		"videos": ["Trailer", "https://www.youtube.com/watch?v=tiraYmo87MI"],
-		"tags": "game, contract work, 3D, Unity, Rat King, Jana Reinhardt, Ludwig Hanisch",
+		"credits": [
+			"Ungestalt", "https://www.ungestalt.de/", "project lead",
+			"Jana Reinhardt", "https://jana.ratking.de", "art direction, 3d models, additional game design",
+			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"
+		],
+		"links": [
+			"PLAY", "https://www.zoo-leipzig.de/sabah/"
+		],
+		"videos": [
+			"Trailer", "https://www.youtube.com/watch?v=tiraYmo87MI"
+		],
+		"tags": "game, contract work, 3D, Unity, web, Rat King, Jana Reinhardt, Ludwig Hanisch",
 		"description": "**Sabah** was a contract work assigned by the [Zoo Leipzig](https://www.zoo-leipzig.de/)."
 	}, {
 		"category": "Jam game",
@@ -876,8 +890,13 @@
 		"occasion": "Global Game Jam [2013](https://globalgamejam.org/games/2013)",
 		"tools": "C#/Unity, Audacity",
 		"credits": [],
-		"links": ["Entry page", "https://globalgamejam.org/2013/72", "DOWNLOAD", "https://ratking.itch.io/72"],
-		"videos": ["Gameplay", "https://www.youtube.com/watch?v=LGrr-DhBdsM"],
+		"links": [
+			"Entry page", "https://globalgamejam.org/2013/72",
+			"DOWNLOAD", "https://ratking.itch.io/72"
+		],
+		"videos": [
+			"Gameplay", "https://www.youtube.com/watch?v=LGrr-DhBdsM"
+		],
 		"tags": "jam entry, 3D, Unity, Global Game Jam, Jana Reinhardt",
 		"description": ""
 	}, {
@@ -889,9 +908,17 @@
 		"timeframe": "made within ~1.5 days in December 2012",
 		"occasion": "Ludum Dare [25](https://www.ludumdare.com/compo/ludum-dare-25/)",
 		"tools": "C#/Unity, 3dsmax, Photoshop, WolframTones",
-		"credits": ["Kevin MacLeod", "https://incompetech.com/", "music"],
-		"links": ["Entry page", "https://www.ludumdare.com/compo/ludum-dare-25/?action=preview&uid=3663", "PLAY", "https://www.kongregate.com/games/RatKingsLair/tale-of-scale", "Post mortem", "https://ratking.de/blog/2012/12/24/ludum-dare-25-tale-of-scale-post-mortem/"],
-		"videos": ["Gameplay", "https://www.youtube.com/watch?v=_sJPufr0qmI"],
+		"credits": [
+			"Kevin MacLeod", "https://incompetech.com/", "music"
+		],
+		"links": [
+			"Entry page", "https://www.ludumdare.com/compo/ludum-dare-25/?action=preview&uid=3663",
+			"DOWNLOAD (Win, Mac)", "https://ratrogue.itch.io/tale-of-scale",
+			"Post mortem", "https://ratking.de/blog/2012/12/24/ludum-dare-25-tale-of-scale-post-mortem/"
+		],
+		"videos": [
+			"Gameplay", "https://www.youtube.com/watch?v=_sJPufr0qmI"
+		],
 		"tags": "jam entry, 3D, Unity, Ludum Dare, 3dsmax, Photoshop",
 		"description": ""
 	}, {
@@ -922,7 +949,7 @@
 			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"
 		],
 		"links": [
-			"Download (Win, Android)", "https://ratrogue.itch.io/hatesnake3d"
+			"DOWNLOAD (Win, Android)", "https://ratrogue.itch.io/hatesnake3d"
 		],
 		"videos": [
 			"Gameplay", "https://www.youtube.com/watch?v=ci1SI9hK3Fo",
@@ -967,7 +994,7 @@
 		],
 		"links": [
 			"Entry page", "https://www.ludumdare.com/compo/ludum-dare-24/?action=preview&uid=3663",
-			"Download (Win)", "https://ratking.itch.io/kernel-exception"
+			"DOWNLOAD (Win)", "https://ratking.itch.io/kernel-exception"
 		],
 		"videos": [
 			"Gameplay", "https://www.youtube.com/watch?v=vHdtm-5_qao"
@@ -987,7 +1014,7 @@
 		"links": [
 			"Entry page", "https://www.ludumdare.com/compo/ludum-dare-23/?action=preview&uid=3663",
 			"Project page", "https://wunderworld.ratking.de/",
-			"Download (Win)", "https://ratrogue.itch.io/wunderworld",
+			"DOWNLOAD (Win)", "https://ratrogue.itch.io/wunderworld",
 			"Post mortem", "https://ratking.de/2012/05/02/wunderworld-post-mortem/"],
 		"videos": [
 			"Gameplay", "https://www.youtube.com/watch?v=Ja_w3zoR5Vo"
@@ -1003,9 +1030,19 @@
 		"timeframe": "made within 48 hours in April 2012 + several days polishing",
 		"occasion": "Indie Buskers [I](https://www.indiebuskers.net/); for the [Rat King](https://ratking.de)",
 		"tools": "C#/Unity",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "art direction, 3d models, additional game design", "Ludwig Hanisch", "https://ludwig-hanisch.de", "music", "EgoAnt", "https://twitter.com/egoant", "initial idea"],
-		"links": ["Project page", "https://tsid.ratking.de/", "PLAY", "https://ratking.itch.io/the-sun-is-deadly"],
-		"videos": ["Trailer", "https://www.youtube.com/watch?v=y16pERrIWxQ", "Gameplay", "https://www.youtube.com/watch?v=8JVZcbEw-oQ"],
+		"credits": [
+			"Jana Reinhardt", "https://jana.ratking.de", "art direction, 3d models, additional game design",
+			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music",
+			"EgoAnt", "https://twitter.com/egoant", "initial idea"
+		],
+		"links": [
+			"Project page", "https://tsid.ratking.de/",
+			"PLAY", "https://ratking.itch.io/the-sun-is-deadly"
+		],
+		"videos": [
+			"Trailer", "https://www.youtube.com/watch?v=y16pERrIWxQ",
+			"Gameplay", "https://www.youtube.com/watch?v=8JVZcbEw-oQ"
+		],
 		"tags": "game, jam entry, commercial, Indie Buskers, 3D, Unity, Rat King, Photoshop, Jana Reinhardt, Ludwig Hanisch",
 		"description": "![The Indie Buskers]({{ \"/assets/img/indiebuskers.jpg\" | absolute_url }})\n\nMade for the first Indie Buskers jam, where we participated with several other indie game developers. Together, we created small games over a weekend and gave them to anybody who paid a small tip.\n\nEgoAnt's idea was *\"It might be cool to have a game where you control objects to block sunlight to create a path of darkness - so that a vampire can get to their intended victim.\"*"
 	}, {
@@ -1022,7 +1059,7 @@
 			"Andrew Matecha", "https://soundcloud.com/matecha", "music"
 		],
 		"links": [
-			"Download (Win)", "https://ratking.itch.io/me-against-the-mutants",
+			"DOWNLOAD (Win)", "https://ratking.itch.io/me-against-the-mutants",
 			"Post mortem", "https://ratking.de/2012/04/01/me-against-the-mutants-post-mortem/"
 		],
 		"videos": [
@@ -1047,7 +1084,7 @@
 			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
 		"links": [
 			"Entry page", "https://globalgamejam.org/2012/inclosssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
-			"Download (Win)", "https://ratking.itch.io/inclosssure"
+			"DOWNLOAD (Win)", "https://ratking.itch.io/inclosssure"
 		],
 		"videos": [
 			"Gameplay", "https://www.youtube.com/watch?v=JEF90o-YZkU"
@@ -1066,7 +1103,7 @@
 		"credits": [],
 		"links": [
 			"Entry page", "https://www.ludumdare.com/compo/ludum-dare-22/?action=preview&uid=3663",
-			"Download (Win)", "https://ratrogue.itch.io/soliloquy",
+			"DOWNLOAD (Win)", "https://ratrogue.itch.io/soliloquy",
 			"Post mortem", "https://ratking.de/2011/12/20/ld-22-soliloquy-post-mortem/"
 		],
 		"videos": [
@@ -1083,8 +1120,15 @@
 		"timeframe": "July - November 2011",
 		"occasion": "for the [Rat King](https://ratking.de)",
 		"tools": "C#/Unity, Photoshop, bfxr",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "additional level design", "Ludwig Hanisch", "https://ludwig-hanisch.de/", "music"],
-		"links": ["Project page", "https://tumblox.ratking.de/", "Online-Demo", "https://www.kongregate.com/games/RatKingsLair/tumblox-pc-demo", "Buy (Android)", "https://play.google.com/store/apps/details?id=com.RatKingEntertainment.Tumblox"],
+		"credits": [
+			"Jana Reinhardt", "https://jana.ratking.de", "additional level design",
+			"Ludwig Hanisch", "https://ludwig-hanisch.de/", "music"
+		],
+		"links": [
+			"Project page", "https://tumblox.ratking.de/",
+			"Online-Demo", "https://www.kongregate.com/games/RatKingsLair/tumblox-pc-demo",
+			"Buy (Android)", "https://play.google.com/store/apps/details?id=com.RatKingEntertainment.Tumblox"
+		],
 		"videos": ["Trailer", "https://www.youtube.com/watch?v=uEKyTAej2IQ"],
 		"tags": "game, commercial, mobile, 3D, Unity, Rat King, Photoshop, Jana Reinhardt, Ludwig Hanisch",
 		"description": ""
@@ -1114,7 +1158,7 @@
 		"credits": [],
 		"links": [
 			"Entry page", "https://www.ludumdare.com/compo/ludum-dare-21/?action=preview&uid=3663",
-			"Download (Win)", "https://ratrogue.itch.io/bunnies-back-into-your-cage",
+			"DOWNLOAD (Win)", "https://ratrogue.itch.io/bunnies-back-into-your-cage",
 			"Post mortem", "https://web.archive.org/web/20150210080106/http://ludumdare.com/compo/2011/08/23/bunnies-back-into-your-cage-post-mortem/"
 		],
 		"videos": [
@@ -1131,9 +1175,20 @@
 		"timeframe": "iOS: March - May 2011, Win+Mac: January/February 2012",
 		"occasion": "for the [Rat King](https://ratking.de)",
 		"tools": "C#/Unity",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "art direction, 3d graphics, textures, additional game design", "Kevin MacLeod", "https://incompetech.com/", "music", "Chad Bagaason", "", "additional music track"],
-		"links": ["Project page", "https://pitman.ratking.de/", "Online-Demo", "https://www.kongregate.com/games/RatKingsLair/pitman-demo", "BUY", "https://ratking.itch.io/pitman"],
-		"videos": ["Trailer (iOS)", "https://www.youtube.com/watch?v=O1FhWZ3eh1E", "Trailer (PC)", "https://www.youtube.com/watch?v=N3iD_F-TgI8"],
+		"credits": [
+			"Jana Reinhardt", "https://jana.ratking.de", "art direction, 3d graphics, textures, additional game design",
+			"Kevin MacLeod", "https://incompetech.com/", "music",
+			"Chad Bagaason", "", "additional music track"
+		],
+		"links": [
+			"Project page", "https://pitman.ratking.de/",
+			"Online-Demo", "https://www.kongregate.com/games/RatKingsLair/pitman-demo",
+			"BUY", "https://ratking.itch.io/pitman"
+		],
+		"videos": [
+			"Trailer (iOS)", "https://www.youtube.com/watch?v=O1FhWZ3eh1E",
+			"Trailer (PC)", "https://www.youtube.com/watch?v=N3iD_F-TgI8"
+		],
 		"tags": "game, commercial, mobile, 3D, Unity, Rat King, Jana Reinhardt",
 		"description": "After we finished \"Pitman Krumb\" (our first 7-Day-Roguelike-Challenge entry from 2011) we were very happy how it turned out. And after I spent an extra week to make a fixed version, [The Rat King](https://www.ratking.de/) decided to make a commercial game out of it as soon as possible. Because we tried to get into the iPhone/iPad market back then, the new Pitman should become an app for iOS. And so it became.\n\nAfter ca. five weeks of porting, extending, balancing and testing, the newly named \"Pitman\" was finished and ready to submit to the AppStore. On May 2nd it was officially released to the digital world, and some days later \"Pitman Free\" was approved by Apple, too. This way, people can test the game's first half dungeon without paying anything in advance.\n\nOf course, the biggest part of the changes are related to the interface. Not only would the screen be cluttered with buttons and information regarding skills if we had adopted the PC version's screen layout, but there also would be no intuitive method to control the camera. Thus the inventory and the skill overview got extra screens which can be accessed by tapping the player character. Besides, the original Pitman has no main menu or the like, so this had to be added, too.\n\nIn order to allow precise and extensive camera control the game got ingame buttons for translating rotating and resetting the camera. This was tweaked a lot and we think the game is very usable; in fact, we never got negative feedback regarding the controls, be it iPad or iPhone:\n\nAnother change for the iOS version is the addition of real save slots. This changes the gameplay, as the average roguelike has permadeath, but we knew it would get us some very bad reviews if the players couldn't save and load their games.\n\nThere is more, like help screens and additional content, but I think it's suffice to say that we didn't do a half-hearted job when porting it; especially if you compare the development times of the original game \"Pitman Krumb\" and \"Pitman\" ... It's like the saying goes, 80% of the time is spent on 20% of the project.\n\nOver half a year later, Pitman was ported back to PC. The reason for this mainly was that it was easy enough to do, and we wanted to try out several selling platforms, like Desura and IndieGameStand; and compare them to the only market we knew until then - the AppStore from Apple."
 	}, {
@@ -1146,8 +1201,15 @@
 		"occasion": "Ludum Dare [20](https://www.ludumdare.com/compo/ludum-dare-20/)",
 		"tools": "C#/Unity, 3dsmax, Photoshop, bfxr, inudge",
 		"credits": [],
-		"links": ["Entry page", "https://www.ludumdare.com/compo/ludum-dare-20/?action=preview&uid=3663", "PLAY", "https://www.kongregate.com/games/RatKingsLair/tri", "Post mortem", "https://ludumdare.com/compo/2011/05/02/from-compo-to-jam/", "Making of", "https://docs.google.com/document/d/16Xq6NqFltmoH1_LoQ26IExFJdtBc83pq_7O6FsECpFE/edit?usp=sharing"],
-		"videos": ["Walkthrough", "https://www.youtube.com/watch?v=ut8rHBK_Jyk"],
+		"links": [
+			"Entry page", "https://www.ludumdare.com/compo/ludum-dare-20/?action=preview&uid=3663",
+			"PLAY", "https://www.kongregate.com/games/RatKingsLair/tri",
+			"Post mortem", "https://ludumdare.com/compo/2011/05/02/from-compo-to-jam/",
+			"Making of", "https://docs.google.com/document/d/16Xq6NqFltmoH1_LoQ26IExFJdtBc83pq_7O6FsECpFE/edit?usp=sharing"
+		],
+		"videos": [
+			"Walkthrough", "https://www.youtube.com/watch?v=ut8rHBK_Jyk"
+		],
 		"tags": "jam entry, 3D, Unity, Ludum Dare",
 		"description": "\"Tri\" is another Unity game I made for a contest.\n\nAt the end of April 2011, the [Ludum Dare](https://www.ludumdare.com/compo) 20 began - and I was ready to make a game from scratch in (less than) 48 hours. The theme that got the most votes from the community was \"It's Dangerous to go Alone. Take this!\", a [famous quote from the original \"Legend of Zelda\"](https://knowyourmeme.com/memes/its-dangerous-to-go-alone-take-this).\n\nTo be honest, I had the idea for my game the night before the contest started (and the theme was revealed), which was 4 o'clock in the morning in my timezone. So I was kind of lucky my idea more or less fit the theme when I woke up, as I don't think I would have finished the game if I first had to come up with a core gameplay.\n\nNow, \"Tri\" is a puzzle game inspired by \"Portal\", where you have to think your way through the environment (instead of just shooting bullets into enemies). \"Tri\" uses ego perspective and the normal shooter control layout, but gives you only one weapon - the \"Tri Force Field Generator Gun\" (the name is an oh so clever reference to the \"Zelda\" games). With this gun, you can shoot three force field generators which will stick to the grey surfaces. If you place the generators correctly, a force field with the shape of a triangle will appear. As you can walk on this force field, it is a device to create platforms to reach places too high or far away.\n\nThere also are laser rays which you can reflect with your force fields, so you can redirect them and therefore activate or destroy certain obstacles. There are no limitations of how much triangles you can create, therefore the game is a little bit easy - on the other side it's great fun to build as much force fields as you can, so why restricting the player here?\n\nAfter the event I chose to put the game from the normal \"Compo\" into the \"Jam\" (which is the same contest, but with relaxed rules and no chance to get voted for), as I used some code from the [Unify Wiki](https://www.unifycommunity.com/wiki/index.php?title=Main_Page) for the first person controller. (The inbuilt controller had a gameplay-breaking bug.) I wrote the majority of the gamelogic by myself, nonetheless. Complying with the rules, I did everything else, too - graphics, sound effects (with [bfxr](https://www.bfxr.net/) and music. The music was made by clicking randomly in [inudge](https://inudge.net/) an hour or so before deadline.\n\n\"Tri\" was mentioned with a screenshot right in the [official result announcement](https://www.ludumdare.com/compo/2011/05/23/ludum-dare-20-results/)!"
 	}, {
@@ -1159,9 +1221,19 @@
 		"timeframe": "March 2011",
 		"occasion": "Seven-Day-Roguelike-Challenge [2011](https://www.roguebasin.com/index.php?title=7DRL_Contest_2011)",
 		"tools": "C#/Unity",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "art direction, 3d graphics, textures, additional game design", "Kevin MacLeod", "https://incompetech.com/", "music"],
-		"links": ["PLAY", "https://www.ratking.de/games/pitman/index.html", "Download (Win)", "https://www.ratking.de/games/pitman/Pitman-Win.7z", "Download (Mac)", "https://www.ratking.de/games/pitman/Pitman-Mac.7z", "Post mortem", "https://docs.google.com/document/d/1sUx7D50sly-jGMRfkxxRH80hJL4fOsdWI9qR7UZA6Vk/edit?usp=sharing"],
-		"videos": ["Trailer", "https://www.youtube.com/watch?v=1iKSeCcRpGM"],
+		"credits": [
+			"Jana Reinhardt", "https://jana.ratking.de", "art direction, 3d graphics, textures, additional game design",
+			"Kevin MacLeod", "https://incompetech.com/", "music"
+		],
+		"links": [
+			"PLAY", "https://www.ratking.de/games/pitman/index.html",
+			"Download (Win)", "https://www.ratking.de/games/pitman/Pitman-Win.7z",
+			"Download (Mac)", "https://www.ratking.de/games/pitman/Pitman-Mac.7z",
+			"Post mortem", "https://docs.google.com/document/d/1sUx7D50sly-jGMRfkxxRH80hJL4fOsdWI9qR7UZA6Vk/edit?usp=sharing"
+		],
+		"videos": [
+			"Trailer", "https://www.youtube.com/watch?v=1iKSeCcRpGM"
+		],
 		"tags": "jam entry, 3D, Unity, 7DRL, Jana Reinhardt",
 		"description": "In March 2011, the seventh [Seven Day Roguelike Challenge](https://roguebasin.roguelikedevelopment.org/index.php/7DRL_Contest_2011) took place. The 7DRLC is a contest without prices where the participants create a game within a week only; of course, the game has to be a roguelike.\n\nIf you don't know what a roguelike is, don't worry - I didn't know much about it before I entered the Challenge, either. You probably can read a definition on [Wikipedia](https://en.wikipedia.org/wiki/Roguelike), but as I was told the main elements are:\n\n* randomness, regarding world generation and gameplay\n* permadeath, which means no savegames and quickload\n* turnbased gameplay, so you have time to think\n\nAs usual, [Jana Reinhardt](https://jana.ratking.de/) and I teamed up and together we made \"Pitman Krumb\". The premise is simple: you play the dwarven protagonist Krumb on a not-so-epic quest for mighty artifacts, collecting a lot of items and fighting against vile monsters. Jana did the graphics (character models, environment textures, decorations, GUI elements) while I used Unity3D for the interactive part. Again, [Kevin MacLeod](https://incompetech.com/) provided us with the music we needed.\n\nMost roguelikes have procedurally generated dungeons and rooms as levels. I was sure I wouldn't compete in this field and tried something different instead: Now in \"Pitman Krumb\" the player has a couple of so-called \"cards\", which is our name for several pre-designed world sections with x*x tiles to walk on (with x in the range of 4 to 8 ). The player can distribute these cards on his journey and create his own dungeon this way. Everytime a new card is placed, new monsters and items also are created. Thus, \"Pitman Krumb\" should remind the player of a board game, which is complemented by the lack of animations and the style of the items (flat tokens on the ground).\n\nThe game generally is a role playing game, so the player can use different weapons, armours, potions and other magic stuff. After slaying enough monsters he can train several skills which make Krumb faster, stronger or more intelligent. At the end of each level a ladder appears which leads the brave Pitman to the next challenge ...\n\nAll Seven Day Roguelike Challengers are winners as soon as they submit a finished game in the given timeframe. But as it is tradition, a Commitee consisting of several members of the roguelike development community [evaluate all entries](https://www.roguetemple.com/7drl/2011/) and give points on categories like \"Completeness\", \"Fun\" and \"Roguelikeness\". Out of 98 participants (46 of them completed their games) we made the seventh place (2.44 points average, with 1 being the worst and 3 the best). This is not too bad for our first roguelike!\n\nWhile Jana posted daily updates of our progress on our [blog on ratking.de](https://www.ratking.de/blog), I used the more or less official website [7drl.org](htto://www.7drl.org) and wrote small articles every day. Here is a list of them, as there isn't anything like this on the site unfortunately:\n\n* [Our first roguelike!](https://7drl.org/2011/02/28/67/)\n* [First day survived](https://7drl.org/2011/03/07/first-day-survived/)\n* [Pitman – second day over](https://7drl.org/2011/03/08/pitman-second-day-over/)\n* [Pitman – third day, still alive](https://7drl.org/2011/03/09/pitman-third-day-still-alive/)\n* [Pitman – after the fourth day](https://7drl.org/2011/03/10/pitman-after-the-fourth-day/)\n* [Pitman – only two days left](https://7drl.org/2011/03/11/pitman-only-two-days-left/)\n* [Pitman – the last day approaches](https://7drl.org/2011/03/12/pitman-the-last-day-approaches/)\n* [Pitman – last day, and finished!](https://7drl.org/2011/03/13/pitman-last-day-and-finished/)\n* [Pitman – After-Challenge Update](https://7drl.org/2011/03/21/pitman-after-challenge-update/)"
 	}, {
@@ -1201,11 +1273,18 @@
 		"timeframe": "made within 12 hours in October 2010",
 		"occasion": "Devmania [2010](https://twitter.com/devmanianet) overnight contest, together with [Björn Grunewald](https://cargocollective.com/bgrunewald)",
 		"tools": "C#/Unity",
-		"credits": ["Björn Grunewald", "https://cargocollective.com/bgrunewald", "3d models", "Doron Deutsch", "https://freemusicarchive.org/music/Doron_Deutsch/", "music"],
-		"links": ["PLAY", "https://fholio.de/things/jams/Devmania2010/WebPlayer/index.html", "Download (Win)", "https://fholio.de/things/jams/Devmania2010/MoonLaserDuo.rar"],
-		"videos": ["Gameplay", "https://www.youtube.com/watch?v=T9tGHippezs"],
+		"credits": [
+			"Björn Grunewald", "https://cargocollective.com/bgrunewald", "3d models",
+			"Doron Deutsch", "https://freemusicarchive.org/music/Doron_Deutsch/", "music"
+		],
+		"links": [
+			"Download (Win)", "https://ratrogue.itch.io/moon-laser-duo"
+		],
+		"videos": [
+			"Gameplay", "https://www.youtube.com/watch?v=T9tGHippezs"
+		],
 		"tags": "jam entry, Devmania, multiplayer, 3D, Unity, Björn Grunewald",
-		"description": "For some years I regularly visited the [Devmania](https://twitter.com/devmanianet) (formerly known as Dusmania), an annual meeting of enthusiastic hobby game developers. One of the highlights of this event was the overnight contest, where people create small games over the night (as the meeting takes place over two days). 2010 was the first year I also participated in this contest.\n\nThe theme this time was \"Mondschein\" (moonshine).\n\nThe whole night, from October 2nd to October 3rd, I worked on \"Moon Laser Duo\", together with [Björn Grunewald](https://cargocollective.com/bgrunewald), a former co-student.\n\nAfter I thought of a concept I started Unity - and was unable to do anything for some hours. It was pretty late when the idea which was formulated at the beginning (it consisted of a human and vampire walking on a planet, trying to catch each other) got better and stimulated me to actually write the game logic. While I hacked some code into Visual C# Express Edition, Björn created the graphics in 3dsmax.\n\nAll in all it was worth it - we made first place!\n\n\"Moon Laser Duo\" now is a simple coop multiplayer game for two people at the same computer with splitscreen.\n\nYou and your partner control two little astronauts on a moon who have a laser between them. The laser destroys the aliens which constantly spawn and try to kill you. If you and your friend are too far from each other the laser will diminish and eventually vanish. So you have to stick together to eliminate as many aliens as possible and therefore get a high score.\n\nThe music was downloaded at [RKO](https://remix.kwed.org/). It's \"Moon Patrol (v3 Edit)\" by [Doron Deutsch](https://www.myspace.com/dorondeutsch).\n\nWatch the video above, or even better, download the game [from Dropbox](https://fholio.de/things/jams/Devmania2010/MoonLaserDuo.rar) (RAR format, 7.03 MiB). Be aware that this is the contest version, so bugs may exist, and the gameplay is unbalanced."
+		"description": "For some years I regularly visited the [Devmania](https://twitter.com/devmanianet) (formerly known as Dusmania), an annual meeting of enthusiastic hobby game developers. One of the highlights of this event was the overnight contest, where people create small games over the night (as the meeting takes place over two days). 2010 was the first year I also participated in this contest.\n\nThe theme this time was \"Mondschein\" (moonshine).\n\nThe whole night, from October 2nd to October 3rd, I worked on \"Moon Laser Duo\", together with [Björn Grunewald](https://cargocollective.com/bgrunewald), a former co-student.\n\nAfter I thought of a concept I started Unity - and was unable to do anything for some hours. It was pretty late when the idea which was formulated at the beginning (it consisted of a human and vampire walking on a planet, trying to catch each other) got better and stimulated me to actually write the game logic. While I hacked some code into Visual C# Express Edition, Björn created the graphics in 3dsmax.\n\nAll in all it was worth it - we made first place!\n\n\"Moon Laser Duo\" now is a simple coop multiplayer game for two people at the same computer with splitscreen.\n\nYou and your partner control two little astronauts on a moon who have a laser between them. The laser destroys the aliens which constantly spawn and try to kill you. If you and your friend are too far from each other the laser will diminish and eventually vanish. So you have to stick together to eliminate as many aliens as possible and therefore get a high score.\n\nThe music was downloaded at [RKO](https://remix.kwed.org/). It's \"Moon Patrol (v3 Edit)\" by [Doron Deutsch](https://www.myspace.com/dorondeutsch).\n\nWatch the video or even better, download the game [from itch.io](https://ratrogue.itch.io/moon-laser-duo). Be aware that this is the contest version, so bugs may exist, and the gameplay is unbalanced."
 	}, {
 		"category": "University project",
 		"important": true,
