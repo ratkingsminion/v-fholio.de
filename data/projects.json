@@ -369,8 +369,14 @@
 		"timeframe": "released September 2019",
 		"occasion": "for the [Rat King](https://ratking.de)",
 		"tools": "Haxe/Heaps",
-		"credits": ["Dr. Antonio Peter / Landeszentrale für politische Bildung Thüringen", "https://www.lzt-thueringen.de/", "project lead", "Jana Reinhardt", "https://jana.ratking.de", "graphics, additional game design", "Paul Hanisch", "https://www.paul-hanisch.de/", "music"],
-		"links": ["Official site", "https://www.lzt-thueringen.de/index.php?article_id=54#wahlrennen_-_das_spiel", "PLAY", "https://www.was-willst-du-eigentlich.de/wahlrennen/"],
+		"credits": [
+			"Dr. Antonio Peter / Landeszentrale für politische Bildung Thüringen", "https://www.lzt-thueringen.de/", "project lead",
+			"Jana Reinhardt", "https://jana.ratking.de", "graphics, additional game design",
+			"Paul Hanisch", "https://www.paul-hanisch.de/", "music"
+		],
+		"links": [
+			"PLAY", "https://bildungfürdemokratie.de/wahlrennen/spiel.html"
+		],
 		"videos": [],
 		"tags": "game, contract work, 2D, mobile, web, commercial, Haxe, Rat King, Paul Hanisch, Jana Reinhardt",
 		"description": "\"WAHLRENNEN\" is a small **political** endless runner (commissioned by the Centre for Political Education of Thuringia) It is available in German only, but should also be playable without knowing the language. It should work in every browser - desktop **and** mobile!"
@@ -1236,20 +1242,6 @@
 		],
 		"tags": "jam entry, 3D, Unity, 7DRL, Jana Reinhardt",
 		"description": "In March 2011, the seventh [Seven Day Roguelike Challenge](https://roguebasin.roguelikedevelopment.org/index.php/7DRL_Contest_2011) took place. The 7DRLC is a contest without prices where the participants create a game within a week only; of course, the game has to be a roguelike.\n\nIf you don't know what a roguelike is, don't worry - I didn't know much about it before I entered the Challenge, either. You probably can read a definition on [Wikipedia](https://en.wikipedia.org/wiki/Roguelike), but as I was told the main elements are:\n\n* randomness, regarding world generation and gameplay\n* permadeath, which means no savegames and quickload\n* turnbased gameplay, so you have time to think\n\nAs usual, [Jana Reinhardt](https://jana.ratking.de/) and I teamed up and together we made \"Pitman Krumb\". The premise is simple: you play the dwarven protagonist Krumb on a not-so-epic quest for mighty artifacts, collecting a lot of items and fighting against vile monsters. Jana did the graphics (character models, environment textures, decorations, GUI elements) while I used Unity3D for the interactive part. Again, [Kevin MacLeod](https://incompetech.com/) provided us with the music we needed.\n\nMost roguelikes have procedurally generated dungeons and rooms as levels. I was sure I wouldn't compete in this field and tried something different instead: Now in \"Pitman Krumb\" the player has a couple of so-called \"cards\", which is our name for several pre-designed world sections with x*x tiles to walk on (with x in the range of 4 to 8 ). The player can distribute these cards on his journey and create his own dungeon this way. Everytime a new card is placed, new monsters and items also are created. Thus, \"Pitman Krumb\" should remind the player of a board game, which is complemented by the lack of animations and the style of the items (flat tokens on the ground).\n\nThe game generally is a role playing game, so the player can use different weapons, armours, potions and other magic stuff. After slaying enough monsters he can train several skills which make Krumb faster, stronger or more intelligent. At the end of each level a ladder appears which leads the brave Pitman to the next challenge ...\n\nAll Seven Day Roguelike Challengers are winners as soon as they submit a finished game in the given timeframe. But as it is tradition, a Commitee consisting of several members of the roguelike development community [evaluate all entries](https://www.roguetemple.com/7drl/2011/) and give points on categories like \"Completeness\", \"Fun\" and \"Roguelikeness\". Out of 98 participants (46 of them completed their games) we made the seventh place (2.44 points average, with 1 being the worst and 3 the best). This is not too bad for our first roguelike!\n\nWhile Jana posted daily updates of our progress on our [blog on ratking.de](https://www.ratking.de/blog), I used the more or less official website [7drl.org](htto://www.7drl.org) and wrote small articles every day. Here is a list of them, as there isn't anything like this on the site unfortunately:\n\n* [Our first roguelike!](https://7drl.org/2011/02/28/67/)\n* [First day survived](https://7drl.org/2011/03/07/first-day-survived/)\n* [Pitman – second day over](https://7drl.org/2011/03/08/pitman-second-day-over/)\n* [Pitman – third day, still alive](https://7drl.org/2011/03/09/pitman-third-day-still-alive/)\n* [Pitman – after the fourth day](https://7drl.org/2011/03/10/pitman-after-the-fourth-day/)\n* [Pitman – only two days left](https://7drl.org/2011/03/11/pitman-only-two-days-left/)\n* [Pitman – the last day approaches](https://7drl.org/2011/03/12/pitman-the-last-day-approaches/)\n* [Pitman – last day, and finished!](https://7drl.org/2011/03/13/pitman-last-day-and-finished/)\n* [Pitman – After-Challenge Update](https://7drl.org/2011/03/21/pitman-after-challenge-update/)"
-	}, {
-		"category": "Jam game",
-		"important": false,
-		"title": "1930",
-		"moniker": "1930",
-		"short_desc": "Memory game",
-		"timeframe": "made within 24 hours in January 2011",
-		"occasion": "Mini Ludum Dare [23](https://www.ludumdare.com/compo/minild-23/)",
-		"tools": "C#/Unity",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "3d gorilla", "Kevin MacLeod", "https://incompetech.com/", "music"],
-		"links": ["Entry page", "https://www.ludumdare.com/compo/minild-23/?action=preview&uid=3663", "PLAY (deprecated)", "https://fholio.de/things/jams/miniLD23/1930final.html"],
-		"videos": ["Gameplay", "https://www.youtube.com/watch?v=6zwJsdj1rTU"],
-		"tags": "jam entry, 3D, Unity, Ludum Dare, Mini Ludum Dare",
-		"description": "\"1930\" was made with Unity for the [Mini Ludum Dare #23](https://ludumdare.com/compo/minild-23/) on Sunday, January 23rd 2011. The theme was \"The name of the game must be a year\", with subtheme \"Spring physics\". I mostly ignored the subtheme, but I think I was pretty good at that year-thing.\n\nI created the concept, wrote the code (in C#) and modelled the level. [Jana Reinhardt](https://jana.ratking.de/) created the 3D model for the gorilla. The music was downloaded from [Kevin MacLeod's site](https://incompetech.com/m/c/royalty-free/licenses/). The piece is called \"Spazzmatica Polka\" and perfectly fits the colors I've chosen.\n\nIt's a singleplayer game, where you have to memorize a path from one blue building to another. The path is presented at the start of each level, and can contain gaps which you have overcome with a long jump.\n\n\"1930\" has only 8 levels, as development time was pretty short (ca. 12 hours) and I really lost motivation at the end of the day. You can play the game [here](https://fholio.de/things/jams/miniLD23/1930final.html). If you rather want to watch than play, [Vimeo](https://www.vimeo.com/19330961) has a video walkthrough."
 	}, {
 		"category": "Jam game",
 		"important": false,
