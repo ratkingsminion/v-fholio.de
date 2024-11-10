@@ -783,11 +783,15 @@
 		"timeframe": "made within 2 days in November/December 2013",
 		"occasion": "Spielsalon Kassel [2013](https://www.spielsalonkassel.com/) game jam",
 		"tools": "C#/Unity, Photoshop, Audacity",
-		"credits": ["Kevin MacLeod", "https://incompetech.com/", "music"],
-		"links": ["PLAY", "https://fholio.de/things/jams/Kassel2013/BrokenRadio.html", "Download (Win)", "https://www.dropbox.com/s/ufoqrf8bfhxzwen/BrokenRadio.zip?dl=0"],
+		"credits": [
+			"Kevin MacLeod", "https://incompetech.com/", "music"
+		],
+		"links": [
+			"Download (Win)", "https://ratrogue.itch.io/broken-radio"
+		],
 		"videos": [],
 		"tags": "jam entry, 2D, Unity, Photoshop, Spielsalon Kassel",
-		"description": ""
+		"description": "The theme was \"signal to noise\", which I knew i advance, as the jam was hosted by Jana. Nonetheless I only had the idea after trying out three other prototypes during the jam. The sounds were made by recording them on-site with my phone's microphone."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -877,13 +881,21 @@
 		"important": false,
 		"title": "Double Rogue",
 		"moniker": "double-rogue",
-		"short_desc": "Roguelike",
+		"short_desc": "Double-sided Roguelike",
 		"timeframe": "March 2013",
 		"occasion": "Seven-Day-Roguelike-Challenge [2013](https://www.roguebasin.com/index.php?title=7DRL_Challenge_2013)",
 		"tools": "C#/Unity, 3dsmax, Photoshop",
-		"credits": ["Elias 'TheWing' Linjama", "https://soundcloud.com/thewing", "music"],
-		"links": ["Infos & Download", "https://www.roguebasin.com/index.php?title=Double_Rogue", "Buy (Android)", "https://play.google.com/store/apps/details?id=com.RatKingEntertainment.DoubleRogue"],
-		"videos": ["Gameplay", "https://www.youtube.com/watch?v=xyQiKHc1Grg"],
+		"credits": [
+			"Elias 'TheWing' Linjama", "https://soundcloud.com/thewing", "music"
+		],
+		"links": [
+			"Roguebasin entry", "https://www.roguebasin.com/index.php?title=Double_Rogue",
+			"Download", "https://ratking.itch.io/double-rogue",
+			"Buy (Android)", "https://play.google.com/store/apps/details?id=com.RatKingEntertainment.DoubleRogue"
+		],
+		"videos": [
+			"Gameplay", "https://www.youtube.com/watch?v=xyQiKHc1Grg"
+		],
 		"tags": "jam entry, commercial, mobile, 3D, Unity, 7DRL, 3dsmax, Photoshop",
 		"description": ""
 	}, {
@@ -1147,8 +1159,14 @@
 		"timeframe": "made within 12 hours in October 2011",
 		"occasion": "Devmania [2011](https://twitter.com/devmanianet) overnight contest",
 		"tools": "C#/Unity, bfxr",
-		"credits": ["Björn Grunewald", "https://cargocollective.com/bgrunewald", "3d models", "Paul Hanisch", "https://paul-hanisch.de", "music", "Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
-		"links": ["PLAY", "https://www.kongregate.com/games/RatKingsLair/treasure-chest-island", "Download (Win)", "https://www.dropbox.com/s/rky9rsp3pnugkyk/WinBuild.zip?dl=0"],
+		"credits": [
+			"Björn Grunewald", "https://cargocollective.com/bgrunewald", "3d models",
+			"Paul Hanisch", "https://paul-hanisch.de", "music",
+			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"
+		],
+		"links": [
+			"Download (Win)", "https://ratrogue.itch.io/treasure-chest-island"
+		],
 		"videos": ["Gameplay", "https://www.youtube.com/watch?v=t-y4DkY-LcY"],
 		"tags": "jam entry, Devmania, 3D, Unity, Björn Grunewald, Ludwig Hanisch, Paul Hanisch",
 		"description": ""
