@@ -769,9 +769,15 @@
 		"timeframe": "March 2014",
 		"occasion": "Seven-Day-Roguelike-Challenge [2014](https://www.roguebasin.com/index.php?title=7DRL_Challenge_2014)",
 		"tools": "C#/Unity, Photoshop",
-		"credits": ["Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
-		"links": ["Entry post", "https://7drl.org/2014/03/16/success-variablo/", "PLAY & Download", "https://ratking.itch.io/variablo"],
-		"videos": ["Gameplay", "https://youtube.com/watch?v=Z8m6rFACRbE"],
+		"credits": [
+			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
+		"links": [
+			"Entry post", "https://web.archive.org/web/20140413085940/https://7drl.org/2014/03/16/success-variablo/",
+			"Download", "https://ratking.itch.io/variablo"
+		],
+		"videos": [
+			"Gameplay", "https://youtube.com/watch?v=Z8m6rFACRbE"
+		],
 		"tags": "jam entry, 2D, Unity, 7DRL, Photoshop, Ludwig Hanisch",
 		"description": "This roguelike was inspired by the classic combination game \"Mastermind\". Variablo kinda [won](https://www.roguebasin.com/index.php?title=7DRL_Challenge_2014) the 7DRL Challenge, but mostly because it only got one vote."
 	}, {
@@ -801,9 +807,16 @@
 		"timeframe": "made within 48 hours in September 2013",
 		"occasion": "Indie Speed Run [2013](https://www.indiespeedrun.com/)",
 		"tools": "C#/Unity, 3dsmax, Photoshop, bfxr",
-		"credits": ["Paul Hanisch", "https://paul-hanisch.de", "music", "Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
-		"links": ["Download", "https://ratking.itch.io/dangeon"],
-		"videos": ["Gameplay", "https://www.youtube.com/watch?v=FRtRT1jc0SQ"],
+		"credits": [
+			"Paul Hanisch", "https://paul-hanisch.de", "music",
+			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"
+		],
+		"links": [
+			"Download", "https://ratking.itch.io/dangeon"
+		],
+		"videos": [
+			"Gameplay", "https://www.youtube.com/watch?v=FRtRT1jc0SQ"
+		],
 		"tags": "jam entry, 3D, Unity, 3dsmax, Photoshop, Indie Speed Run, Ludwig Hanisch, Paul Hanisch",
 		"description": "One of my personal favourites."
 	}, {
@@ -829,9 +842,16 @@
 		"timeframe": "made within four days in August 2013",
 		"occasion": "7DFPS [2013](https://www.7dfps.com/)",
 		"tools": "C#/Unity, Photoshop",
-		"credits": ["Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
-		"links": ["Entry page (down)", "https://7dfps.com/?action=games&id=162", "PLAY", "https://www.ratking.de/games/svetovid/Web/index.html", "Downloads", "https://www.dropbox.com/sh/es89j1dpttfkxqg/AADDSxDPLGdamxqZIBD0mbZQa?dl=0"],
-		"videos": ["Gameplay", "https://www.youtube.com/watch?v=Xcd9mj0qbRA"],
+		"credits": [
+			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"
+		],
+		"links": [
+			"Entry page (down)", "https://7dfps.com/?action=games&id=162",
+			"Download", "https://ratrogue.itch.io/svetovid"
+		],
+		"videos": [
+			"Gameplay", "https://www.youtube.com/watch?v=Xcd9mj0qbRA"
+		],
 		"tags": "jam entry, 3D, Unity, 7DFPS, Photoshop, Ludwig Hanisch",
 		"description": ""
 	}, {
