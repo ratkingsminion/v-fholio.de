@@ -1164,12 +1164,13 @@
 		],
 		"links": [
 			"Project page", "https://tumblox.ratking.de/",
-			"Online-Demo", "https://www.kongregate.com/games/RatKingsLair/tumblox-pc-demo",
-			"Buy (Android)", "https://play.google.com/store/apps/details?id=com.RatKingEntertainment.Tumblox"
+			"Download (Win)", "https://ratking.itch.io/tumblox"
 		],
-		"videos": ["Trailer", "https://www.youtube.com/watch?v=uEKyTAej2IQ"],
+		"videos": [
+			"Trailer", "https://www.youtube.com/watch?v=uEKyTAej2IQ"
+		],
 		"tags": "game, commercial, mobile, 3D, Unity, Rat King, Photoshop, Jana Reinhardt, Ludwig Hanisch",
-		"description": ""
+		"description": "An attempt to make a puzzle game for mobile (iPhone). It was an utter fail. At some point it was available on (Android)[https://play.google.com/store/apps/details?id=com.RatKingEntertainment.Tumblox] too."
 	}, {
 		"category": "Jam game",
 		"important": false,
@@ -1247,8 +1248,8 @@
 		"credits": [],
 		"links": [
 			"Entry page", "https://www.ludumdare.com/compo/ludum-dare-20/?action=preview&uid=3663",
-			"PLAY", "https://www.kongregate.com/games/RatKingsLair/tri",
-			"Post mortem", "https://ludumdare.com/compo/2011/05/02/from-compo-to-jam/",
+			"Download", "https://ratrogue.itch.io/tri",
+			"Post mortem", "https://web.archive.org/web/20150210071729/http://ludumdare.com/compo/2011/05/02/from-compo-to-jam/",
 			"Making of", "https://docs.google.com/document/d/16Xq6NqFltmoH1_LoQ26IExFJdtBc83pq_7O6FsECpFE/edit?usp=sharing"
 		],
 		"videos": [
