@@ -221,7 +221,7 @@ pub fn (mut app App) projects_subpage(mut ctx Context, subpage string) veb.Resul
 	}
 	else if cur_subpage == "tags" {
 		// tags
-		all_tags := app.content.projects.tags.keys()
+		mut all_tags := app.content.projects.tags.keys()
 		all_tags.sort_with_compare(alphanum_compare)
 		projects_cur_page = -2
 		return $veb.html("html/projects_tags.html")
@@ -315,7 +315,7 @@ fn deploy_all(mut app App) {
 	os.write_file("${path}/projects/index.html", projects_html) or { println(err) }
 
 	// projects list by tags
-	all_tags := app.content.projects.tags.keys()
+	mut all_tags := app.content.projects.tags.keys()
 	all_tags.sort_with_compare(alphanum_compare)
 	projects_cur_page = -2
 	os.mkdir("${path}/projects/tags") or { panic(err) }
@@ -357,7 +357,7 @@ pub fn (mut app App) get_content() Content {
 		
 		for mut pe in app.content.projects.entries {
 			pe.pictures = []string{}
-			for entry in os.ls("assets/projects/${pe.moniker}") or { println(err) } {
+			for entry in os.ls("assets/projects/${pe.moniker}") or { panic(err) } {
 				if os.is_dir("assets/projects/${pe.moniker}/${entry}") { continue }
 				if entry.contains("preview") { continue }
 				pe.pictures << entry
@@ -387,7 +387,7 @@ pub fn (mut app App) get_content() Content {
 				app.content.projects.tags[ttag] << pe
 			}
 		}
-		for _, pl in app.content.projects.tags {
+		for _, mut pl in app.content.projects.tags {
 			pl.sort_with_compare(projects_compare)
 		}
 	}
