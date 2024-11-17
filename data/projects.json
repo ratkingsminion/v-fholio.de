@@ -389,11 +389,16 @@
 		"timeframe": "made within 36 hours in August 2019",
 		"occasion": "[Climate Change Jam](https://alakajam.com/climate-change-jam) @ Alakajam ",
 		"tools": "C#/Unity",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "graphics, additional design"],
-		"links": ["Entry page", "https://alakajam.com/climate-change-jam/753/forest-poems/", "PLAY", "https://www.ratking.de/projectpages/climatechangejam/forestpoems/jam-version/index.html"],
+		"credits": [
+			"Jana Reinhardt", "https://jana.ratking.de", "graphics, additional design"
+		],
+		"links": [
+			"Entry page", "https://alakajam.com/climate-change-jam/753/forest-poems/",
+			"PLAY", "https://ratking.itch.io/forest-poems"
+		],
 		"videos": [],
 		"tags": "jam entry, multiplayer, 2D, web, Unity, Rat King, Alakajam, Jana Reinhardt",
-		"description": "In \"FOREST POEMS\" you write little poems made of trees and add them to a forest created by different people. *The reforestation of the planet is one of the things we can do to reduce the CO2 in the atmosphere and stop the greenhouse effect. This project wants to raise awareness to this fact.*"
+		"description": "In FOREST POEMS you write little poems made of trees and add them to a forest created by different people. *The reforestation of the planet is one of the things we can do to reduce the CO2 in the atmosphere and stop the greenhouse effect. This project wants to raise awareness to this fact.*"
 	}, {
 		"category": "Game",
 		"important": false,
@@ -674,11 +679,16 @@
 		"timeframe": "made within a few days in November 2015",
 		"occasion": "Mini Ludum Dare [63](https://ludumdare.com/compo/minild-63/)",
 		"tools": "Haxe/Allegro.js, Photoshop",
-		"credits": ["Robson Cozendey", "https://www.cozendey.com", "music"],
-		"links": ["Entry page", "https://ludumdare.com/compo/minild-63/?action=preview&uid=3663", "PLAY", "https://fholio.de/things/jams/miniLD63-Snakoban/"],
+		"credits": [
+			"Robson Cozendey", "https://www.cozendey.com", "music"
+		],
+		"links": [
+			"Entry page", "https://ludumdare.com/compo/minild-63/?action=preview&uid=3663",
+			"PLAY", "https://ratrogue.itch.io/snakoban"
+		],
 		"videos": [],
 		"tags": "jam entry, 2D, web, Haxe, Ludum Dare, Mini Ludum Dare, Photoshop",
-		"description": "The [Game Jam Curator](https://gamejamcurator.tumblr.com/) made a [video](https://www.youtube.com/watch?v=deVsa6LX-R4) of it."
+		"description": ""
 	}, {
 		"category": "Prototype",
 		"important": false,
