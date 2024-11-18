@@ -20,7 +20,7 @@
 	<div class="project">
 	
 		<div class="pictures">
-			@for i := 0; i < project.pics_cols; i++
+			@for i := 0; i < project.pics_cols && i < project.pictures.len; i++
 			<a href="/assets/projects/@{project.moniker}/@{project.pictures[i]}">
 				<img src="/assets/projects/@{project.moniker}/@{project.pictures[i]}" width="${100 / project.pics_cols}%" height="auto" />
 			</a>
@@ -62,7 +62,11 @@
 
 			@if project.credits.len > 0
 				<div class="w3-container list">
-					Additional Credits:
+					@if project.credits.len > 3
+						Additional Credits
+					@else 
+						Additional Credit
+					@end
 					<ul>
 						@for i := 0; i < project.credits.len; i += 3
 						@if project.credits[i + 1] != ""
@@ -77,7 +81,11 @@
 
 			@if project.videos.len > 0
 				<div class="w3-container list">
-					Video(s):
+					@if project.videos.len > 2
+						Videos
+					@else
+						Video
+					@end
 					<ul>
 						@for i := 0; i < project.videos.len; i += 2
 						<li><a href="@{project.videos[i + 1]}">@{md_nop(project.videos[i])}</a></li>
@@ -88,7 +96,11 @@
 
 			@if project.links.len > 0
 				<div class="w3-container list">
-					Links:
+					@if project.links.len > 2
+						Links
+					@else 
+						Link
+					@end
 					<ul>
 						@for i := 0; i < project.links.len; i += 2
 						<li><a href="@{project.links[i + 1]}">@{md_nop(project.links[i])}</a></li>
@@ -110,6 +122,15 @@
 					<a href="/assets/projects/@{project.moniker}/@{project.pictures[p + i]}">
 						<img src="/assets/projects/@{project.moniker}/@{project.pictures[p + i]}" width="${100 / project.pics_cols}%" height="auto" />
 					</a>
+				@end
+			@end
+			@if (project.pictures.len % project.pics_cols) != 0
+				@for p := project.pics_cols; p < project.pictures.len - (project.pictures.len % project.pics_cols) + 1; p += (project.pictures.len % project.pics_cols)
+					@for i := 0; i < (project.pictures.len % project.pics_cols); i++
+						<a href="/assets/projects/@{project.moniker}/@{project.pictures[p + i]}">
+							<img src="/assets/projects/@{project.moniker}/@{project.pictures[p + i]}" width="${100 / project.pics_cols}%" height="auto" />
+						</a>
+					@end
 				@end
 			@end
 		</div>

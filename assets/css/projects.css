@@ -108,6 +108,10 @@
 	border-radius: 0;
 }
 
+.project .pictures {
+	text-align: center;
+}
+
 .project .pictures img {
 	border-radius: 8px;
 	margin: 0 -2px 20px -2px;
@@ -127,6 +131,10 @@
 	margin-top: 20px;
 }
 
+.project .page {
+	padding-bottom: 30px;
+}
+
 .project .info ul {
 	margin: 0;
 	padding: 0 0 10px 25px;
@@ -136,14 +144,14 @@
 }
 
 .project .description {
-	padding: 10px 15px;
-	margin: 30px 0 10px 0;
+	padding: 0 15px;
+	margin: 30px 0 0 0;
 }
 .project .description h1,h2,h3,h4 {
 	padding-bottom: 20px;
 }
 .project .description p {
-	padding-bottom: 30px;
+	padding-bottom: 15px;
 }
 .project .description img {
 	width: 100%;

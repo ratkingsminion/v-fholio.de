@@ -88,7 +88,7 @@
 		"tools": "Unity/C#",
 		"credits": [],
 		"links": [
-			"DOWNLOAD (WIN) / Buy", "https://ratking.itch.io/connected"],
+			"Download (WIN) / Buy", "https://ratking.itch.io/connected"],
 		"videos": [],
 		"tags": "commercial, tool, Unity, 2D",
 		"description": "Originally created as an in-game-only tool for [Behind Stars and Under Hills](https://behindstarsandunderhills.com), connected became a stand-alone dialog editor available on itch.io. It features a node-based workflow with correctness check and a test mode. There's a fully functional lite version, but when purchasing the pro edition, users can create their own node types and also save all localisable texts inside a dedicated JSON file."
@@ -964,7 +964,7 @@
 		"credits": [],
 		"links": [
 			"Entry page", "https://globalgamejam.org/2013/72",
-			"DOWNLOAD", "https://ratking.itch.io/72"
+			"Download", "https://ratking.itch.io/72"
 		],
 		"videos": [
 			"Gameplay", "https://www.youtube.com/watch?v=LGrr-DhBdsM"
@@ -985,7 +985,7 @@
 		],
 		"links": [
 			"Entry page", "https://www.ludumdare.com/compo/ludum-dare-25/?action=preview&uid=3663",
-			"DOWNLOAD (Win, Mac)", "https://ratrogue.itch.io/tale-of-scale",
+			"Download (Win, Mac)", "https://ratrogue.itch.io/tale-of-scale",
 			"Post mortem", "https://ratking.de/blog/2012/12/24/ludum-dare-25-tale-of-scale-post-mortem/"
 		],
 		"videos": [
@@ -1002,9 +1002,17 @@
 		"timeframe": "made within ~2 days in November 2012",
 		"occasion": "[Fuck This Jam](https://www.fuckthisjam.com/)",
 		"tools": "Haxe/HaxeFlixel, FlashDevelop, Photoshop, bfxr, Audacity",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "pixel graphics, additional game design", "SynthR", "https://synthr.bandcamp.com/", "music"],
-		"links": ["Download (EXE)", "https://fholio.de/things/jams/FTJ-SuperNoBrainer/SuperNoBrainer.zip", "Entry page", "https://bmo.fuckthisjam.com/submissions/47-super-no-brainer", "PLAY", "https://www.kongregate.com/games/RatKingsLair/super-no-brainer"],
-		"videos": ["Gameplay", "https://www.youtube.com/watch?v=cnjHNuWKoC0"],
+		"credits": [
+			"Jana Reinhardt", "https://jana.ratking.de", "pixel graphics, additional game design",
+			"SynthR", "https://synthr.bandcamp.com/", "music"
+		],
+		"links": [
+			"Entry page", "https://bmo.fuckthisjam.com/submissions/47-super-no-brainer",
+			"Download (Win)", "https://ratking.itch.io/super-no-brainer"
+		],
+		"videos": [
+			"Gameplay", "https://www.youtube.com/watch?v=cnjHNuWKoC0"
+		],
 		"tags": "jam entry, 2D, Fuck This Jam, Haxe, Jana Reinhardt, Photoshop",
 		"description": "",
 		"pics_cols": 2
@@ -1021,7 +1029,7 @@
 			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"
 		],
 		"links": [
-			"DOWNLOAD (Win, Android)", "https://ratrogue.itch.io/hatesnake3d"
+			"Download (Win, Android)", "https://ratrogue.itch.io/hatesnake3d"
 		],
 		"videos": [
 			"Gameplay", "https://www.youtube.com/watch?v=ci1SI9hK3Fo",
@@ -1066,7 +1074,7 @@
 		],
 		"links": [
 			"Entry page", "https://www.ludumdare.com/compo/ludum-dare-24/?action=preview&uid=3663",
-			"DOWNLOAD (Win)", "https://ratking.itch.io/kernel-exception"
+			"Download (Win)", "https://ratking.itch.io/kernel-exception"
 		],
 		"videos": [
 			"Gameplay", "https://www.youtube.com/watch?v=vHdtm-5_qao"
@@ -1086,7 +1094,7 @@
 		"links": [
 			"Entry page", "https://www.ludumdare.com/compo/ludum-dare-23/?action=preview&uid=3663",
 			"Project page", "https://wunderworld.ratking.de/",
-			"DOWNLOAD (Win)", "https://ratrogue.itch.io/wunderworld",
+			"Download (Win)", "https://ratrogue.itch.io/wunderworld",
 			"Post mortem", "https://ratking.de/2012/05/02/wunderworld-post-mortem/"],
 		"videos": [
 			"Gameplay", "https://www.youtube.com/watch?v=Ja_w3zoR5Vo"
@@ -1131,7 +1139,7 @@
 			"Andrew Matecha", "https://soundcloud.com/matecha", "music"
 		],
 		"links": [
-			"DOWNLOAD (Win)", "https://ratking.itch.io/me-against-the-mutants",
+			"Download (Win)", "https://ratking.itch.io/me-against-the-mutants",
 			"Post mortem", "https://ratking.de/2012/04/01/me-against-the-mutants-post-mortem/"
 		],
 		"videos": [
@@ -1156,7 +1164,7 @@
 			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
 		"links": [
 			"Entry page", "https://globalgamejam.org/2012/inclosssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
-			"DOWNLOAD (Win)", "https://ratking.itch.io/inclosssure"
+			"Download (Win)", "https://ratking.itch.io/inclosssure"
 		],
 		"videos": [
 			"Gameplay", "https://www.youtube.com/watch?v=JEF90o-YZkU"
@@ -1175,7 +1183,7 @@
 		"credits": [],
 		"links": [
 			"Entry page", "https://www.ludumdare.com/compo/ludum-dare-22/?action=preview&uid=3663",
-			"DOWNLOAD (Win)", "https://ratrogue.itch.io/soliloquy",
+			"Download (Win)", "https://ratrogue.itch.io/soliloquy",
 			"Post mortem", "https://ratking.de/2011/12/20/ld-22-soliloquy-post-mortem/"
 		],
 		"videos": [
@@ -1237,7 +1245,7 @@
 		"credits": [],
 		"links": [
 			"Entry page", "https://www.ludumdare.com/compo/ludum-dare-21/?action=preview&uid=3663",
-			"DOWNLOAD (Win)", "https://ratrogue.itch.io/bunnies-back-into-your-cage",
+			"Download (Win)", "https://ratrogue.itch.io/bunnies-back-into-your-cage",
 			"Post mortem", "https://web.archive.org/web/20150210080106/http://ludumdare.com/compo/2011/08/23/bunnies-back-into-your-cage-post-mortem/"
 		],
 		"videos": [
