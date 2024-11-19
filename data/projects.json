@@ -698,9 +698,18 @@
 		"timeframe": "August - October 2015",
 		"occasion": "for the [Rat King](https://ratking.de), created for the [PGA 2015](https://www.gamearena.pl/en/)",
 		"tools": "C#/Unity, Tiled, Audacity",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "art direction, graphics", "Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
-		"links": ["Project page", "https://poweroflove.ratking.de/", "BUY", "https://ratking.itch.io/power-of-love", "Soundtrack", "https://kingludi.bandcamp.com/album/power-of-love"],
-		"videos": ["Music video", "https://www.youtube.com/watch?v=_AQvObn6AHk"],
+		"credits": [
+			"Jana Reinhardt", "https://jana.ratking.de", "art direction, graphics",
+			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"
+		],
+		"links": [
+			"Project page", "https://poweroflove.ratking.de/",
+			"BUY", "https://ratking.itch.io/power-of-love",
+			"Soundtrack", "https://kingludi.bandcamp.com/album/power-of-love"
+		],
+		"videos": [
+			"Music video", "https://www.youtube.com/watch?v=_AQvObn6AHk"
+		],
 		"tags": "prototype, commercial, 2D, multiplayer, Unity, Rat King, Jana Reinhardt, Ludwig Hanisch",
 		"description": "This game was planned to be our next bigger game, but we stopped after the prototype phase. It's for two players only."
 	}, {
@@ -713,10 +722,13 @@
 		"occasion": "Seven-Day-Roguelike-Challenge [2015](https://www.roguebasin.com/index.php?title=7DRL_Challenge_2015)",
 		"tools": "Haxe/Luxe, Photoshop",
 		"credits": [],
-		"links": ["PLAY & Download", "https://fholio.de/things/jams/7drl2015-Loguerike"],
+		"links": [
+			"PLAY & Download (Win)", "https://ratrogue.itch.io/loguerike"
+		],
 		"videos": [],
 		"tags": "jam entry, 2D, web, Haxe, 7DRL, Photoshop",
-		"description": "A roguelike broken down to its bare minimum. With highscore."
+		"description": "A roguelike broken down to its bare minimum. With highscore.",
+		"pics_cols": 2
 	}, {
 		"category": "Jam game",
 		"important": false,

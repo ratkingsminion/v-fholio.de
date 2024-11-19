@@ -21,9 +21,7 @@
 	
 		<div class="pictures">
 			@for i := 0; i < project.pics_cols && i < project.pictures.len; i++
-			<a href="/assets/projects/@{project.moniker}/@{project.pictures[i]}">
-				<img src="/assets/projects/@{project.moniker}/@{project.pictures[i]}" width="${100 / project.pics_cols}%" height="auto" />
-			</a>
+			<a href="/assets/projects/@{project.moniker}/@{project.pictures[i]}"><img src="/assets/projects/@{project.moniker}/@{project.pictures[i]}" width="${100 / project.pics_cols}%" height="auto" /></a>
 			@end
 		</div>
 		
@@ -119,20 +117,12 @@
 		<div class="pictures">
 			@for p := project.pics_cols; p < project.pictures.len - project.pics_cols + 1; p += project.pics_cols
 				@for i := 0; i < project.pics_cols; i++
-					<a href="/assets/projects/@{project.moniker}/@{project.pictures[p + i]}">
-						<img src="/assets/projects/@{project.moniker}/@{project.pictures[p + i]}" width="${100 / project.pics_cols}%" height="auto" />
-					</a>
+					<a href="/assets/projects/@{project.moniker}/@{project.pictures[p + i]}"><img src="/assets/projects/@{project.moniker}/@{project.pictures[p + i]}" width="${100 / project.pics_cols}%" height="auto" /></a>
 				@end
 			@end
-			@if (project.pictures.len % project.pics_cols) != 0
-				@for p := project.pics_cols; p < project.pictures.len - (project.pictures.len % project.pics_cols) + 1; p += (project.pictures.len % project.pics_cols)
-					@for i := 0; i < (project.pictures.len % project.pics_cols); i++
-						<a href="/assets/projects/@{project.moniker}/@{project.pictures[p + i]}">
-							<img src="/assets/projects/@{project.moniker}/@{project.pictures[p + i]}" width="${100 / project.pics_cols}%" height="auto" />
-						</a>
-					@end
+				@for p := project.pictures.len - (project.pictures.len % project.pics_cols); p < project.pictures.len; p++
+					<a href="/assets/projects/@{project.moniker}/@{project.pictures[p]}"><img src="/assets/projects/@{project.moniker}/@{project.pictures[p]}" width="${100 / project.pics_cols}%" height="auto" /></a>
 				@end
-			@end
 		</div>
 	</div>
 
