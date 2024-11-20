@@ -874,9 +874,19 @@
 		"timeframe": "made within 3 days in August 2013",
 		"occasion": "Ludum Dare [27](https://www.ludumdare.com/compo/ludum-dare-27/)",
 		"tools": "C#/Unity",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "art direction, 3d models, additional game design", "Roald Strauss", "https://www.indiegamemusic.com/viewartist.php?id=1", "music", "Robson Cozendey", "https://www.cozendey.com/", "music"],
-		"links": ["Entry page", "https://www.ludumdare.com/compo/ludum-dare-27/?action=preview&uid=3663", "Project page", "https://blamblam.ratking.de/", "PLAY", "https://www.kongregate.com/games/ratkingslair/blam-blam-planet", "Post mortem", "https://ratking.de/2013/08/28/ludum-dare-27-blam-blam-planet-post-mortem/"],
-		"videos": ["Gameplay", "https://www.youtube.com/watch?v=ENSHQpp61cs"],
+		"credits": [
+			"Jana Reinhardt", "https://jana.ratking.de", "art direction, 3d models, additional game design",
+			"Roald Strauss", "https://www.indiegamemusic.com/viewartist.php?id=1", "music",
+			"Robson Cozendey", "https://www.cozendey.com/", "music"
+		],
+		"links": [
+			"Entry page", "https://www.ludumdare.com/compo/ludum-dare-27/?action=preview&uid=3663",
+			"Project page", "https://blamblam.ratking.de/",
+			"Post mortem", "https://ratking.de/2013/08/28/ludum-dare-27-blam-blam-planet-post-mortem/"
+		],
+		"videos": [
+			"Gameplay", "https://www.youtube.com/watch?v=ENSHQpp61cs"
+		],
 		"tags": "jam entry, 3D, multiplayer, Unity, Ludum Dare, Jana Reinhardt",
 		"description": "Playable for up to four players!"
 	}, {
@@ -1325,9 +1335,7 @@
 			"Kevin MacLeod", "https://incompetech.com/", "music"
 		],
 		"links": [
-			"PLAY", "https://www.ratking.de/games/pitman/index.html",
-			"Download (Win)", "https://www.ratking.de/games/pitman/Pitman-Win.7z",
-			"Download (Mac)", "https://www.ratking.de/games/pitman/Pitman-Mac.7z",
+			"Download (Win/Mac)", "https://ratking.itch.io/pitman-krumb",
 			"Post mortem", "https://docs.google.com/document/d/1sUx7D50sly-jGMRfkxxRH80hJL4fOsdWI9qR7UZA6Vk/edit?usp=sharing"
 		],
 		"videos": [
@@ -1407,9 +1415,17 @@
 		"timeframe": "winter semester 2007/08",
 		"occasion": "[university](https://burg-halle.de) project",
 		"tools": "C++/Irrlicht/RakNet, 3dsmax, Photoshop",
-		"credits": ["Jana Reinhardt", "https://jana.ratking.de", "art direction, 3d models & textures, additional 3d characters", "Paul Hanisch", "https://paul-hanisch.de", "music", "Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
+		"credits": [
+			"Jana Reinhardt", "https://jana.ratking.de", "art direction, 3d models & textures, additional 3d characters",
+			"Paul Hanisch", "https://paul-hanisch.de", "music",
+			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"
+		],
 		"links": [],
-		"videos": ["Gameplay", "https://www.youtube.com/watch?v=Zyb9Xu28osw", "Level", "https://www.youtube.com/watch?v=IenBipOsz6M", "Followers", "https://www.youtube.com/watch?v=Piw9_fRGfcw"],
+		"videos": [
+			"Gameplay", "https://www.youtube.com/watch?v=Zyb9Xu28osw",
+			"Level", "https://www.youtube.com/watch?v=IenBipOsz6M",
+			"Followers", "https://www.youtube.com/watch?v=Piw9_fRGfcw"
+		],
 		"tags": "prototype, 3D, multiplayer, Irrlicht, C++, university, 3dsmax, Photoshop, Jana Reinhardt, Paul Hanisch, Ludwig Hanisch",
 		"description": "## Omertà - Schweigen ist Gold\n\nRight before the Games Convention 2007, Jana Reinhardt and I decided to do our own university semester project, because the ones offered by the professors weren't to our liking. Again, after \"Faszination des Bösen\" and \"Mummenschanz\", we chose to make a computergame, this time together.\n\nThus, we created a virtual developer label: \"SONEN HALS\". We called our game \"Omertà\", because we love movies about the mafia.\n\nOne of the many good things of this project was that we could split the tasks easily. Jana made all the prefabs (models, textures), while I coded the prototype and designed the map. We both created three characters (models, textures, rig, animations) and, of course, the concept. The whole thing is worth around five months of work.\n\nOur tools of choice were, among others, Photoshop, 3D Studio Max 8, Code::Blocks, Irrlicht, RakNet and Lua.\n\nThe gameplay of \"Omertà\" mainly consists of recruiting neutral NPCs so they steal, fight and spy for you. Your enemy doesn't know which NPCs on the map are yours and you don't know anything about him, either. As soon as your army is big enough, you should seek the boss of your opponent and attack him. Of course, he plans the same. \"Omertà\" is a genre mix, with RTS and RPG elements."
 	}, {
@@ -1421,9 +1437,16 @@
 		"timeframe": "summer semester 2007",
 		"occasion": "[university](https://burg-halle.de) project",
 		"tools": "Virtools, 3dsmax, Photoshop",
-		"credits": ["Paul Hanisch", "https://paul-hanisch.de", "music", "Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
+		"credits": [
+			"Paul Hanisch", "https://paul-hanisch.de", "music",
+			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"
+		],
 		"links": [],
-		"videos": ["Exploration", "https://www.youtube.com/watch?v=s3txjOa7kys", "Interaction", "https://www.youtube.com/watch?v=MX2zyq4aKRY", "Upgrading", "https://www.youtube.com/watch?v=KnIiz0Z6dnQ"],
+		"videos": [
+			"Exploration", "https://www.youtube.com/watch?v=s3txjOa7kys",
+			"Interaction", "https://www.youtube.com/watch?v=MX2zyq4aKRY",
+			"Upgrading", "https://www.youtube.com/watch?v=KnIiz0Z6dnQ"
+		],
 		"tags": "prototype, 3D, Virtools, university, 3dsmax, Photoshop, Paul Hanisch, Ludwig Hanisch",
 		"description": "## Faszination des Bösen\n\nMade for the summer semester 2007, \"Fascinated By Evil\" tells the story of two very different characters. One of them is Kwai, a mute mercenary, who has to be controlled by the player. His follower is Golem, a cyborg made out of trash with a highly depressive personality. Together they have to solve a crime about murdered goblins.\n\nAs there were only three months for concept and development, the status of the game is 'unfinished - forever'. Having a level for walking through and two or three characters were the goal, so all you can do at this point in my little prototype is asking some little goblins for help and solving one little quest. I used Photoshop, 3D Studio Max and Virtools in order to bring the thing on screen.\n\nBig thanks to my **brothers** for providing me and the prototype with music and speech."
 	}]
