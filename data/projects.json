@@ -666,7 +666,9 @@
 		"occasion": "One Hour Game Jam [38](https://onehourgamejam.com/?page=jam&jam=38)",
 		"tools": "C#/Unity",
 		"credits": [],
-		"links": ["Download", "https://fholio.de/things/OHGJ/038-Coxel/index.html", "PLAY", "https://www.kongregate.com/games/RatKingsLair/coxel"],
+		"links": [
+			"Entry page", "https://fholio.de/things/OHGJ/038-Coxel/index.html",
+			"Download (Win)", "https://ratrogue.itch.io/tiny-jam-games"],
 		"videos": [],
 		"tags": "jam entry, 3D, Unity, One Hour Game Jam, web",
 		"description": "Later on I created a similar game as a project for my students; the video is [here](https://twitter.com/ratrogue/status/939575062440574977)."
@@ -738,8 +740,13 @@
 		"timeframe": "made within 2 hours in January 2015",
 		"occasion": "New Year Game Jam '14/'15",
 		"tools": "C#/Unity",
-		"credits": ["Paul Hanisch", "https://paul-hanisch.de", "music", "Ludwig Hanisch", "https://ludwig-hanisch.de", "music"],
-		"links": ["PLAY", "https://fholio.de/things/jams/NYGJ1415/NYGJ1415.html", "Download (Win)", "https://www.dropbox.com/s/ndyx86i280hk2fg/NYGJ1415.zip?dl=0"],
+		"credits": [
+			"Paul Hanisch", "https://paul-hanisch.de", "music",
+			"Ludwig Hanisch", "https://ludwig-hanisch.de", "music"
+		],
+		"links": [
+			"Download (Win)", "https://ratrogue.itch.io/tiny-jam-games"
+		],
 		"videos": [],
 		"tags": "jam entry, 2D, Unity, New Year Game Jam, Paul Hanisch, Ludwig Hanisch",
 		"description": "I liked the capsule mechanic so much I made another game with this character controller nearly three years later, called Cupsela II."
@@ -1291,7 +1298,6 @@
 		],
 		"links": [
 			"Project page", "https://pitman.ratking.de/",
-			"Online-Demo", "https://www.kongregate.com/games/RatKingsLair/pitman-demo",
 			"BUY", "https://ratking.itch.io/pitman"
 		],
 		"videos": [
