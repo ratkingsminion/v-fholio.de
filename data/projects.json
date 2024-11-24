@@ -283,8 +283,18 @@
 		"timeframe": "released November 2020",
 		"occasion": "for the [Rat King](https://ratking.de)",
 		"tools": "C#/Unity",
-		"credits": ["Dr. Marcus Bergmann und Ottmar Rensch, LL.M. oec.", "", "project lead", "Annabell Pfaff", "", "research assistant", "Dieter Pfaff, B.Sc.", "", "project coordinator", "Arne Blanke & Moritz Schwarz", "", "assistants", "Jana Reinhardt", "https://jana.ratking.de", "UI, graphics, additional game design"],
-		"links": ["Official site", "https://www.jura.uni-halle.de/citapp/", "Download (Android)", "https://play.google.com/store/apps/details?id=com.RatKingEntertainment.CitApp", "Press release", "https://pressemitteilungen.pr.uni-halle.de/index.php?modus=pmanzeige&pm_id=5158"],
+		"credits": [
+			"Dr. Marcus Bergmann und Ottmar Rensch, LL.M. oec.", "", "project lead",
+			"Annabell Pfaff", "", "research assistant",
+			"Dieter Pfaff, B.Sc.", "","project coordinator",
+			"Arne Blanke & Moritz Schwarz", "", "assistants",
+			"Jana Reinhardt", "https://jana.ratking.de", "UI, graphics, additional game design"
+		],
+		"links": [
+			"Official site", "https://www.jura.uni-halle.de/citapp/",
+			"Download (Android)", "https://play.google.com/store/apps/details?id=com.RatKingEntertainment.CitApp",
+			"Press release", "https://pressemitteilungen.pr.uni-halle.de/index.php?modus=pmanzeige&pm_id=5158"
+		],
 		"videos": [],
 		"tags": "game, contract work, 3D, mobile, commercial, Unity, Rat King, Jana Reinhardt",
 		"description": "Willkommen in der Stadt der Citlinge – einer Welt des Wissens.\n\nHier dreht sich alles um Bücher! Hilf den Citlingen dabei, ihre Bibliothek auf Vordermann zu bringen, ihre Stadt auf- und auszubauen und gegen fiese Bücherwürmer und Plagiatoren zu verteidigen! Das einzige, was man dafür benötigt, ist Wissen rund um das juristische Zitieren.\n\nAber keine Sorge: Vorkenntnisse sind hilfreich, aber nicht erforderlich! Schritt für Schritt vermittelt die CitApp die notwendigen Kenntnisse über Fußnoten, Literaturverzeichnisse und das richtige Gliedern von Texten. Damit sollte es ein Leichtes sein, die anstehenden Aufgaben zu bewältigen – nicht nur in der CitApp, sondern auch in juristischen Hausarbeiten und später in Wissenschaft und Rechtspraxis.\n\nDie CitApp wurde aus Mitteln des Hochschulpaktes 2020 des Bundesministeriums für Bildung und Forschung finanziert und im Rahmen eines Projekts an der Martin-Luther-Universität Halle-Wittenberg (angesiedelt am Lehrstuhl von Prof. Dr. Christian Schröder) entwickelt."
