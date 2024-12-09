@@ -11,3 +11,5 @@ v -d deploy run .
 cp -r ./static/. $SOURCEFOLDER
 
 echo "Created $SOURCEFOLDER content"
+
+read
