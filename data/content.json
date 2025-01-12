@@ -13,7 +13,7 @@
 				{ "title": "Discord", "icon": "fa-brands fa-discord", "url": "https://discordapp.com/users/250914321691967489" },
 				{ "title": "Github", "icon": "fa-brands fa-github", "url": "https://github.com/ratkingsminion" },
 				{ "title": "YouTube", "icon": "fa-brands fa-youtube", "url": "https://www.youtube.com/@ratrogue" },
-				{ "title": "Instagram", "icon": "fa-brands fa-instagram", "url": "https://www.instagram.com/ratrogue/" },
+				{ "active": false, "title": "Instagram", "icon": "fa-brands fa-instagram", "url": "https://www.instagram.com/ratrogue/" },
 				{ "title": "LinkedIn", "icon": "fa-brands fa-linkedin", "url": "https://www.linkedin.com/in/friedrich-hanisch" }
 			],
 			"links": [

@@ -55,6 +55,7 @@ mut:
 struct Linktree {
 	title string
 	shortlinks []struct {
+		active bool = true
 		title string
 		icon string
 		url string
@@ -63,6 +64,7 @@ struct Linktree {
 		rel string
 	}
 	links []struct {
+		active bool = true
 		title string
 		icon string
 		url string
