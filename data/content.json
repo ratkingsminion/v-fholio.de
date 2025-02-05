@@ -11,13 +11,14 @@
 			"shortlinks": [
 				{ "title": "Mastodon", "icon": "fa-brands fa-mastodon", "url": "https://mstdn.io/@ratking", "fav": true, "rel": "me"},
 				{ "title": "Discord", "icon": "fa-brands fa-discord", "url": "https://discordapp.com/users/250914321691967489" },
+				{ "title": "BlueSky", "icon": "fa-brands fa-twitter", "url": "https://bsky.app/profile/ratrogue.bsky.social", "fav": false},
 				{ "title": "Github", "icon": "fa-brands fa-github", "url": "https://github.com/ratkingsminion" },
 				{ "title": "YouTube", "icon": "fa-brands fa-youtube", "url": "https://www.youtube.com/@ratrogue" },
 				{ "active": false, "title": "Instagram", "icon": "fa-brands fa-instagram", "url": "https://www.instagram.com/ratrogue/" },
 				{ "title": "LinkedIn", "icon": "fa-brands fa-linkedin", "url": "https://www.linkedin.com/in/friedrich-hanisch" }
 			],
 			"links": [
-				{ "title": "MY PROJECTS", "icon": "fa fa-globe", "url": "/projects/1", "target": "_self", "fav": true },
+				{ "title": "My projects: games and tools", "icon": "fa fa-globe", "url": "/projects/1", "target": "_self", "fav": true },
 				{ "title": "My dev log", "icon": "fa-solid fa-blog", "url": "/log/{cur_year}", "target": "_self" },
 				{ "title": "My games on itch.io", "icon": "fab fa-itch-io", "url": "https://ratrogue.itch.io/" }
 			]
