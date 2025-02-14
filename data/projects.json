@@ -90,7 +90,7 @@
 	"videos": [
 		"TikTok", "https://www.tiktok.com/@ratkingentertainment/video/7260790651493600539",
 		"TikTok", "https://www.tiktok.com/@ratkingentertainment/video/7261888831627087131"],
-	"tags": "jam entry, 3D, Unity, Blender, Jana Reinhardt, Björn Grunewald, Crabman",
+	"tags": "jam entry, 3D, Unity, Blender, Jana Reinhardt, Björn Grunewald, Crabman, bpb game jam",
 	"description": "Krieg die Bahn, oder die Bahn kriegt dich!\n\nEin Beitrag zum bpb Game Jam 2023 - unsere Idee war es, das faszinierende Erlebnis \"Bahn-Fahren\" zu visualisieren und hautnah erlebbar zu machen. Wir hoffen, dies ist uns gelungen, trotz des geringen Zeitbudgets.\n\n*The game is in German, but can also be enjoyed by non-German-speaking persons. (It's part of the Deutsche-Bahn-Experience that nobody speaks English.) You control the game via WASD and mouse, left click to interact with NPCs and doors and see your objective with E.*"
 }, {
 	"category": "Tool",
@@ -501,12 +501,12 @@
 	"moniker": "hugs-and-kisses",
 	"short_desc": "Local co-op game",
 	"timeframe": "made within 48 hours in January 2018",
-	"occasion": "bpb game jam [2018](https://game-jam.bpb.de/doku.php/projekte2018:start)",
+	"occasion": "bpb:game jam [2018](https://game-jam.bpb.de/doku.php/projekte2018:start)",
 	"tools": "C#/Unity",
 	"credits": ["Jana Reinhardt", "https://jana.ratking.de", "3d models, textures, additional game design, sounds", "Kevin MacLeod", "https://incompetech.com", "music"],
 	"links": ["Entry page", "https://game-jam.bpb.de/doku.php/projekte2018:hugsandkisses", "Download (Win)", "https://ratking.itch.io/hugs-and-kisses", "Making of", "https://ratrogue.tumblr.com/post/170550565695/last-week-we-went-to-remscheid-germany-and"],
 	"videos": ["Gameplay", "https://www.youtube.com/watch?v=Umh54rfsnw0"],
-	"tags": "jam entry, prototype, multiplayer, 3D, Unity, Rat King, Jana Reinhardt",
+	"tags": "jam entry, prototype, multiplayer, 3D, Unity, Rat King, Jana Reinhardt, bpb game jam",
 	"description": "Once again the bpb (the German Federal Agency for Civic Education) invited developer from all over Germany (and Austria) to a political game jam. This time the theme was \"Discimination, ostracism, radicalization\", thus we created a local 2-player co-op game prototype in the vein of Overcooked. Players carry and trade fish and bones, and feed and hug the members of their community - because if you neglect someone for too long, they might destroy the country and make it smaller for everyone..."
 }, {
 	"category": "Jam game",
@@ -615,12 +615,12 @@
 	"moniker": "die-stimmung-kippt",
 	"short_desc": "Local multiplayer mobile-only game",
 	"timeframe": "made within 48 hours in August 2016",
-	"occasion": "bpb game jam [2016](https://game-jam.bpb.de/doku.php/archiv_2016)",
+	"occasion": "bpb:game jam [2016](https://game-jam.bpb.de/doku.php/archiv_2016)",
 	"tools": "C#/Unity",
 	"credits": ["Jana Reinhardt", "https://jana.ratking.de", "art direction, graphics, additional game design"],
 	"links": ["Entry page", "https://game-jam.bpb.de/doku.php/projekt:visarunners", "Download (Android)", "https://game-jam.bpb.de/doku.php/projekt:visarunners", "Post mortem", "https://ratking.de/blog/2016/08/30/the-bpbgame-jam-2016/"],
 	"videos": [],
-	"tags": "jam entry, prototype, mobile, 2D, Unity, Rat King, Jana Reinhardt",
+	"tags": "jam entry, prototype, mobile, 2D, Unity, Rat King, Jana Reinhardt, bpb game jam",
 	"description": "During a 2-day game jam in 2016 we created **Die Stimmung kippt** (roughly: The Mood Shifts). It is the prototype for a multiplayer mobile game with real-world interaction. The idea was the following: participating players connect their smartphones with each other and get profiles of refugee-seeking people. Then they have to get visas in countries lying around in the room, by scanning QR codes. It gets chaotic as soon as tabloids spread rumors about refugees..."
 }, {
 	"category": "Game",
