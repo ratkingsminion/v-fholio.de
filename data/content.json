@@ -28,7 +28,7 @@
 			"shortlinks": [
 				{ "title": "itch.io", "icon": "play", "url": "https://ratking.itch.io/" },
 				{ "title": "YouTube", "icon": "video", "url": "https://www.youtube.com/@RatKingEntertainment" },
-				{ "title": "Twitch", "icon": "video", "url": "https://www.twitch.tv/ratkingslair" }
+				{ "title": "Twitch", "icon": "stream", "url": "https://www.twitch.tv/ratkingslair" }
 			],
 			"links": [
 				{ "title": "Rat King's website & blog", "icon": "projects", "url": "https://ratking.de/" },

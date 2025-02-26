@@ -40,9 +40,13 @@
 	width: 32px;
 	height: 32px;
 }
+.linktree .link .icon.self {
+	background-color: var(--colsignal);
+	border-radius: 6px;
+}
 
 .linktree .link .name {
-	padding: 4px 3px;
+	padding: 4px 0px 4px 6px;
 	font-size: 1.2em;
 	vertical-align: middle;
 }

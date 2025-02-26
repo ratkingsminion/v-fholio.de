@@ -11,7 +11,6 @@ import regex
 
 const special_chars = [ ` `, `_`, `-`, `?`, `!`, `*`, `.`, `:`, `;`, `,`, `^` ]
 
-const link_symbol_self = "▶"
 const link_symbol_fav = "★"
 const projects_entries_per_page = 15
 const no_log_entries_warning = "No log entries (yet)!"
