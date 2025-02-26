@@ -20,7 +20,7 @@
 					@if shortlink.active
 					<a rel="@{shortlink.rel}" href="@{url(shortlink.url)}" target="@{shortlink.target}" class="w3-col s6 m4 l4">
 						<div class="link shortlink elem">
-							<div class="icon w3-cell"><i class="@{shortlink.icon}"></i></div>
+							<div class="icon w3-cell"><img src="/assets/images/icon_@{shortlink.icon}.png" /></div>
 							@if shortlink.target == "_self"
 							<div class="name w3-cell">@{md_nop(link_symbol_self)}</div>
 							@end
@@ -39,7 +39,7 @@
 					@if link.active
 					<a rel="@{link.rel}" href="@{url(link.url)}" target="@{link.target}">
 						<div class="link elem">
-							<div class="icon w3-cell"><i class="@{link.icon}"></i></div>
+							<div class="icon w3-cell"><img src="/assets/images/icon_@{link.icon}.png" /></div>
 							@if link.target == "_self"
 							<div class="name w3-cell">@{md_nop(link_symbol_self)}</div>
 							@end
