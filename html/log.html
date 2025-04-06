@@ -5,6 +5,7 @@
 	<meta property="og:title" content="Friedrich Hanisch's Dev Log" />
 	@include 'includes/metas.html'
 	<link rel="stylesheet" href="/assets/css/log.css" />
+	<link rel="alternate" type="application/rss+xml" href="https://www.fholio.de/log/feed.xml" title="RSS Feed for Friedrich Hanisch's Dev Log">
 </head>
 <body class="w3-content">
 	<div class="page">
@@ -29,6 +30,7 @@
 					<a href="/log/@{log_year}" target="_self"><div class="page">@{log_year}</div></a>
 				@end
 			@end
+			<a href="/log/feed.xml" target="_blank"><div class="page">feed</div></a>
 		</div>
 		
 		<div class="lw3-container ogs">

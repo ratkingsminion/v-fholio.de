@@ -8,11 +8,13 @@ import os
 import markdown
 import strconv
 import regex
+import encoding.html
 
 const special_chars = [ ` `, `_`, `-`, `?`, `!`, `*`, `.`, `:`, `;`, `,`, `^` ]
 
 const link_symbol_fav = "★"
 const projects_entries_per_page = 15
+const rss_description_max_len = 200
 const no_log_entries_warning = "No log entries (yet)!"
 
 @[heap]
@@ -81,7 +83,10 @@ struct Log {
 @[heap]
 struct LogEntry {
 	date string
+	year string // for rss
+	time string // for rss
 	text string
+	description string // for rss
 }
 
 @[heap]
@@ -173,6 +178,17 @@ pub fn (mut app App) log_single_year(mut ctx Context, log_cur_year string) veb.R
 	log_years.sort(a > b) // sort high to low
 
 	return $veb.html("html/log.html")
+}
+
+// same as @['/log'], but different file at end
+@['/log/feed.xml']
+pub fn (mut app App) log_feed_xml(mut ctx Context) veb.Result {
+	log_content := $if !deploy ? { get_log_content(mut app, "") } $else { []LogEntry{} }
+	
+	mut log_years := app.log_years.keys()
+	log_years.sort(a > b) // sort high to low
+
+	return $veb.html("html/feed.xml")
 }
 
 @['/log']
@@ -290,6 +306,9 @@ fn deploy_all(mut app App) {
 	
 	mut log_html := $tmpl("html/log.html").replace("\r", "")
 	os.write_file("${path}/log/index.html", log_html) or { println(err) }
+
+	mut log_feed_xml := $tmpl("html/feed.xml").replace("\r", "")
+	os.write_file("${path}/log/feed.xml", log_feed_xml) or { println(err) }
 	
 	// log entries by year
 	max_year := time.now().year
@@ -420,10 +439,16 @@ fn get_log_content(mut app App, year string) []LogEntry {
 			continue
 		}
 		fnl := e.index("\n") or { 0 }
+		date := e.substr(3, fnl).trim_space()
+		text := e.substr(fnl, max_int).trim_space()
 		log_content << LogEntry{
-			date: e.substr(3, fnl).trim_space()
-			text: e.substr(fnl, max_int).trim_space()
+			year: entry_year
+			date: date
+			time: date + " 00:00:00"
+			text: text
+			description: get_description(text)
 		}
+		//println("> " + log_content[log_content.len - 1].description)
 	}
 
 	return log_content
@@ -458,6 +483,17 @@ fn project_preview_pic(moniker string) string {
 }
 
 /// string helpers
+
+fn get_description(input string) string {
+	// for rss feed
+	output := markdown.to_plain(input.substr(input.index("\n") or { 0 }, max_int)).replace("\n", " ").replace("\r", "")
+	if output.len > rss_description_max_len {
+		return html.escape(output.substr(0, rss_description_max_len) + "...", quote: false)
+	}
+	else {
+		return html.escape(output, quote: false)
+	}
+}
 
 fn get_moniker(input string) string {
 	return normalize_string(input).replace(" ", "-")
