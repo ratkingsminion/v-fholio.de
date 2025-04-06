@@ -9,6 +9,7 @@ import markdown
 import strconv
 import regex
 import encoding.html
+import encoding.xml
 
 const special_chars = [ ` `, `_`, `-`, `?`, `!`, `*`, `.`, `:`, `;`, `,`, `^` ]
 
@@ -83,6 +84,7 @@ struct Log {
 @[heap]
 struct LogEntry {
 	date string
+	date_wos string // for url
 	year string // for rss
 	time string // for rss
 	text string
@@ -158,6 +160,17 @@ pub fn (mut app App) imprint(mut ctx Context) veb.Result {
 
 // LOG
 
+// same as @['/log'], but different file at end
+@['/log/feed.xml']
+pub fn (mut app App) log_feed_xml(mut ctx Context) veb.Result {
+	log_content := $if !deploy ? { get_log_content(mut app, "") } $else { []LogEntry{} }
+	
+	mut log_years := app.log_years.keys()
+	log_years.sort(a > b) // sort high to low
+
+	return $veb.html("html/feed.xml")
+}
+
 @['/log/:year']
 pub fn (mut app App) log_single_year(mut ctx Context, log_cur_year string) veb.Result {
 	content := app.get_content()
@@ -178,17 +191,6 @@ pub fn (mut app App) log_single_year(mut ctx Context, log_cur_year string) veb.R
 	log_years.sort(a > b) // sort high to low
 
 	return $veb.html("html/log.html")
-}
-
-// same as @['/log'], but different file at end
-@['/log/feed.xml']
-pub fn (mut app App) log_feed_xml(mut ctx Context) veb.Result {
-	log_content := $if !deploy ? { get_log_content(mut app, "") } $else { []LogEntry{} }
-	
-	mut log_years := app.log_years.keys()
-	log_years.sort(a > b) // sort high to low
-
-	return $veb.html("html/feed.xml")
 }
 
 @['/log']
@@ -417,7 +419,7 @@ pub fn (mut app App) get_content() Content {
 fn get_log_content(mut app App, year string) []LogEntry {
 	mut log_text := ''
 	filenames := os.ls("data/") or { [] }
-	for filename in filenames {
+	for filename in filenames.reverse() {
 		if !filename.starts_with("log") || !filename.ends_with(".md") { continue }
 		text := os.read_file("data/" + filename) or { continue }
 		log_text += text
@@ -440,15 +442,18 @@ fn get_log_content(mut app App, year string) []LogEntry {
 		}
 		fnl := e.index("\n") or { 0 }
 		date := e.substr(3, fnl).trim_space()
+		date_wos := date.replace_each([" ", "_", "\\", "_", "/", "_"])
+		date_clean := date.substr((date.last_index("/") or { -1 }) + 1, max_int).trim_space()
 		text := e.substr(fnl, max_int).trim_space()
 		log_content << LogEntry{
 			year: entry_year
 			date: date
-			time: date + " 00:00:00"
+			date_wos: date_wos
+			time: (time.parse(date_clean + " 00:00:00") or { time.now() }).http_header_string()
 			text: text
 			description: get_description(text)
 		}
-		//println("> " + log_content[log_content.len - 1].description)
+		//println(date_wos + " -> '" + date_clean + "' -> " + log_content[log_content.len - 1].time)
 	}
 
 	return log_content
@@ -486,12 +491,12 @@ fn project_preview_pic(moniker string) string {
 
 fn get_description(input string) string {
 	// for rss feed
-	output := markdown.to_plain(input.substr(input.index("\n") or { 0 }, max_int)).replace("\n", " ").replace("\r", "")
+	output := markdown.to_plain(input.substr(input.index("\n") or { 0 }, max_int)).replace_each(["\n", " ", "\r", ""])
 	if output.len > rss_description_max_len {
-		return html.escape(output.substr(0, rss_description_max_len) + "...", quote: false)
+		return xml.escape_text(html.escape(output.substr(0, rss_description_max_len) + "...", quote: false))
 	}
 	else {
-		return html.escape(output, quote: false)
+		return xml.escape_text(html.escape(output, quote: false))
 	}
 }
 

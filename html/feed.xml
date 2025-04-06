@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Friedrich Hanisch's Dev Log</title>
 		<link>https://fholio.de/</link>
 		<description>Friedrich Hanisch's dev log, mostly musings about current projects and (maybe) interesting links about game development</description>
+		<atom:link href="https://fholio.de/log/feed.xml" rel="self" type="application/rss+xml" />
 		@for log_entry in log_content
 		<item>
 			<title>@{log_entry.date}</title>
-			<link>https://fholio.de/log/@{log_entry.year}/#@{log_entry.date}</link>
-			<guid>https://fholio.de/log/@{log_entry.year}/#@{log_entry.date}</guid>
+			<link>https://fholio.de/log/@{log_entry.year}/#@{log_entry.date_wos}</link>
+			<guid>https://fholio.de/log/@{log_entry.year}/#@{log_entry.date_wos}</guid>
 			<pubDate>@{log_entry.time}</pubDate>
 			<description>@{log_entry.description}</description>
 		</item>

@@ -41,7 +41,7 @@
 			@else
 				@for log_entry in log_content
 				<div class="logentry elem">
-					<h2 id="@{log_entry.date}"><a href="#@{log_entry.date}" target="_self">@{log_entry.date}</a></h2>
+					<h2 id="@{log_entry.date}"><a href="#@{log_entry.date_wos}" target="_self">@{log_entry.date}</a></h2>
 					@{md(log_entry.text)}
 				</div>
 				@end
