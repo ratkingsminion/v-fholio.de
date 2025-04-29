@@ -1,6 +1,23 @@
 [{
 	"category": "Jam game",
 	"important": false,
+	"title": "sustAIn - A Solarpunk Adventure",
+	"moniker": "sustain",
+	"short_desc": "Solarpunk adventure game",
+	"timeframe": "made within 48 hours in February 2025 plus several hours for the post-jam version",
+	"occasion": "bpb:game jam [2025](https://www.bpb.de/veranstaltungen/reihen/game-jam/557211/bpb-game-jam-zu-ki/)",
+	"tools": "Godot (GDScript), Asperite",
+	"credits": [
+		"Lara Keilbart", "https://about.me/larakeilbart", "idea, story, dialogs, level design",
+		"Matthias Bunzel", "", "additional dialogs"],
+	"links": [
+		"Entry page", "https://itch.io/jam/bpbgame-jam-2025/rate/3293152",
+		"Download (Win)", "https://larakaa.itch.io/sustain-a-solarpunk-adventure"],
+	"tags": "jam entry, 2D, Godot, Aseprite, Lara Keilbart, bpb game jam",
+	"description": "The theme of the jam was \"AI\" - not quite my favourite topic. While the graphics of our entry aren't exactly a highlight (we lacked a dedicated artist), the utopian story about survival, working together, and feeding knowledge to an AI for the greater good is quite charming and unique in my opinion. (Which is why I spent most of the jam weekend writing a parser for the dialog text files.)"
+}, {
+	"category": "Jam game",
+	"important": false,
 	"title": "500 Dudes",
 	"moniker": "500-dudes",
 	"short_desc": "Minimal two-player assassination game",
@@ -81,7 +98,7 @@
 	"credits": [
 		"Jana Reinhardt", "https://jana.ratking.de", "graphics, level design, additional game design",
 		"Björn Grunewald", "https://cargocollective.com/bgrunewald", "additional graphics",
-		"Stephan Max", "", "Additional programming",
+		"Stephan Max", "", "additional programming",
 		"Hannes 'Crabman' Flor", "https://mastodon.social/@elCrabman", "music",
 		"Daniela Müller", "", "sounds"],
 	"links": [
