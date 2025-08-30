@@ -389,6 +389,13 @@ fn deploy_all(mut app App) {
 		project_html := $tmpl("html/project.html").replace("\r", "")
 		os.write_file("${path}/projects/${project.moniker}/index.html", project_html) or { println(err) }
 	}
+
+	// external links
+	externals := app.content.externals
+	moniker = "externals"
+	os.mkdir("${path}/links") or { panic(err) }
+	externals_html := $tmpl("html/externals.html").replace("\r", "")
+	os.write_file("${path}/links/index.html", externals_html) or { println(err) }
 }
 
 ///
