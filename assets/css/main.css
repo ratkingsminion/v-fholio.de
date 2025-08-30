@@ -54,7 +54,7 @@ body {
 .topmenu .item {
 	border-radius: 8px;
 	margin: 2px;
-	padding: 10px;
+	padding: 8px 10px;
 	display: inline-block;
 	background-color: var(--colsignal);
 	transition: background-color 0.25s ease;

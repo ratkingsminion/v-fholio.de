@@ -48,6 +48,7 @@ struct Content {
 	}
 	linktrees []Linktree
 	log Log
+	externals Externals
 mut:
 	projects Projects
 	parsed bool @[skip]
@@ -120,6 +121,20 @@ mut:
 	pictures []string @[skip]
 	tag_list []string @[skip]
 	year int @[skip]
+}
+
+@[heap]
+struct Externals {
+	title string
+mut:
+	links []External
+}
+
+@[heap]
+struct External {
+	url string
+	title string
+	description string
 }
 
 ///
@@ -265,6 +280,17 @@ pub fn (mut app App) projects(mut ctx Context) veb.Result {
 	projects_entry_end := projects.entries.len
 
 	return $veb.html("html/projects.html")
+}
+
+// EXTERNAL LINKS
+
+@["/links"]
+pub fn (mut app App) externals(mut ctx Context) veb.Result {
+	content := app.get_content()
+	externals := content.externals
+	moniker := "externals"
+
+	return $veb.html("html/externals.html")
 }
 
 ///

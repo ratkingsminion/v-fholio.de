@@ -2,14 +2,15 @@
 	"topmenu": [
 		{ "title": "Homepage", "url": "/", "target":"_self", "moniker": "home" },
 		{ "title": "Projects", "url": "/projects/1", "target":"_self", "moniker": "projects" },
-		{ "title": "Dev Log", "url": "/log/{cur_year}", "target":"_self", "moniker": "log" }
+		{ "title": "Dev Log", "url": "/log/{cur_year}", "target":"_self", "moniker": "log" },
+		{ "title": "Exit", "url": "/links", "target":"_self", "moniker": "externals" }
 	],
 
 	"linktrees": [
 			{
 			"title": "# **Friedrich Hanisch**, game design & scripting",
 			"shortlinks": [
-				{ "title": "Mastodon", "icon": "social", "url": "https://mstdn.io/@ratking", "fav": true, "rel": "me"},
+				{ "title": "Mastodon", "icon": "social", "url": "https://mstdn.io/@ratking", "fav": true, "rel": "me" },
 				{ "title": "Discord", "icon": "talk", "url": "https://discordapp.com/users/250914321691967489" },
 				{ "title": "BlueSky", "icon": "social", "url": "https://bsky.app/profile/ratrogue.bsky.social", "fav": false},
 				{ "title": "Github", "icon": "code", "url": "https://github.com/ratkingsminion" },
@@ -34,6 +35,12 @@
 				{ "title": "Rat King's website & blog", "icon": "projects", "url": "https://ratking.de/" },
 				{ "title": "Rat King's Discord server", "icon": "talk", "url": "https://discord.gg/3PndMV2", "fav": true }
 			]
+		},
+		{
+			"title": "## External links",
+			"links": [
+				{ "title": "Other websites and blogs", "icon": "link", "url": "/links", "target": "_self" }
+			]
 		}
 	],
 
@@ -44,6 +51,15 @@
 	"projects": {
 		"title": "# **Friedrich Hanisch**'s Projects",
 		"title_entry": "# **Friedrich Hanisch**'s {ENTRY}"
+	},
+
+	"externals": {
+		"title": "# Links to other websites and blogs",
+		"links": [
+			{ "url": "https://thomaspurnell.com/", "title": "thomblog", "description": "Thomas 'voxel' Purnell's website + blog. A cool friend whose output and knowledge I highly admire" },
+			{ "url": "https://ludwig-hanisch.de/", "title": "Ludwig Hanisch", "description": "My younger brother Ludwig is a gamified painter" },
+			{ "url": "https://www.paul-hanisch.de/", "title": "Paul Hanisch", "description": "My older brother Paul is an actor, writer, director, animator, illustrator, composer, ..." }
+		]
 	},
 
 	"imprint": {

@@ -1,0 +1,37 @@
+/* external links are leading to the rest of the internet */
+
+.externals {
+	margin: 20px 0;
+}
+
+.externals .title {
+	font-size: 25px;	
+	background-color: var(--colshadow);
+	margin: 10px 0;
+	padding: 10px;
+	text-align: left;
+}
+
+.externals a {
+	text-decoration: none;
+}
+
+.externals .external {
+	border: var(--colmark) 1px solid;
+	padding: 5px 15px 10px 15px;
+	margin: 10px 0;
+}
+
+.externals .external:hover {
+	border: var(--colsignal) 1px solid;
+}
+
+
+.externals .external .name {
+	font-size: 23px;
+	text-align: left;
+}
+
+.externals .external .description {
+	text-align: left;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Friedrich Hanisch</title>
+	<meta property="og:title" content="Friedrich Hanisch" />
+	@include 'includes/metas.html'
+	<link rel="stylesheet" href="/assets/css/externals.css" />
+</head>
+<body class="w3-content">
+	<div class="page">
+		@include 'includes/banner.html'
+	
+		<div class="w3-container title elem">
+			@{md(externals.title)}
+		</div>
+
+		@include 'includes/topmenu.html'
+
+		<div class="w3-container pages elem externals">
+			@for external in externals.links
+				<a href="@{url(external.url)}" target="_blank">
+					<div class="external">
+						<div class="name">@{md_nop(external.title)}</div>
+						<div class="description">@{md_nop(external.description)}</div>
+					</div>
+				</a>
+			@end
+		</div>
+	</div>
+
+	@include 'includes/footer.html'
+</body>
+</html>
