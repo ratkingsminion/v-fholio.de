@@ -57,8 +57,9 @@
 		"title": "# Links to other websites and blogs",
 		"links": [
 			{ "url": "https://thomaspurnell.com/", "title": "thomblog", "description": "Thomas 'voxel' Purnell's website + blog. A cool friend whose output and knowledge I highly admire" },
-			{ "url": "https://ludwig-hanisch.de/", "title": "Ludwig Hanisch", "description": "My younger brother Ludwig is a gamified painter" },
-			{ "url": "https://www.paul-hanisch.de/", "title": "Paul Hanisch", "description": "My older brother Paul is an actor, writer, director, animator, illustrator, composer, ..." }
+			{ "url": "https://ludwig-hanisch.de/", "title": "Ludwig Hanisch", "description": "My younger brother Ludwig is a gamified painter #pixelsadness" },
+			{ "url": "https://www.paul-hanisch.de/", "title": "Paul Hanisch", "description": "My older brother Paul is an actor, writer, director, animator, illustrator, composer, ..." },
+			{ "url": "https://www.dphrygian.com/", "title": "David Lindsey Pittman", "description": "I love Eldritch and NEON STRUCT, and here's the developer's blog" }
 		]
 	},
 
