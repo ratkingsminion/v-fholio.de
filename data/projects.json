@@ -1,4 +1,22 @@
 [{
+	"category": "Game",
+	"important": true,
+	"title": "I Made A Game For You",
+	"moniker": "a-game-for-you",
+	"short_desc": "Story game plus retro-shooter",
+	"timeframe": "made within two months in July-August 2025",
+	"occasion": "BRIEFS [2025](https://www.goldextra.com/en/briefs-a-microgame-series)",
+	"tools": "Godot (GDScript), Codex Level Builder, Blender",
+	"credits": [
+		"Felix Schindler", "https://felixschindler.com", "pixel art, music"],
+	"links": [
+		"Download (Win/Linux)", "https://medienzentrale.itch.io/a-game-for-you",
+		"BRIEFS 2025 collection", "https://itch.io/b/3301/briefs-2025-the-cheese-collection"],
+	"videos": [
+		"Gameplay", "https://www.youtube.com/watch?v=g95bpGrJRUY"],
+	"tags": "game, 3D, Godot, Blender, Felix Schindler, Medienzentrale",
+	"description": "Felix Schindler and I teamed up and applied for the BRIEFS 2025 micro-fund. Apparently the curators Georg Hobmeier and Evgeni Puzankov from [gold extra](https://www.goldextra.com/) liked our pitch enough to choose us and two other developers, out of 200 applications (IIRC). The game we made as a result is both a story about parent/child relationships and game development, as well as a retro-shooter. I love \"games within games\" so I'm glad I could try this out. Felx and I named or team [Medienzentrale](https://medienzentrale.itch.io); he did all the pixel art and composed a music track, while I was in charge of programming, scripting (the game events) and level design. I also felt an itch to do some art again for a change and did some somewhat inconsistent 3D models in Blender, for the 'real world' scene."
+}, {
 	"category": "Jam game",
 	"important": false,
 	"title": "sustAIn - A Solarpunk Adventure",
@@ -635,7 +653,7 @@
 	"occasion": "bpb:game jam [2016](https://game-jam.bpb.de/doku.php/archiv_2016)",
 	"tools": "C#/Unity",
 	"credits": ["Jana Reinhardt", "https://jana.ratking.de", "art direction, graphics, additional game design"],
-	"links": ["Entry page", "https://game-jam.bpb.de/doku.php/projekt:visarunners", "Download (Android)", "https://game-jam.bpb.de/doku.php/projekt:visarunners", "Post mortem", "https://ratking.de/blog/2016/08/30/the-bpbgame-jam-2016/"],
+	"links": ["Entry page", "https://game-jam.bpb.de/doku.php/projekt:visarunners", "Download (Android)", "https://www.ratking.de/downloads/visarunners-diestimmungkippt-jamversion.7z", "Post mortem", "https://ratking.de/blog/2016/08/30/the-bpbgame-jam-2016/"],
 	"videos": [],
 	"tags": "jam entry, prototype, mobile, 2D, Unity, Rat King, Jana Reinhardt, bpb game jam",
 	"description": "During a 2-day game jam in 2016 we created **Die Stimmung kippt** (roughly: The Mood Shifts). It is the prototype for a multiplayer mobile game with real-world interaction. The idea was the following: participating players connect their smartphones with each other and get profiles of refugee-seeking people. Then they have to get visas in countries lying around in the room, by scanning QR codes. It gets chaotic as soon as tabloids spread rumors about refugees..."
