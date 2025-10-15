@@ -32,6 +32,7 @@
 				{ "title": "Twitch", "icon": "stream", "url": "https://www.twitch.tv/ratkingslair" }
 			],
 			"links": [
+				{ "title": "**Mops & Mobs: A Sweeping Dungeon Novel** (WIP)", "icon": "broom", "url": "https://mopsmobs.ratking.de/", "fav": true },
 				{ "title": "Rat King's website & blog", "icon": "projects", "url": "https://ratking.de/" },
 				{ "title": "Rat King's Discord server", "icon": "talk", "url": "https://discord.gg/3PndMV2", "fav": true }
 			]
