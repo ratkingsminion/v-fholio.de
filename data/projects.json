@@ -15,7 +15,7 @@
 	"videos": [
 		"Gameplay", "https://www.youtube.com/watch?v=g95bpGrJRUY"],
 	"tags": "game, 3D, Godot, Blender, Felix Schindler, Medienzentrale",
-	"description": "Felix Schindler and I teamed up and applied for the BRIEFS 2025 micro-fund. Apparently the curators Georg Hobmeier and Evgeni Puzankov from [gold extra](https://www.goldextra.com/) liked our pitch enough to choose us and two other developers, out of 200 applications (IIRC). The game we made as a result is both a story about parent/child relationships and game development, as well as a retro-shooter. I love \"games within games\" so I'm glad I could try this out. Felx and I named or team [Medienzentrale](https://medienzentrale.itch.io); he did all the pixel art and composed a music track, while I was in charge of programming, scripting (the game events) and level design. I also felt an itch to do some art again for a change and did some somewhat inconsistent 3D models in Blender, for the 'real world' scene.\n\nI also wrote the story and the dialogs. While we wanted this to be a joint effort, in the end I'm glad I could write about something that matters to me personally, even if my writing might be a bit simplistic. I \"channeled\" a possible future and created a story about a teenage girl having to deal with her dad who is also a game developer."
+	"description": "Felix Schindler and I teamed up and applied for the BRIEFS 2025 micro-fund. Apparently the curators Georg Hobmeier and Evgeni Puzankov from [gold extra](https://www.goldextra.com/) liked our pitch enough to choose us and two other developers, out of 200 applications (IIRC). The game we made as a result is both a story about parent/child relationships and game development, as well as a retro-shooter. I love \"games within games\" so I'm glad I could try this out. Felix and I named or team [Medienzentrale](https://medienzentrale.itch.io); he did all the pixel art and composed a music track, while I was in charge of programming, scripting (the game events) and level design. I also felt an itch to do some art again for a change and did some somewhat inconsistent 3D models in Blender, for the 'real world' scene.\n\nI also wrote the story and the dialogs. While we wanted this to be a joint effort, in the end I'm glad I could write about something that matters to me personally, even if my writing might be a bit simplistic. I \"channeled\" a possible future and created a story about a teenage girl having to deal with her dad who is also a game developer."
 }, {
 	"category": "Jam game",
 	"important": false,
@@ -24,7 +24,7 @@
 	"short_desc": "Solarpunk adventure game",
 	"timeframe": "made within 48 hours in February 2025 plus several hours for the post-jam version",
 	"occasion": "bpb:game jam [2025](https://www.bpb.de/veranstaltungen/reihen/game-jam/557211/bpb-game-jam-zu-ki/)",
-	"tools": "Godot (GDScript), Asperite",
+	"tools": "Godot (GDScript), Aseprite",
 	"credits": [
 		"Lara Keilbart", "https://about.me/larakeilbart", "idea, story, dialogs, level design",
 		"Matthias Bunzel", "", "additional dialogs"],
@@ -176,7 +176,7 @@
 	"videos": [
 		"Gameplay", "https://www.youtube.com/watch?v=AcviSew1V1Y",
 		"Dev talk", "https://www.youtube.com/watch?v=lF1tCipW-tI"],
-	"tags": "jam entry, 3D, multiplayer, Unity, Blender, bloed, Global Game Jam, Jana Reinhardt, Patrick Eckardt",
+	"tags": "jam entry, 3D, Unity, Blender, bloed, Global Game Jam, Jana Reinhardt, Patrick Eckardt",
 	"description": "A short and simple Doom-inspired first-person action game. As you only throw screaming mandrake roots and hit enemies with an eye on a stick, it doesn't count as a shooter, but the mechanics basically are there. The enemy AI was created with [SBT](https://github.com/ratkingsminion/simple-behaviour-tree), and the level with bloed."
 }, {
 	"category": "Jam game",
