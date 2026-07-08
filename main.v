@@ -502,9 +502,9 @@ fn md_nop(text string) veb.RawHtml {
 	return markdown.to_html(text).trim_string_left("<p>").trim_string_right("</p>")
 }
 
-fn raw(text string) veb.RawHtml {
-	return text
-}
+//fn raw(text string) veb.RawHtml {
+//	return text
+//}
 
 fn url(txt string) string {
 	cur_year := (time.now().year).str()
