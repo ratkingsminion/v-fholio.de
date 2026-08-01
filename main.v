@@ -2,7 +2,7 @@ module main
 
 import time
 import math
-import json
+import json2
 import veb
 import os
 import markdown
@@ -403,11 +403,11 @@ fn deploy_all(mut app App) {
 pub fn (mut app App) get_content() Content {
 	if !app.content.parsed {
 		content_file := os.read_file("data/content.json") or { "" }
-		app.content = json.decode(Content, content_file) or { Content{} }
+		app.content = json2.decode[Content](content_file) or { Content{} }
 		app.content.parsed = true
 
 		projects_content_file := os.read_file("data/projects.json") or { "" }
-		app.content.projects.entries = json.decode([]Project, projects_content_file) or { []Project{} }
+		app.content.projects.entries = json2.decode[[]Project](projects_content_file) or { []Project{} }
 		app.content.projects.tags = map[string][]Project{}
 		
 		for mut pe in app.content.projects.entries {
